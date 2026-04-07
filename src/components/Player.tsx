@@ -6,6 +6,8 @@ export const Player: React.FC = () => {
   const currentChannelId = useStore((state) => state.currentChannelId);
   const channels = useStore((state) => state.channels);
   const programs = useStore((state) => state.programs);
+  const volume = useStore((state) => state.volume);
+  const isMuted = useStore((state) => state.isMuted);
   
   const [currentVideoId, setCurrentVideoId] = useState<string | null>(null);
   const [startSeconds, setStartSeconds] = useState<number>(0);
@@ -47,7 +49,8 @@ export const Player: React.FC = () => {
         width="100%"
         height="100%"
         playing={true}
-        muted={false}
+        volume={volume}
+        muted={isMuted}
         controls={false}
         config={{
           youtube: {

@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { useStore } from '../store/useStore';
 import { generateViewers } from '../utils/viewers';
 import { format } from 'date-fns';
-import { Users } from 'lucide-react';
+import { Users, Volume2, Volume1, VolumeX } from 'lucide-react';
 
 export const OSD: React.FC = () => {
-  const { currentChannelId, channels, programs, osdVisible, hideOSD } = useStore();
+  const { currentChannelId, channels, programs, osdVisible, hideOSD, volume, isMuted } = useStore();
   const [time, setTime] = useState(new Date());
 
   const currentChannel = channels.find(c => c.id === currentChannelId);
@@ -35,6 +35,8 @@ export const OSD: React.FC = () => {
 
   const viewers = generateViewers(currentChannelId, now);
 
+  const VolumeIcon = isMuted || volume === 0 ? VolumeX : volume < 0.5 ? Volume1 : Volume2;
+
   return (
     <div
       className={`absolute inset-0 pointer-events-none transition-opacity duration-500 z-40 ${
@@ -59,7 +61,7 @@ export const OSD: React.FC = () => {
         </div>
       </div>
 
-      {/* Esquina superior derecha: Espectadores y Hora */}
+      {/* Esquina superior derecha: Espectadores, Volumen y Hora */}
       <div className="absolute top-8 right-8 flex flex-col items-end gap-3">
         <div className="flex items-center gap-2 bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-red-500 font-mono">
           <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
@@ -68,6 +70,10 @@ export const OSD: React.FC = () => {
         <div className="flex items-center gap-2 bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-white font-mono text-lg shadow-xl">
           <Users size={20} className="text-zinc-400" />
           {viewers.toLocaleString()}
+        </div>
+        <div className="flex items-center gap-2 bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-white font-mono text-lg shadow-xl">
+          <VolumeIcon size={20} className={isMuted || volume === 0 ? "text-red-500" : "text-zinc-400"} />
+          {isMuted ? 'MUTE' : `${Math.round(volume * 100)}%`}
         </div>
         <div className="bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-white font-mono text-xl shadow-xl">
           {format(time, 'HH:mm:ss')}
