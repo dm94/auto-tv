@@ -4,7 +4,6 @@ import { useStore } from '../store/useStore';
 
 export const Player: React.FC = () => {
   const currentChannelId = useStore((state) => state.currentChannelId);
-  const channels = useStore((state) => state.channels);
   const programs = useStore((state) => state.programs);
   const volume = useStore((state) => state.volume);
   const isMuted = useStore((state) => state.isMuted);
