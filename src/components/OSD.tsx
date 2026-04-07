@@ -6,7 +6,7 @@ import { Volume2, Volume1, VolumeX } from 'lucide-react';
 
 export const OSD: React.FC = () => {
   const { t } = useTranslation();
-  const { currentChannelId, channels, programs, osdVisible, hideOSD, volume, isMuted } = useStore();
+  const { currentChannelId, channels, programs, osdVisible, hideOSD, volume, isMuted, toggleMute, setVolume } = useStore();
   const [time, setTime] = useState(new Date());
 
   const currentChannel = channels.find(c => c.id === currentChannelId);
@@ -23,7 +23,7 @@ export const OSD: React.FC = () => {
       }, 4000);
       return () => clearTimeout(timeout);
     }
-  }, [osdVisible, hideOSD, currentChannelId]);
+  }, [osdVisible, hideOSD, currentChannelId, volume, isMuted]);
 
   if (!currentChannel) return null;
 
@@ -57,10 +57,26 @@ export const OSD: React.FC = () => {
         </div>
       </div>
 
-      <div className="absolute top-8 right-8 flex flex-col items-end gap-3">
-        <div className="flex items-center gap-2 bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-white font-mono text-lg shadow-xl">
-          <VolumeIcon size={20} className={isMuted || volume === 0 ? "text-red-500" : "text-zinc-400"} />
-          {isMuted ? t('osd.mute') : `${Math.round(volume * 100)}%`}
+      <div className="absolute top-8 right-8 flex flex-col items-end gap-3 pointer-events-auto">
+        <div className="flex items-center gap-4 bg-black/60 backdrop-blur-md px-4 py-3 rounded-xl border border-white/10 text-white shadow-xl hover:bg-black/80 transition-all">
+          <button 
+            onClick={toggleMute}
+            title={t('home.mute')}
+            className="hover:text-red-500 transition-colors flex items-center gap-2"
+          >
+            <VolumeIcon size={20} className={isMuted || volume === 0 ? "text-red-500" : "text-zinc-400"} />
+            <span className="font-mono text-lg">{isMuted ? t('osd.mute') : `${Math.round(volume * 100)}%`}</span>
+          </button>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.05"
+            value={isMuted ? 0 : volume}
+            onChange={(e) => setVolume(parseFloat(e.target.value))}
+            className="w-24 md:w-32 accent-white cursor-pointer"
+            title={t('home.volume')}
+          />
         </div>
         <div className="bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-white font-mono text-xl shadow-xl">
           {format(time, 'HH:mm:ss')}
