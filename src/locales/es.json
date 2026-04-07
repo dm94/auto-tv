@@ -1,0 +1,21 @@
+{
+  "translation": {
+    "home": {
+      "loading": "Cargando canales...",
+      "prevChannel": "Canal Anterior (Flecha Arriba)",
+      "nextChannel": "Canal Siguiente (Flecha Abajo)",
+      "tvGuide": "Guía de TV (G)",
+      "mute": "Silenciar (M)",
+      "volume": "Volumen (Flechas Izquierda/Derecha o +/-)"
+    },
+    "guide": {
+      "title": "Guía de TV",
+      "channels": "Canales"
+    },
+    "osd": {
+      "live": "EN VIVO",
+      "mute": "MUTE",
+      "broadcastingNow": "Emitiendo Ahora"
+    }
+  }
+}

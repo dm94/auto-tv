@@ -1,0 +1,21 @@
+{
+  "translation": {
+    "home": {
+      "loading": "Loading channels...",
+      "prevChannel": "Previous Channel (Up Arrow)",
+      "nextChannel": "Next Channel (Down Arrow)",
+      "tvGuide": "TV Guide (G)",
+      "mute": "Mute (M)",
+      "volume": "Volume (Left/Right Arrows or +/-)"
+    },
+    "guide": {
+      "title": "TV Guide",
+      "channels": "Channels"
+    },
+    "osd": {
+      "live": "LIVE",
+      "mute": "MUTE",
+      "broadcastingNow": "Broadcasting Now"
+    }
+  }
+}

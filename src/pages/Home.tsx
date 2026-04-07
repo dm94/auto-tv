@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Player } from '../components/Player';
 import { OSD } from '../components/OSD';
 import { Guide } from '../components/Guide';
@@ -6,6 +7,7 @@ import { useStore } from '../store/useStore';
 import { ListVideo, Volume2, VolumeX } from 'lucide-react';
 
 export const Home: React.FC = () => {
+  const { t } = useTranslation();
   const { channelUp, channelDown, toggleGuide, isGuideOpen, volume, isMuted, volumeUp, volumeDown, toggleMute, setVolume, loadData, isLoading } = useStore();
 
   useEffect(() => {
@@ -78,7 +80,7 @@ export const Home: React.FC = () => {
       <div className="flex items-center justify-center w-full h-screen bg-black text-white">
         <div className="animate-pulse flex flex-col items-center">
           <div className="w-12 h-12 border-4 border-t-red-600 border-white/20 rounded-full animate-spin mb-4"></div>
-          <p>Cargando canales...</p>
+          <p>{t('home.loading')}</p>
         </div>
       </div>
     );
@@ -96,18 +98,18 @@ export const Home: React.FC = () => {
           <button 
             className="absolute top-0 left-0 right-0 h-1/4 opacity-0 hover:opacity-10 transition-opacity bg-gradient-to-b from-white/20 to-transparent z-20 cursor-n-resize"
             onClick={channelUp}
-            title="Canal Anterior (Flecha Arriba)"
+            title={t('home.prevChannel')}
           />
           <button 
             className="absolute bottom-0 left-0 right-0 h-1/4 opacity-0 hover:opacity-10 transition-opacity bg-gradient-to-t from-white/20 to-transparent z-20 cursor-s-resize"
             onClick={channelDown}
-            title="Canal Siguiente (Flecha Abajo)"
+            title={t('home.nextChannel')}
           />
           
           <button 
             className="absolute bottom-8 right-8 bg-black/60 hover:bg-black/80 backdrop-blur-md p-4 rounded-full border border-white/10 text-white z-30 transition-all shadow-2xl hover:scale-110 active:scale-95 group"
             onClick={toggleGuide}
-            title="Guía de TV (G)"
+            title={t('home.tvGuide')}
           >
             <ListVideo size={28} className="group-hover:text-red-500 transition-colors" />
           </button>
@@ -116,7 +118,7 @@ export const Home: React.FC = () => {
           <div className="absolute bottom-8 left-8 flex items-center gap-4 bg-black/60 backdrop-blur-md p-4 rounded-full border border-white/10 text-white z-30 shadow-2xl hover:bg-black/80 transition-all">
             <button 
               onClick={toggleMute}
-              title="Silenciar (M)"
+              title={t('home.mute')}
               className="hover:text-red-500 transition-colors"
             >
               {isMuted || volume === 0 ? <VolumeX size={24} /> : <Volume2 size={24} />}
@@ -129,7 +131,7 @@ export const Home: React.FC = () => {
               value={isMuted ? 0 : volume}
               onChange={(e) => setVolume(parseFloat(e.target.value))}
               className="w-24 md:w-32 accent-white cursor-pointer"
-              title="Volumen (Flechas Izquierda/Derecha o +/-)"
+              title={t('home.volume')}
             />
           </div>
         </>
