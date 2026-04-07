@@ -1,0 +1,10 @@
+[
+  { "id": "c1", "number": 1, "name": "Noticias 24/7", "category": "Noticias", "iconName": "Newspaper", "color": "#dc2626" },
+  { "id": "c2", "number": 2, "name": "Tech Talk", "category": "Tecnología", "iconName": "Cpu", "color": "#2563eb" },
+  { "id": "c3", "number": 3, "name": "Sports Hub", "category": "Deportes", "iconName": "Trophy", "color": "#16a34a" },
+  { "id": "c4", "number": 4, "name": "Lofi Beats", "category": "Música", "iconName": "Music", "color": "#9333ea" },
+  { "id": "c5", "number": 5, "name": "Code & Dev", "category": "Programación", "iconName": "Code", "color": "#f59e0b" },
+  { "id": "c6", "number": 6, "name": "Gaming Arena", "category": "Gaming", "iconName": "Gamepad2", "color": "#8b5cf6" },
+  { "id": "c7", "number": 7, "name": "AI & ML", "category": "Tecnología", "iconName": "Bot", "color": "#0d9488" },
+  { "id": "c8", "number": 8, "name": "Lifestyle", "category": "Lifestyle", "iconName": "Coffee", "color": "#f43f5e" }
+]

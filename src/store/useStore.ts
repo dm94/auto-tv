@@ -1,11 +1,12 @@
 import { create } from 'zustand';
-import { Channel, Program } from '../types';
-import { CHANNELS, ALL_PROGRAMS } from '../data/mockData';
+import { Channel, Program, VideoAsset } from '../types';
+import { generateProgramsForChannel } from '../utils/programs';
 
 interface AppState {
   // Canales y Programación estática
   channels: Channel[];
   programs: Program[];
+  isLoading: boolean;
   
   // Estado actual del usuario
   currentChannelId: string;
@@ -15,6 +16,7 @@ interface AppState {
   isMuted: boolean;
   
   // Acciones
+  loadData: () => Promise<void>;
   setCurrentChannel: (id: string) => void;
   channelUp: () => void;
   channelDown: () => void;
@@ -32,14 +34,51 @@ interface AppState {
 }
 
 export const useStore = create<AppState>((set, get) => ({
-  channels: CHANNELS,
-  programs: ALL_PROGRAMS,
+  channels: [],
+  programs: [],
+  isLoading: true,
   
-  currentChannelId: CHANNELS[0].id,
+  currentChannelId: '',
   isGuideOpen: false,
   osdVisible: true, // Mostrar inicialmente
   volume: 1, // 100%
   isMuted: false,
+
+  loadData: async () => {
+    try {
+      const response = await fetch('/json/channels.json');
+      const channels: Channel[] = await response.json();
+      
+      let allPrograms: Program[] = [];
+      
+      // Cargar videos de cada canal en paralelo
+      const channelPromises = channels.map(async (channel) => {
+        try {
+          const res = await fetch(`/json/${channel.id}.json`);
+          if (res.ok) {
+            const videos: VideoAsset[] = await res.json();
+            return generateProgramsForChannel(channel, videos);
+          }
+        } catch (e) {
+          console.error(`Error loading videos for channel ${channel.id}:`, e);
+        }
+        return [];
+      });
+      
+      const programsArrays = await Promise.all(channelPromises);
+      allPrograms = programsArrays.flat();
+      
+      set({ 
+        channels, 
+        programs: allPrograms, 
+        currentChannelId: channels.length > 0 ? channels[0].id : '',
+        isLoading: false 
+      });
+    } catch (error) {
+      console.error('Error loading channels:', error);
+      set({ isLoading: false });
+    }
+  },
   
   setCurrentChannel: (id: string) => {
     set({ currentChannelId: id, isGuideOpen: false });
