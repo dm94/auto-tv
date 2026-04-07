@@ -40,32 +40,32 @@ export const OSD: React.FC = () => {
         osdVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
-      <div className="absolute top-8 left-8 flex items-center gap-4 bg-black/60 backdrop-blur-md px-6 py-4 rounded-xl border border-white/10 shadow-2xl">
+      <div className="absolute top-4 left-4 sm:top-8 sm:left-8 flex items-center gap-3 sm:gap-4 bg-black/60 backdrop-blur-md px-4 py-3 sm:px-6 sm:py-4 rounded-xl border border-white/10 shadow-2xl">
         <div 
-          className="w-12 h-12 flex items-center justify-center rounded-lg text-white font-bold text-2xl"
+          className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-lg text-white font-bold text-xl sm:text-2xl shrink-0"
           style={{ backgroundColor: currentChannel.color }}
         >
           {currentChannel.number}
         </div>
         <div>
-          <h2 className="text-white text-2xl font-bold tracking-wide uppercase">
+          <h2 className="text-white text-lg sm:text-2xl font-bold tracking-wide uppercase leading-tight sm:leading-normal">
             {currentChannel.name}
           </h2>
-          <p className="text-zinc-400 text-sm font-medium tracking-widest">
+          <p className="text-zinc-400 text-xs sm:text-sm font-medium tracking-widest">
             {currentChannel.category}
           </p>
         </div>
       </div>
 
-      <div className="absolute top-8 right-8 flex flex-col items-end gap-3 pointer-events-auto">
-        <div className="flex items-center gap-4 bg-black/60 backdrop-blur-md px-4 py-3 rounded-xl border border-white/10 text-white shadow-xl hover:bg-black/80 transition-all">
+      <div className="absolute top-4 right-4 sm:top-8 sm:right-8 flex flex-col items-end gap-2 sm:gap-3 pointer-events-auto">
+        <div className="flex items-center gap-2 sm:gap-4 bg-black/60 backdrop-blur-md px-3 py-2 sm:px-4 sm:py-3 rounded-xl border border-white/10 text-white shadow-xl hover:bg-black/80 transition-all">
           <button 
             onClick={toggleMute}
             title={t('home.mute')}
-            className="hover:text-red-500 transition-colors flex items-center gap-2"
+            className="hover:text-red-500 transition-colors flex items-center gap-1 sm:gap-2"
           >
-            <VolumeIcon size={20} className={isMuted || volume === 0 ? "text-red-500" : "text-zinc-400"} />
-            <span className="font-mono text-lg">{isMuted ? t('osd.mute') : `${Math.round(volume * 100)}%`}</span>
+            <VolumeIcon size={18} className={`sm:w-5 sm:h-5 ${isMuted || volume === 0 ? "text-red-500" : "text-zinc-400"}`} />
+            <span className="font-mono text-sm sm:text-lg hidden xs:inline-block">{isMuted ? t('osd.mute') : `${Math.round(volume * 100)}%`}</span>
           </button>
           <input
             type="range"
@@ -74,25 +74,25 @@ export const OSD: React.FC = () => {
             step="0.05"
             value={isMuted ? 0 : volume}
             onChange={(e) => setVolume(parseFloat(e.target.value))}
-            className="w-24 md:w-32 accent-white cursor-pointer"
+            className="w-16 xs:w-20 sm:w-24 md:w-32 accent-white cursor-pointer"
             title={t('home.volume')}
           />
         </div>
-        <div className="bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-white font-mono text-xl shadow-xl">
+        <div className="bg-black/60 backdrop-blur-md px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg border border-white/10 text-white font-mono text-sm sm:text-xl shadow-xl">
           {format(time, 'HH:mm:ss')}
         </div>
       </div>
 
       {currentProgram && (
-        <div className="absolute bottom-12 left-8 right-8 max-w-4xl mx-auto">
-          <div className="bg-black/80 backdrop-blur-xl p-6 rounded-2xl border border-white/10 shadow-2xl">
-            <h3 className="text-zinc-400 text-sm font-bold tracking-widest uppercase mb-2">
+        <div className="absolute bottom-6 left-4 right-4 sm:bottom-12 sm:left-8 sm:right-8 max-w-4xl mx-auto">
+          <div className="bg-black/80 backdrop-blur-xl p-4 sm:p-6 rounded-2xl border border-white/10 shadow-2xl">
+            <h3 className="text-zinc-400 text-xs sm:text-sm font-bold tracking-widest uppercase mb-1 sm:mb-2">
               {t('osd.broadcastingNow')}
             </h3>
-            <h1 className="text-white text-4xl font-bold truncate">
+            <h1 className="text-white text-xl sm:text-4xl font-bold truncate">
               {currentProgram.title}
             </h1>
-            <div className="mt-4 w-full h-2 bg-zinc-800 rounded-full overflow-hidden">
+            <div className="mt-3 sm:mt-4 w-full h-1.5 sm:h-2 bg-zinc-800 rounded-full overflow-hidden">
               <div 
                 className="h-full bg-white transition-all duration-1000 ease-linear"
                 style={{ 
@@ -101,7 +101,7 @@ export const OSD: React.FC = () => {
                 }}
               />
             </div>
-            <div className="flex justify-between text-zinc-400 text-xs font-mono mt-2">
+            <div className="flex justify-between text-zinc-400 text-[10px] sm:text-xs font-mono mt-2">
               <span>{format(new Date(currentProgram.startTime), 'HH:mm')}</span>
               <span>{format(new Date(currentProgram.endTime), 'HH:mm')}</span>
             </div>
