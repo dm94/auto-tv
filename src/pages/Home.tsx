@@ -78,9 +78,9 @@ export const Home: React.FC = () => {
   if (isLoading) {
     return (
       <div className="flex items-center justify-center w-full h-screen bg-black text-white">
-        <div className="animate-pulse flex flex-col items-center">
-          <div className="w-12 h-12 border-4 border-t-red-600 border-white/20 rounded-full animate-spin mb-4"></div>
-          <p>{t('home.loading')}</p>
+        <div className="animate-pulse flex flex-col items-center p-4">
+          <div className="w-10 h-10 sm:w-12 sm:h-12 border-4 border-t-red-600 border-white/20 rounded-full animate-spin mb-4"></div>
+          <p className="text-sm sm:text-base">{t('home.loading')}</p>
         </div>
       </div>
     );
@@ -107,11 +107,11 @@ export const Home: React.FC = () => {
           />
           
           <button 
-            className="absolute bottom-8 right-8 bg-black/60 hover:bg-black/80 backdrop-blur-md p-4 rounded-full border border-white/10 text-white z-30 transition-all shadow-2xl hover:scale-110 active:scale-95 group pointer-events-auto"
+            className="absolute bottom-6 right-6 sm:bottom-8 sm:right-8 bg-black/60 hover:bg-black/80 backdrop-blur-md p-3 sm:p-4 rounded-full border border-white/10 text-white z-30 transition-all shadow-2xl hover:scale-110 active:scale-95 group pointer-events-auto"
             onClick={toggleGuide}
             title={t('home.tvGuide')}
           >
-            <ListVideo size={28} className="group-hover:text-red-500 transition-colors" />
+            <ListVideo className="w-6 h-6 sm:w-7 sm:h-7 group-hover:text-red-500 transition-colors" />
           </button>
         </>
       )}

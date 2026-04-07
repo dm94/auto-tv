@@ -60,28 +60,29 @@ export const Guide: React.FC = () => {
   return (
     <div className="absolute inset-0 bg-black/90 backdrop-blur-2xl z-50 flex flex-col text-white font-sans overflow-hidden">
       {/* Header */}
-      <div className="flex items-center justify-between p-6 border-b border-white/10 shrink-0">
-        <div className="flex items-center gap-4">
-          <MonitorPlay size={32} className="text-zinc-300" />
+      <div className="flex items-center justify-between p-4 sm:p-6 border-b border-white/10 shrink-0">
+        <div className="flex items-center gap-3 sm:gap-4">
+          <MonitorPlay className="w-8 h-8 sm:w-8 sm:h-8 text-zinc-300" />
           <div>
-            <h1 className="text-2xl font-bold tracking-widest uppercase">{t('guide.title')}</h1>
-            <p className="text-zinc-500 font-mono text-sm">{format(currentTime, 'EEEE, d MMM - HH:mm')}</p>
+            <h1 className="text-xl sm:text-2xl font-bold tracking-widest uppercase">{t('guide.title')}</h1>
+            <p className="text-zinc-500 font-mono text-xs sm:text-sm">{format(currentTime, 'EEEE, d MMM - HH:mm')}</p>
           </div>
         </div>
         <button 
           onClick={closeGuide}
-          className="p-3 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
+          className="p-2 sm:p-3 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
         >
-          <X size={24} />
+          <X className="w-5 h-5 sm:w-6 sm:h-6" />
         </button>
       </div>
 
       {/* Guía Principal */}
       <div className="flex flex-1 overflow-hidden">
         {/* Columna Izquierda: Canales */}
-        <div className="w-64 shrink-0 bg-black/50 border-r border-white/10 flex flex-col z-20 shadow-2xl relative">
-          <div className="h-16 shrink-0 border-b border-white/10 flex items-center justify-center text-zinc-500 text-xs font-bold tracking-widest uppercase">
-            {t('guide.channels')}
+        <div className="w-20 sm:w-48 md:w-64 shrink-0 bg-black/50 border-r border-white/10 flex flex-col z-20 shadow-2xl relative">
+          <div className="h-16 shrink-0 border-b border-white/10 flex items-center justify-center text-zinc-500 text-[10px] sm:text-xs font-bold tracking-widest uppercase">
+            <span className="hidden sm:inline">{t('guide.channels')}</span>
+            <span className="sm:hidden">CH</span>
           </div>
           <div 
             className="flex-1 overflow-y-auto no-scrollbar pb-32"
@@ -98,20 +99,21 @@ export const Guide: React.FC = () => {
                   onClick={() => {
                     setCurrentChannel(channel.id);
                   }}
-                  className={`w-full h-24 border-b border-white/5 flex items-center px-4 gap-4 transition-colors text-left hover:bg-white/5
+                  className={`w-full h-24 border-b border-white/5 flex items-center justify-center sm:justify-start px-2 sm:px-4 gap-2 sm:gap-4 transition-colors text-left hover:bg-white/5
                     ${isCurrent ? 'bg-white/10 border-l-4' : 'border-l-4 border-l-transparent'}
                   `}
                   style={{ borderLeftColor: isCurrent ? channel.color : 'transparent' }}
+                  title={channel.name}
                 >
                   <div 
-                    className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
+                    className="w-10 h-10 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center shrink-0"
                     style={{ backgroundColor: channel.color + '20', color: channel.color }}
                   >
                     <Icon size={20} />
                   </div>
-                  <div className="overflow-hidden">
-                    <div className="font-bold text-lg truncate">{channel.name}</div>
-                    <div className="text-xs text-zinc-500 uppercase tracking-widest">{channel.number} • {channel.category}</div>
+                  <div className="hidden sm:block overflow-hidden">
+                    <div className="font-bold text-sm sm:text-lg truncate">{channel.name}</div>
+                    <div className="text-[10px] sm:text-xs text-zinc-500 uppercase tracking-widest truncate">{channel.number} • {channel.category}</div>
                   </div>
                 </button>
               );
