@@ -1,37 +1,52 @@
 [
   {
-    "videoId": "_6N18g3ewnw",
-    "title": "Learn PYTHON in 10 minutes 🟢",
-    "durationSeconds": 839
+    "videoId": "WrEl7djH190",
+    "title": "La ruta correcta para aprender desarrollo web (sin perder tiempo)",
+    "durationSeconds": 679
+  },
+  {
+    "videoId": "rWfditAgAfA",
+    "title": "Como Aprender Desarrollo Web 2026 - Guía de Estudio",
+    "durationSeconds": 3520
+  },
+  {
+    "videoId": "VPQICmxcXqE",
+    "title": "Aprende Programación Web DESDE CERO (de verdad)",
+    "durationSeconds": 15625
+  },
+  {
+    "videoId": "bNpu9ELWOP8",
+    "title": "Programador vs Desarrollador Web: ¿Cuál es la diferencia y cuál deberías elegir?",
+    "durationSeconds": 224
+  },
+  {
+    "videoId": "VxrIZGQfxmE",
+    "title": "Aprende a programar ahora! - curso de introducción a la programación desde CERO",
+    "durationSeconds": 1600
   },
   {
     "videoId": "8GTaO9XhA5M",
-    "title": "Learn JavaScript in 10 minutes 👨‍💻",
+    "title": "Aprende JavaScript en 10 minutos 👨‍💻",
     "durationSeconds": 703
   },
   {
-    "videoId": "wGxDfSWC4Ww",
-    "title": "Aprende React en 15 Minutos 📘",
-    "durationSeconds": 991
+    "videoId": "IV0Cs5wlycY",
+    "title": "Aprende Programación desde cero (sin perder años)",
+    "durationSeconds": 558
   },
   {
-    "videoId": "bvxm389cYVI",
-    "title": "¿Qué es ReactJS? ⚛️ ¿Cómo funciona? Explicación animada",
-    "durationSeconds": 299
+    "videoId": "pqfAvZC5clw",
+    "title": "Para Qué se Usa Cada Lenguaje de Programación?",
+    "durationSeconds": 565
   },
   {
-    "videoId": "yIr_1CasXkM",
-    "title": "Aprende React ahora! curso completo para crear aplicaciones",
-    "durationSeconds": 9125
+    "videoId": "TrCCCRFq114",
+    "title": "Para mejorar en programación hay que practicar. ¡Con este recurso gratuito practicas!",
+    "durationSeconds": 14
   },
   {
     "videoId": "MJkdaVFHrto",
     "title": "Aprende HTML ahora! curso completo GRATIS desde cero",
     "durationSeconds": 5635
-  },
-  {
-    "videoId": "EvKm8yhM7V8",
-    "title": "HTML en 5 minutos | Te lo explico así nomás.",
-    "durationSeconds": 383
   }
 ]
