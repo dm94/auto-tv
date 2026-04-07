@@ -13,7 +13,6 @@
       "channels": "Canales"
     },
     "osd": {
-      "live": "EN VIVO",
       "mute": "MUTE",
       "broadcastingNow": "Emitiendo Ahora"
     }

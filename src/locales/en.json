@@ -13,7 +13,6 @@
       "channels": "Channels"
     },
     "osd": {
-      "live": "LIVE",
       "mute": "MUTE",
       "broadcastingNow": "Broadcasting Now"
     }
