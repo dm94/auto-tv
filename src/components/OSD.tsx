@@ -1,22 +1,21 @@
 import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useStore } from '../store/useStore';
-import { generateViewers } from '../utils/viewers';
 import { format } from 'date-fns';
-import { Users, Volume2, Volume1, VolumeX } from 'lucide-react';
+import { Volume2, Volume1, VolumeX } from 'lucide-react';
 
 export const OSD: React.FC = () => {
+  const { t } = useTranslation();
   const { currentChannelId, channels, programs, osdVisible, hideOSD, volume, isMuted } = useStore();
   const [time, setTime] = useState(new Date());
 
   const currentChannel = channels.find(c => c.id === currentChannelId);
   
-  // Refresca la hora
   useEffect(() => {
     const timer = setInterval(() => setTime(new Date()), 1000);
     return () => clearInterval(timer);
   }, []);
 
-  // Ocultar automáticamente OSD después de 4 segundos
   useEffect(() => {
     if (osdVisible) {
       const timeout = setTimeout(() => {
@@ -33,8 +32,6 @@ export const OSD: React.FC = () => {
     p => p.channelId === currentChannelId && now >= p.startTime && now < p.endTime
   );
 
-  const viewers = generateViewers(currentChannelId, now);
-
   const VolumeIcon = isMuted || volume === 0 ? VolumeX : volume < 0.5 ? Volume1 : Volume2;
 
   return (
@@ -43,7 +40,6 @@ export const OSD: React.FC = () => {
         osdVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
-      {/* Esquina superior izquierda: Canal */}
       <div className="absolute top-8 left-8 flex items-center gap-4 bg-black/60 backdrop-blur-md px-6 py-4 rounded-xl border border-white/10 shadow-2xl">
         <div 
           className="w-12 h-12 flex items-center justify-center rounded-lg text-white font-bold text-2xl"
@@ -61,31 +57,21 @@ export const OSD: React.FC = () => {
         </div>
       </div>
 
-      {/* Esquina superior derecha: Espectadores, Volumen y Hora */}
       <div className="absolute top-8 right-8 flex flex-col items-end gap-3">
-        <div className="flex items-center gap-2 bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-red-500 font-mono">
-          <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
-          <span className="font-bold text-lg tracking-wider">EN VIVO</span>
-        </div>
-        <div className="flex items-center gap-2 bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-white font-mono text-lg shadow-xl">
-          <Users size={20} className="text-zinc-400" />
-          {viewers.toLocaleString()}
-        </div>
         <div className="flex items-center gap-2 bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-white font-mono text-lg shadow-xl">
           <VolumeIcon size={20} className={isMuted || volume === 0 ? "text-red-500" : "text-zinc-400"} />
-          {isMuted ? 'MUTE' : `${Math.round(volume * 100)}%`}
+          {isMuted ? t('osd.mute') : `${Math.round(volume * 100)}%`}
         </div>
         <div className="bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-white font-mono text-xl shadow-xl">
           {format(time, 'HH:mm:ss')}
         </div>
       </div>
 
-      {/* Parte inferior: Programa actual */}
       {currentProgram && (
         <div className="absolute bottom-12 left-8 right-8 max-w-4xl mx-auto">
           <div className="bg-black/80 backdrop-blur-xl p-6 rounded-2xl border border-white/10 shadow-2xl">
             <h3 className="text-zinc-400 text-sm font-bold tracking-widest uppercase mb-2">
-              Emitiendo Ahora
+              {t('osd.broadcastingNow')}
             </h3>
             <h1 className="text-white text-4xl font-bold truncate">
               {currentProgram.title}

@@ -1,10 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useStore } from '../store/useStore';
 import { format, addMinutes, startOfHour, differenceInMinutes, isBefore, isAfter } from 'date-fns';
 import { X, Tv, Clock, MonitorPlay } from 'lucide-react';
 import * as LucideIcons from 'lucide-react';
 
 export const Guide: React.FC = () => {
+  const { t } = useTranslation();
   const { channels, programs, currentChannelId, setCurrentChannel, isGuideOpen, closeGuide } = useStore();
   const [currentTime, setCurrentTime] = useState(new Date());
   const guideRef = useRef<HTMLDivElement>(null);
@@ -49,7 +51,7 @@ export const Guide: React.FC = () => {
         <div className="flex items-center gap-4">
           <MonitorPlay size={32} className="text-zinc-300" />
           <div>
-            <h1 className="text-2xl font-bold tracking-widest uppercase">Guía de TV</h1>
+            <h1 className="text-2xl font-bold tracking-widest uppercase">{t('guide.title')}</h1>
             <p className="text-zinc-500 font-mono text-sm">{format(currentTime, 'EEEE, d MMM - HH:mm')}</p>
           </div>
         </div>
@@ -66,7 +68,7 @@ export const Guide: React.FC = () => {
         {/* Columna Izquierda: Canales */}
         <div className="w-64 shrink-0 bg-black/50 border-r border-white/10 flex flex-col z-20 shadow-2xl relative">
           <div className="h-16 shrink-0 border-b border-white/10 flex items-center justify-center text-zinc-500 text-xs font-bold tracking-widest uppercase">
-            Canales
+            {t('guide.channels')}
           </div>
           <div className="flex-1 overflow-y-auto no-scrollbar pb-32">
             {channels.map((channel) => {
