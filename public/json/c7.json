@@ -1,5 +1,32 @@
 [
-  { "videoId": "t4mBv3Ym9yA", "title": "Machine Learning con Python", "durationSeconds": 3200 },
-  { "videoId": "AirVcjB3O_E", "title": "Redes Neuronales Explicadas", "durationSeconds": 1500 },
-  { "videoId": "k151N3r12A4", "title": "¿Qué es ChatGPT?", "durationSeconds": 800 }
+  {
+    "videoId": "mN0zPOpADL4",
+    "title": "Redes Neuronales Explicadas",
+    "durationSeconds": 231
+  },
+  {
+    "videoId": "eRsGyueVLvQ",
+    "title": "Historia de la IA",
+    "durationSeconds": 888
+  },
+  {
+    "videoId": "UXqq0ZvbOnk",
+    "title": "Machine Learning Práctico",
+    "durationSeconds": 233
+  },
+  {
+    "videoId": "R6MlUcmOul8",
+    "title": "Ética en la Inteligencia Artificial",
+    "durationSeconds": 734
+  },
+  {
+    "videoId": "aqz-KE-bpKQ",
+    "title": "Futuro de la Robótica",
+    "durationSeconds": 596
+  },
+  {
+    "videoId": "Bey4XXJAqS8",
+    "title": "Conferencia AI 2024",
+    "durationSeconds": 10920
+  }
 ]

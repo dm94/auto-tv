@@ -1,5 +1,32 @@
 [
-  { "videoId": "B5q4z7A30c0", "title": "Rutina de Mañana", "durationSeconds": 600 },
-  { "videoId": "lB_T25X4w90", "title": "Minimalismo y Orden", "durationSeconds": 850 },
-  { "videoId": "o26O0Q_8m7s", "title": "Viaje por Japón", "durationSeconds": 1200 }
+  {
+    "videoId": "LXb3EKWsInQ",
+    "title": "Vlog de Viajes: Costa Rica",
+    "durationSeconds": 314
+  },
+  {
+    "videoId": "jNQXAC9IVRw",
+    "title": "Un Día en mi Vida",
+    "durationSeconds": 19
+  },
+  {
+    "videoId": "Z4C82eyhwxc",
+    "title": "Recetas Saludables",
+    "durationSeconds": 150
+  },
+  {
+    "videoId": "Y-rmzh0PI3c",
+    "title": "Rutina de Mañana",
+    "durationSeconds": 734
+  },
+  {
+    "videoId": "WhWc3b3KhnY",
+    "title": "Decoración de Interiores",
+    "durationSeconds": 464
+  },
+  {
+    "videoId": "v64KOxKVLVg",
+    "title": "Relajación y Meditación",
+    "durationSeconds": 7200
+  }
 ]
