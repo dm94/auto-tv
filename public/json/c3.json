@@ -1,5 +1,32 @@
 [
-  { "videoId": "9GJDqlb1bT0", "title": "Resumen Deportivo", "durationSeconds": 840 },
-  { "videoId": "2bQG8v8ktz4", "title": "Mejores Jugadas del Mes", "durationSeconds": 520 },
-  { "videoId": "U_A4k-73uQk", "title": "Entrevista Exclusiva", "durationSeconds": 1040 }
+  {
+    "videoId": "R6MlUcmOul8",
+    "title": "Resumen Deportivo",
+    "durationSeconds": 734
+  },
+  {
+    "videoId": "ZROlljyKpBg",
+    "title": "Mejores Jugadas de la Semana",
+    "durationSeconds": 150
+  },
+  {
+    "videoId": "SkVqJ1SGeL0",
+    "title": "Entrevista Exclusiva",
+    "durationSeconds": 150
+  },
+  {
+    "videoId": "aqz-KE-bpKQ",
+    "title": "Análisis del Partido",
+    "durationSeconds": 596
+  },
+  {
+    "videoId": "eRsGyueVLvQ",
+    "title": "Historia de los Mundiales",
+    "durationSeconds": 888
+  },
+  {
+    "videoId": "v64KOxKVLVg",
+    "title": "Maratón Deportivo",
+    "durationSeconds": 7200
+  }
 ]

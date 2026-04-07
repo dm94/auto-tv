@@ -1,5 +1,32 @@
 [
-  { "videoId": "dQw4w9WgXcQ", "title": "Noticias de la Mañana", "durationSeconds": 212 },
-  { "videoId": "jfKfPfyJRdk", "title": "Boletín Internacional", "durationSeconds": 4320 },
-  { "videoId": "1oeT2NQeKQw", "title": "Mesa de Debate", "durationSeconds": 1500 }
+  {
+    "videoId": "aqz-KE-bpKQ",
+    "title": "Noticias de la Mañana",
+    "durationSeconds": 596
+  },
+  {
+    "videoId": "LXb3EKWsInQ",
+    "title": "Reportaje: Naturaleza en Peligro",
+    "durationSeconds": 314
+  },
+  {
+    "videoId": "eRsGyueVLvQ",
+    "title": "Boletín Internacional",
+    "durationSeconds": 888
+  },
+  {
+    "videoId": "jNQXAC9IVRw",
+    "title": "Breves Informativos",
+    "durationSeconds": 19
+  },
+  {
+    "videoId": "R6MlUcmOul8",
+    "title": "Mesa de Debate",
+    "durationSeconds": 734
+  },
+  {
+    "videoId": "v64KOxKVLVg",
+    "title": "Documental: Océanos",
+    "durationSeconds": 7200
+  }
 ]

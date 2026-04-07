@@ -1,5 +1,32 @@
 [
-  { "videoId": "PkZNo7MFOUg", "title": "Aprende JavaScript en 1 Hora", "durationSeconds": 3600 },
-  { "videoId": "zJSY8tbf_ys", "title": "React Crash Course", "durationSeconds": 4200 },
-  { "videoId": "8pDqJVdNa44", "title": "CSS Grid & Flexbox", "durationSeconds": 2400 }
+  {
+    "videoId": "eRsGyueVLvQ",
+    "title": "Curso de React desde cero",
+    "durationSeconds": 888
+  },
+  {
+    "videoId": "R6MlUcmOul8",
+    "title": "Aprende TypeScript",
+    "durationSeconds": 734
+  },
+  {
+    "videoId": "mN0zPOpADL4",
+    "title": "Patrones de Diseño",
+    "durationSeconds": 231
+  },
+  {
+    "videoId": "UXqq0ZvbOnk",
+    "title": "Tutorial de Node.js",
+    "durationSeconds": 233
+  },
+  {
+    "videoId": "aqz-KE-bpKQ",
+    "title": "CSS Grid y Flexbox",
+    "durationSeconds": 596
+  },
+  {
+    "videoId": "Bey4XXJAqS8",
+    "title": "Maratón de Programación",
+    "durationSeconds": 10920
+  }
 ]

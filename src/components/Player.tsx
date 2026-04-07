@@ -10,40 +10,57 @@ export const Player: React.FC = () => {
   const isMuted = useStore((state) => state.isMuted);
   
   const [currentVideoId, setCurrentVideoId] = useState<string | null>(null);
+  const [currentProgramId, setCurrentProgramId] = useState<string | null>(null);
   const [startSeconds, setStartSeconds] = useState<number>(0);
   
   const playerRef = useRef<ReactPlayer>(null);
 
   // Calcula qué se está emitiendo AHORA y ajusta el video
   useEffect(() => {
-    const now = Date.now();
-    const currentProgram = programs.find(
-      p => p.channelId === currentChannelId && now >= p.startTime && now < p.endTime
-    );
+    const checkProgram = () => {
+      const now = Date.now();
+      const currentProgram = programs.find(
+        p => p.channelId === currentChannelId && now >= p.startTime && now < p.endTime
+      );
 
-    if (currentProgram) {
-      setCurrentVideoId(currentProgram.videoId);
-      const elapsedSeconds = Math.floor((now - currentProgram.startTime) / 1000);
-      setStartSeconds(elapsedSeconds);
-      // Forzar que empiece en el segundo correcto si el reproductor ya está listo
-      if (playerRef.current) {
-        playerRef.current.seekTo(elapsedSeconds, 'seconds');
+      if (currentProgram) {
+        // Si cambió el ID del programa (nuevo bloque en la guía), o es la primera vez
+        if (currentProgram.id !== currentProgramId) {
+          setCurrentProgramId(currentProgram.id);
+          setCurrentVideoId(currentProgram.videoId);
+          
+          const elapsedSeconds = Math.floor((now - currentProgram.startTime) / 1000);
+          setStartSeconds(elapsedSeconds);
+          
+          if (playerRef.current) {
+            playerRef.current.seekTo(elapsedSeconds, 'seconds');
+          }
+        }
+      } else {
+        // Fallback si no hay programa (loop simple al primer video del canal)
+        const firstProgram = programs.find(p => p.channelId === currentChannelId);
+        if (firstProgram && firstProgram.id !== currentProgramId) {
+          setCurrentProgramId(firstProgram.id);
+          setCurrentVideoId(firstProgram.videoId);
+          setStartSeconds(0);
+        }
       }
-    } else {
-      // Fallback si no hay programa (loop simple al primer video del canal)
-      const firstProgram = programs.find(p => p.channelId === currentChannelId);
-      if (firstProgram) {
-        setCurrentVideoId(firstProgram.videoId);
-        setStartSeconds(0);
-      }
-    }
-  }, [currentChannelId, programs]);
+    };
+
+    // Revisar inmediatamente al montar/cambiar de canal
+    checkProgram();
+
+    // Revisar cada segundo para saltar al siguiente video automáticamente como una TV
+    const intervalId = setInterval(checkProgram, 1000);
+    return () => clearInterval(intervalId);
+  }, [currentChannelId, programs, currentProgramId]);
 
   if (!currentVideoId) return <div className="bg-black w-full h-full" />;
 
   return (
     <div className="absolute inset-0 w-full h-full pointer-events-none z-0">
       <ReactPlayer
+        key={currentProgramId}
         ref={playerRef}
         url={`https://www.youtube.com/watch?v=${currentVideoId}`}
         width="100%"

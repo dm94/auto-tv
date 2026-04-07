@@ -1,4 +1,27 @@
 [
-  { "videoId": "jfKfPfyJRdk", "title": "Lofi Girl - beats to relax/study to", "durationSeconds": 36000 },
-  { "videoId": "4xDzrJKXOOY", "title": "Synthwave Radio", "durationSeconds": 18000 }
+  {
+    "videoId": "Bey4XXJAqS8",
+    "title": "Lofi Relax 24/7",
+    "durationSeconds": 10920
+  },
+  {
+    "videoId": "LXb3EKWsInQ",
+    "title": "Chill Beats para Estudiar",
+    "durationSeconds": 314
+  },
+  {
+    "videoId": "Y-rmzh0PI3c",
+    "title": "Synthwave Mix",
+    "durationSeconds": 734
+  },
+  {
+    "videoId": "WhWc3b3KhnY",
+    "title": "Jazz Hop Café",
+    "durationSeconds": 464
+  },
+  {
+    "videoId": "v64KOxKVLVg",
+    "title": "Ambient Music",
+    "durationSeconds": 7200
+  }
 ]
