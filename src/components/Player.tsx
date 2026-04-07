@@ -14,7 +14,6 @@ export const Player: React.FC = () => {
   
   const playerRef = useRef<ReactPlayer>(null);
 
-  // Calcula qué se está emitiendo AHORA y ajusta el video
   useEffect(() => {
     const checkProgram = () => {
       const now = Date.now();
@@ -23,7 +22,6 @@ export const Player: React.FC = () => {
       );
 
       if (currentProgram) {
-        // Si cambió el ID del programa (nuevo bloque en la guía), o es la primera vez
         if (currentProgram.id !== currentProgramId) {
           setCurrentProgramId(currentProgram.id);
           setCurrentVideoId(currentProgram.videoId);
@@ -36,7 +34,6 @@ export const Player: React.FC = () => {
           }
         }
       } else {
-        // Fallback si no hay programa (loop simple al primer video del canal)
         const firstProgram = programs.find(p => p.channelId === currentChannelId);
         if (firstProgram && firstProgram.id !== currentProgramId) {
           setCurrentProgramId(firstProgram.id);
@@ -46,10 +43,8 @@ export const Player: React.FC = () => {
       }
     };
 
-    // Revisar inmediatamente al montar/cambiar de canal
     checkProgram();
 
-    // Revisar cada segundo para saltar al siguiente video automáticamente como una TV
     const intervalId = setInterval(checkProgram, 1000);
     return () => clearInterval(intervalId);
   }, [currentChannelId, programs, currentProgramId]);
@@ -83,20 +78,12 @@ export const Player: React.FC = () => {
             }
           }
         }}
-        // Style adjustments for full screen bleed to hide youtube controls
         style={{
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%) scale(1.3)', // Escala para esconder logo de YT
           pointerEvents: 'none',
         }}
         onEnded={() => {
-          // Si el video termina "antes de tiempo" por cualquier razón (ej. stream en vivo real),
-          // forzamos recarga. En un escenario real, recalcularíamos el tiempo.
         }}
       />
-      {/* Capa de protección para evitar clics al video */}
       <div className="absolute inset-0 z-10 bg-transparent pointer-events-auto" />
     </div>
   );
