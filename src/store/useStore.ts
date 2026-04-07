@@ -11,6 +11,8 @@ interface AppState {
   currentChannelId: string;
   isGuideOpen: boolean;
   osdVisible: boolean;
+  volume: number;
+  isMuted: boolean;
   
   // Acciones
   setCurrentChannel: (id: string) => void;
@@ -20,6 +22,10 @@ interface AppState {
   closeGuide: () => void;
   showOSD: () => void;
   hideOSD: () => void;
+  setVolume: (volume: number) => void;
+  volumeUp: () => void;
+  volumeDown: () => void;
+  toggleMute: () => void;
   
   // Helpers
   getCurrentProgram: (channelId: string, timestamp: number) => Program | undefined;
@@ -32,6 +38,8 @@ export const useStore = create<AppState>((set, get) => ({
   currentChannelId: CHANNELS[0].id,
   isGuideOpen: false,
   osdVisible: true, // Mostrar inicialmente
+  volume: 1, // 100%
+  isMuted: false,
   
   setCurrentChannel: (id: string) => {
     set({ currentChannelId: id, isGuideOpen: false });
@@ -63,6 +71,25 @@ export const useStore = create<AppState>((set, get) => ({
   },
   hideOSD: () => set({ osdVisible: false }),
   
+  setVolume: (volume: number) => {
+    set({ volume: Math.max(0, Math.min(1, volume)), isMuted: false });
+    get().showOSD();
+  },
+  volumeUp: () => {
+    const { volume } = get();
+    set({ volume: Math.min(1, volume + 0.1), isMuted: false });
+    get().showOSD();
+  },
+  volumeDown: () => {
+    const { volume } = get();
+    set({ volume: Math.max(0, volume - 0.1), isMuted: false });
+    get().showOSD();
+  },
+  toggleMute: () => {
+    set((state) => ({ isMuted: !state.isMuted }));
+    get().showOSD();
+  },
+
   getCurrentProgram: (channelId: string, timestamp: number) => {
     const { programs } = get();
     return programs.find(

@@ -3,10 +3,10 @@ import { Player } from '../components/Player';
 import { OSD } from '../components/OSD';
 import { Guide } from '../components/Guide';
 import { useStore } from '../store/useStore';
-import { ListVideo } from 'lucide-react';
+import { ListVideo, Volume2, VolumeX } from 'lucide-react';
 
 export const Home: React.FC = () => {
-  const { channelUp, channelDown, toggleGuide, isGuideOpen } = useStore();
+  const { channelUp, channelDown, toggleGuide, isGuideOpen, volume, isMuted, volumeUp, volumeDown, toggleMute, setVolume } = useStore();
 
   // Manejo de teclado para hacer "zapping"
   useEffect(() => {
@@ -19,6 +19,15 @@ export const Home: React.FC = () => {
       } else if (e.key === 'ArrowDown') {
         e.preventDefault();
         channelDown();
+      } else if (e.key === 'ArrowRight' || e.key === '+') {
+        e.preventDefault();
+        volumeUp();
+      } else if (e.key === 'ArrowLeft' || e.key === '-') {
+        e.preventDefault();
+        volumeDown();
+      } else if (e.key === 'm' || e.key === 'M') {
+        e.preventDefault();
+        toggleMute();
       } else if (e.key === 'g' || e.key === 'G' || e.key === 'Escape') {
         e.preventDefault();
         toggleGuide();
@@ -27,7 +36,7 @@ export const Home: React.FC = () => {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [channelUp, channelDown, toggleGuide, isGuideOpen]);
+  }, [channelUp, channelDown, toggleGuide, isGuideOpen, volumeUp, volumeDown, toggleMute]);
 
   // Manejo de scroll para hacer "zapping" (opcional pero interesante)
   useEffect(() => {
@@ -86,6 +95,27 @@ export const Home: React.FC = () => {
           >
             <ListVideo size={28} className="group-hover:text-red-500 transition-colors" />
           </button>
+
+          {/* Controles de Volumen en pantalla */}
+          <div className="absolute bottom-8 left-8 flex items-center gap-4 bg-black/60 backdrop-blur-md p-4 rounded-full border border-white/10 text-white z-30 shadow-2xl hover:bg-black/80 transition-all">
+            <button 
+              onClick={toggleMute}
+              title="Silenciar (M)"
+              className="hover:text-red-500 transition-colors"
+            >
+              {isMuted || volume === 0 ? <VolumeX size={24} /> : <Volume2 size={24} />}
+            </button>
+            <input
+              type="range"
+              min="0"
+              max="1"
+              step="0.05"
+              value={isMuted ? 0 : volume}
+              onChange={(e) => setVolume(parseFloat(e.target.value))}
+              className="w-24 md:w-32 accent-white cursor-pointer"
+              title="Volumen (Flechas Izquierda/Derecha o +/-)"
+            />
+          </div>
         </>
       )}
     </div>
