@@ -1,57 +1,59 @@
-# React + TypeScript + Vite
+# Auto TV
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Auto TV is a frontend application built with React + TypeScript + Vite that simulates the experience of watching live television.
 
-Currently, two official plugins are available:
+It includes channel switching, OSD (On Screen Display), an electronic program guide (EPG), volume control, and keyboard shortcuts for a TV-like experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What does this project do?
 
-## Expanding the ESLint configuration
+- Simulates TV channels with per-channel video playlists.
+- Supports channel zapping with keyboard, mouse wheel, or on-screen controls.
+- Displays an OSD with current channel and current program information.
+- Includes an electronic program guide (EPG) to browse content.
+- Supports multiple languages with i18n (`es` and `en`).
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech stack
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- React 18
+- TypeScript
+- Vite 6
+- Zustand (global state)
+- Tailwind CSS
+- i18next + react-i18next
+
+## Main structure
+
+- `src/pages/Home.tsx`: main TV screen.
+- `src/components/Player.tsx`: current channel video playback.
+- `src/components/OSD.tsx`: real-time information overlay.
+- `src/components/Guide.tsx`: program guide.
+- `src/store/useStore.ts`: global state and player actions.
+- `public/json/*.json`: mock channels and video assets.
+
+## Available commands
+
+This project uses `pnpm` as the package manager.
+
+```bash
+pnpm install
+pnpm dev
+pnpm lint
+pnpm check
+pnpm build
+pnpm preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Controls
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- `ArrowUp`: previous channel
+- `ArrowDown`: next channel
+- `ArrowRight` or `+`: volume up
+- `ArrowLeft` or `-`: volume down
+- `M`: mute/unmute
+- `G` or `Escape`: open/close guide
 
-export default tseslint.config({
-  extends: [
-    // other configs...
-    // Enable lint rules for React
-    reactX.configs['recommended-typescript'],
-    // Enable lint rules for React DOM
-    reactDom.configs.recommended,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+You can also switch channels with the mouse wheel and use touch/on-screen controls.
+
+## Reference
+
+This project takes inspiration from [Channel Surfer](https://channelsurfer.tv/).

@@ -4,11 +4,11 @@ import { Player } from '../components/Player';
 import { OSD } from '../components/OSD';
 import { Guide } from '../components/Guide';
 import { useStore } from '../store/useStore';
-import { ListVideo, Volume2, VolumeX } from 'lucide-react';
+import { ListVideo } from 'lucide-react';
 
 export const Home: React.FC = () => {
   const { t } = useTranslation();
-  const { channelUp, channelDown, toggleGuide, isGuideOpen, volume, isMuted, volumeUp, volumeDown, toggleMute, setVolume, loadData, isLoading } = useStore();
+  const { channelUp, channelDown, toggleGuide, isGuideOpen, volumeUp, volumeDown, toggleMute, loadData, isLoading } = useStore();
 
   useEffect(() => {
     loadData();
@@ -107,33 +107,12 @@ export const Home: React.FC = () => {
           />
           
           <button 
-            className="absolute bottom-8 right-8 bg-black/60 hover:bg-black/80 backdrop-blur-md p-4 rounded-full border border-white/10 text-white z-30 transition-all shadow-2xl hover:scale-110 active:scale-95 group"
+            className="absolute bottom-8 right-8 bg-black/60 hover:bg-black/80 backdrop-blur-md p-4 rounded-full border border-white/10 text-white z-30 transition-all shadow-2xl hover:scale-110 active:scale-95 group pointer-events-auto"
             onClick={toggleGuide}
             title={t('home.tvGuide')}
           >
             <ListVideo size={28} className="group-hover:text-red-500 transition-colors" />
           </button>
-
-          {/* Controles de Volumen en pantalla */}
-          <div className="absolute bottom-8 left-8 flex items-center gap-4 bg-black/60 backdrop-blur-md p-4 rounded-full border border-white/10 text-white z-30 shadow-2xl hover:bg-black/80 transition-all">
-            <button 
-              onClick={toggleMute}
-              title={t('home.mute')}
-              className="hover:text-red-500 transition-colors"
-            >
-              {isMuted || volume === 0 ? <VolumeX size={24} /> : <Volume2 size={24} />}
-            </button>
-            <input
-              type="range"
-              min="0"
-              max="1"
-              step="0.05"
-              value={isMuted ? 0 : volume}
-              onChange={(e) => setVolume(parseFloat(e.target.value))}
-              className="w-24 md:w-32 accent-white cursor-pointer"
-              title={t('home.volume')}
-            />
-          </div>
         </>
       )}
     </div>

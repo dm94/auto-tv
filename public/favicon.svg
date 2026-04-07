@@ -1,4 +1,20 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="32" height="32" fill="#0A0B0D"/>
-<path d="M26.6677 23.7149H8.38057V20.6496H5.33301V8.38159H26.6677V23.7149ZM8.38057 20.6496H23.6201V11.4482H8.38057V20.6496ZM16.0011 16.0021L13.8461 18.1705L11.6913 16.0021L13.8461 13.8337L16.0011 16.0021ZM22.0963 16.0008L19.9414 18.1691L17.7865 16.0008L19.9414 13.8324L22.0963 16.0008Z" fill="#32F08C"/>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+<stop stop-color="#10141D"/>
+<stop offset="1" stop-color="#06080D"/>
+</linearGradient>
+<linearGradient id="screen" x1="16" y1="18" x2="48" y2="42" gradientUnits="userSpaceOnUse">
+<stop stop-color="#36F8A3"/>
+<stop offset="1" stop-color="#2CC4FF"/>
+</linearGradient>
+</defs>
+<rect x="4" y="4" width="56" height="56" rx="14" fill="url(#bg)"/>
+<rect x="14" y="16" width="36" height="28" rx="6" fill="#0A0E16"/>
+<path d="M25 24H31V30L25 24Z" fill="url(#screen)"/>
+<path d="M31 30V24H39L31 30Z" fill="url(#screen)"/>
+<rect x="22" y="47" width="20" height="3" rx="1.5" fill="#1B2433"/>
+<path d="M24 13L32 7L40 13" stroke="#2CC4FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="18.5" cy="38.5" r="2.5" fill="#36F8A3"/>
+<circle cx="45.5" cy="38.5" r="2.5" fill="#2CC4FF"/>
 </svg>
