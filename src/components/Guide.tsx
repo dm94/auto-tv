@@ -10,6 +10,19 @@ export const Guide: React.FC = () => {
   const { channels, programs, currentChannelId, setCurrentChannel, isGuideOpen, closeGuide } = useStore();
   const [currentTime, setCurrentTime] = useState(new Date());
   const guideRef = useRef<HTMLDivElement>(null);
+  const channelsRef = useRef<HTMLDivElement>(null);
+
+  const handleProgramsScroll = (e: React.UIEvent<HTMLDivElement>) => {
+    if (channelsRef.current && channelsRef.current.scrollTop !== e.currentTarget.scrollTop) {
+      channelsRef.current.scrollTop = e.currentTarget.scrollTop;
+    }
+  };
+
+  const handleChannelsScroll = (e: React.UIEvent<HTMLDivElement>) => {
+    if (guideRef.current && guideRef.current.scrollTop !== e.currentTarget.scrollTop) {
+      guideRef.current.scrollTop = e.currentTarget.scrollTop;
+    }
+  };
   
   // Rango de visualización de la guía: Desde hace 1 hora hasta +4 horas
   const startViewTime = startOfHour(new Date(currentTime.getTime() - 60 * 60 * 1000));
@@ -70,7 +83,11 @@ export const Guide: React.FC = () => {
           <div className="h-16 shrink-0 border-b border-white/10 flex items-center justify-center text-zinc-500 text-xs font-bold tracking-widest uppercase">
             {t('guide.channels')}
           </div>
-          <div className="flex-1 overflow-y-auto no-scrollbar pb-32">
+          <div 
+            className="flex-1 overflow-y-auto no-scrollbar pb-32"
+            ref={channelsRef}
+            onScroll={handleChannelsScroll}
+          >
             {channels.map((channel) => {
               const Icon = (LucideIcons as any)[channel.iconName] || Tv;
               const isCurrent = channel.id === currentChannelId;
@@ -103,7 +120,11 @@ export const Guide: React.FC = () => {
         </div>
 
         {/* Área Derecha: Parrilla de Programación */}
-        <div className="flex-1 overflow-x-auto relative bg-zinc-900/50" ref={guideRef}>
+        <div 
+          className="flex-1 overflow-auto relative bg-zinc-900/50 no-scrollbar" 
+          ref={guideRef}
+          onScroll={handleProgramsScroll}
+        >
           {/* Header de Tiempo */}
           <div className="h-16 flex border-b border-white/10 sticky top-0 bg-zinc-950/90 z-10 w-max">
             {timeSlots.map((slot, i) => (
