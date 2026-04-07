@@ -6,11 +6,16 @@ import { useStore } from '../store/useStore';
 import { ListVideo, Volume2, VolumeX } from 'lucide-react';
 
 export const Home: React.FC = () => {
-  const { channelUp, channelDown, toggleGuide, isGuideOpen, volume, isMuted, volumeUp, volumeDown, toggleMute, setVolume } = useStore();
+  const { channelUp, channelDown, toggleGuide, isGuideOpen, volume, isMuted, volumeUp, volumeDown, toggleMute, setVolume, loadData, isLoading } = useStore();
+
+  useEffect(() => {
+    loadData();
+  }, [loadData]);
 
   // Manejo de teclado para hacer "zapping"
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
+      if (isLoading) return;
       // Ignorar si la guía está abierta y queremos navegar en la guía
       // (Para simplificar, permitiremos subir y bajar canal con flechas siempre)
       if (e.key === 'ArrowUp') {
@@ -36,14 +41,14 @@ export const Home: React.FC = () => {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [channelUp, channelDown, toggleGuide, isGuideOpen, volumeUp, volumeDown, toggleMute]);
+  }, [channelUp, channelDown, toggleGuide, isGuideOpen, volumeUp, volumeDown, toggleMute, isLoading]);
 
   // Manejo de scroll para hacer "zapping" (opcional pero interesante)
   useEffect(() => {
     let timeout: ReturnType<typeof setTimeout> | undefined;
     
     const handleWheel = (e: WheelEvent) => {
-      if (isGuideOpen) return;
+      if (isGuideOpen || isLoading) return;
       
       if (e.deltaY > 50) {
         channelDown();
@@ -66,7 +71,18 @@ export const Home: React.FC = () => {
       window.removeEventListener('wheel', throttledWheel);
       clearTimeout(timeout);
     };
-  }, [channelUp, channelDown, isGuideOpen]);
+  }, [channelDown, channelUp, isGuideOpen, isLoading]);
+
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center w-full h-screen bg-black text-white">
+        <div className="animate-pulse flex flex-col items-center">
+          <div className="w-12 h-12 border-4 border-t-red-600 border-white/20 rounded-full animate-spin mb-4"></div>
+          <p>Cargando canales...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="relative w-full h-screen bg-black overflow-hidden select-none">
