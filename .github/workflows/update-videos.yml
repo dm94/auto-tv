@@ -1,0 +1,36 @@
+name: Update YouTube Videos Daily
+
+on:
+  schedule:
+    # Ejecutar todos los días a la medianoche (00:00 UTC)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Permite ejecutar el workflow manualmente desde la interfaz de GitHub
+
+jobs:
+  update-videos:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Necesario para hacer commit de los cambios
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run update script
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/update-videos.js
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update daily youtube videos list"
+          file_pattern: "public/json/*.json"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
