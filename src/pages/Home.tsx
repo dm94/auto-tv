@@ -5,6 +5,8 @@ import { OSD } from '../components/OSD';
 import { Guide } from '../components/Guide';
 import { useStore } from '../store/useStore';
 import { ListVideo, Volume2, ChevronUp, ChevronDown } from 'lucide-react';
+import { usePageTracking } from "../lib/page-tracking";
+
 
 export const Home: React.FC = () => {
   const { t } = useTranslation();
@@ -14,6 +16,8 @@ export const Home: React.FC = () => {
   useEffect(() => {
     loadData();
   }, [loadData]);
+
+  usePageTracking();
 
   // Manejo de teclado para hacer "zapping"
   useEffect(() => {
