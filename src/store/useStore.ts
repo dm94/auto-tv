@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { Channel, Program, VideoAsset } from '../types';
 import { generateProgramsForChannel } from '../utils/programs';
+import { sendEvent, AnalyticsEvent } from '../lib/page-tracking';
 
 interface AppState {
   // Canales y Programación estática
@@ -83,22 +84,30 @@ export const useStore = create<AppState>((set, get) => ({
   setCurrentChannel: (id: string) => {
     set({ currentChannelId: id, isGuideOpen: false });
     get().showOSD();
+    const channel = get().channels.find(c => c.id === id);
+    if (channel) {
+      sendEvent(AnalyticsEvent.CHANNEL_CHANGE, { channelId: channel.id, channelName: channel.name });
+    }
   },
   
   channelUp: () => {
     const { channels, currentChannelId } = get();
     const currentIndex = channels.findIndex(c => c.id === currentChannelId);
     const nextIndex = (currentIndex + 1) % channels.length;
-    set({ currentChannelId: channels[nextIndex].id });
+    const nextChannel = channels[nextIndex];
+    set({ currentChannelId: nextChannel.id });
     get().showOSD();
+    sendEvent(AnalyticsEvent.CHANNEL_CHANGE, { channelId: nextChannel.id, channelName: nextChannel.name });
   },
   
   channelDown: () => {
     const { channels, currentChannelId } = get();
     const currentIndex = channels.findIndex(c => c.id === currentChannelId);
     const prevIndex = (currentIndex - 1 + channels.length) % channels.length;
-    set({ currentChannelId: channels[prevIndex].id });
+    const prevChannel = channels[prevIndex];
+    set({ currentChannelId: prevChannel.id });
     get().showOSD();
+    sendEvent(AnalyticsEvent.CHANNEL_CHANGE, { channelId: prevChannel.id, channelName: prevChannel.name });
   },
   
   toggleGuide: () => set((state) => ({ isGuideOpen: !state.isGuideOpen })),
