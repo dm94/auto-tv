@@ -4,11 +4,11 @@ import { Player } from '../components/Player';
 import { OSD } from '../components/OSD';
 import { Guide } from '../components/Guide';
 import { useStore } from '../store/useStore';
-import { ListVideo } from 'lucide-react';
+import { ListVideo, VolumeX } from 'lucide-react';
 
 export const Home: React.FC = () => {
   const { t } = useTranslation();
-  const { channelUp, channelDown, toggleGuide, isGuideOpen, volumeUp, volumeDown, toggleMute, loadData, isLoading } = useStore();
+  const { channelUp, channelDown, toggleGuide, isGuideOpen, volumeUp, volumeDown, toggleMute, loadData, isLoading, hasInteracted, setHasInteracted, isMuted } = useStore();
 
   useEffect(() => {
     loadData();
@@ -75,6 +75,64 @@ export const Home: React.FC = () => {
     };
   }, [channelDown, channelUp, isGuideOpen, isLoading]);
 
+  const [touchStart, setTouchStart] = React.useState<{x: number, y: number} | null>(null);
+  const [touchEnd, setTouchEnd] = React.useState<{x: number, y: number} | null>(null);
+
+  const minSwipeDistance = 50;
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    setTouchEnd(null);
+    setTouchStart({
+      x: e.targetTouches[0].clientX,
+      y: e.targetTouches[0].clientY
+    });
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    setTouchEnd({
+      x: e.targetTouches[0].clientX,
+      y: e.targetTouches[0].clientY
+    });
+  };
+
+  const onTouchEndEvent = () => {
+    if (!touchStart || !touchEnd) return;
+    
+    const distanceX = touchStart.x - touchEnd.x;
+    const distanceY = touchStart.y - touchEnd.y;
+    
+    // Si el movimiento fue más vertical que horizontal
+    if (Math.abs(distanceY) > Math.abs(distanceX)) {
+      if (distanceY > minSwipeDistance) {
+        // Swipe Up -> Siguiente canal (como en TikTok)
+        channelUp();
+      } else if (distanceY < -minSwipeDistance) {
+        // Swipe Down -> Canal anterior
+        channelDown();
+      }
+    } else {
+      // Swipe Horizontal opcional (ej: volumen o menú)
+      if (distanceX > minSwipeDistance) {
+        // Swipe Left
+        toggleGuide();
+      } else if (distanceX < -minSwipeDistance) {
+        // Swipe Right
+        // toggleGuide(); // o algo más
+      }
+    }
+  };
+
+  const handleInteraction = () => {
+    if (!hasInteracted) {
+      setHasInteracted();
+      if (useStore.getState().isMuted) {
+        toggleMute();
+      }
+    } else {
+      useStore.getState().showOSD();
+    }
+  };
+
   if (isLoading) {
     return (
       <div className="flex items-center justify-center w-full h-screen bg-black text-white">
@@ -87,28 +145,40 @@ export const Home: React.FC = () => {
   }
 
   return (
-    <div className="relative w-full h-screen bg-black overflow-hidden select-none">
+    <div 
+      className="relative w-full h-screen bg-black overflow-hidden select-none"
+      onClick={handleInteraction}
+    >
       <Player />
       <OSD />
       <Guide />
 
-      {/* Controles Táctiles/Mouse en pantalla (opcional, para móvil o sin teclado) */}
+      {/* Capa de interacción inicial para unmute en móvil */}
+      {!hasInteracted && isMuted && (
+        <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-black/40 backdrop-blur-sm pointer-events-none">
+          <div className="bg-black/80 p-6 rounded-3xl border border-white/10 flex flex-col items-center shadow-2xl animate-pulse">
+            <VolumeX className="w-16 h-16 text-white mb-4" />
+            <h2 className="text-white text-xl sm:text-2xl font-bold">{t('home.tapToUnmute', 'Toca para activar el sonido')}</h2>
+          </div>
+        </div>
+      )}
+
+      {/* Controles Táctiles/Mouse en pantalla para hacer Zapping */}
       {!isGuideOpen && (
         <>
-          <button 
-            className="absolute top-0 left-0 right-0 h-1/4 opacity-0 hover:opacity-10 transition-opacity bg-gradient-to-b from-white/20 to-transparent z-20 cursor-n-resize"
-            onClick={channelUp}
-            title={t('home.prevChannel')}
-          />
-          <button 
-            className="absolute bottom-0 left-0 right-0 h-1/4 opacity-0 hover:opacity-10 transition-opacity bg-gradient-to-t from-white/20 to-transparent z-20 cursor-s-resize"
-            onClick={channelDown}
-            title={t('home.nextChannel')}
+          <div 
+            className="absolute inset-0 z-20"
+            onTouchStart={onTouchStart}
+            onTouchMove={onTouchMove}
+            onTouchEnd={onTouchEndEvent}
           />
           
           <button 
             className="absolute bottom-6 right-6 sm:bottom-8 sm:right-8 bg-black/60 hover:bg-black/80 backdrop-blur-md p-3 sm:p-4 rounded-full border border-white/10 text-white z-30 transition-all shadow-2xl hover:scale-110 active:scale-95 group pointer-events-auto"
-            onClick={toggleGuide}
+            onClick={(e) => {
+              e.stopPropagation();
+              toggleGuide();
+            }}
             title={t('home.tvGuide')}
           >
             <ListVideo className="w-6 h-6 sm:w-7 sm:h-7 group-hover:text-red-500 transition-colors" />

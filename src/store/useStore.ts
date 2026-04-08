@@ -14,6 +14,7 @@ interface AppState {
   osdVisible: boolean;
   volume: number;
   isMuted: boolean;
+  hasInteracted: boolean;
   
   // Acciones
   loadData: () => Promise<void>;
@@ -28,6 +29,7 @@ interface AppState {
   volumeUp: () => void;
   volumeDown: () => void;
   toggleMute: () => void;
+  setHasInteracted: () => void;
   
   // Helpers
   getCurrentProgram: (channelId: string, timestamp: number) => Program | undefined;
@@ -42,7 +44,10 @@ export const useStore = create<AppState>((set, get) => ({
   isGuideOpen: false,
   osdVisible: true, // Mostrar inicialmente
   volume: 1, // 100%
-  isMuted: false,
+  isMuted: true, // Empezar muteado para permitir autoplay en mobile
+  hasInteracted: false,
+
+  setHasInteracted: () => set({ hasInteracted: true }),
 
   loadData: async () => {
     try {
