@@ -5,14 +5,14 @@ declare global {
   interface Window {
     plausible?: (
       event: string,
-      options?: { props?: Record<string, any> },
+      options?: { props?: Record<string, unknown> },
     ) => void;
   }
 }
 
 // Type for event props
 interface EventProps {
-  [key: string]: string | number | boolean | Record<string, any>;
+  [key: string]: string | number | boolean | Record<string, unknown>;
 }
 
 export const initPlausible = (): void => {
@@ -42,6 +42,7 @@ export const usePageTracking = (): void => {
 
 export enum AnalyticsEvent {
   CLICK = "click",
+  CHANNEL_CHANGE = "channel_change",
 }
 
 /**

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useStore } from '../store/useStore';
-import { format, addMinutes, startOfHour, differenceInMinutes, isBefore, isAfter } from 'date-fns';
+import { format, addMinutes, startOfHour, differenceInMinutes } from 'date-fns';
 import { X, Tv, Clock, MonitorPlay } from 'lucide-react';
 import * as LucideIcons from 'lucide-react';
 
@@ -45,6 +45,7 @@ export const Guide: React.FC = () => {
       const scrollPosition = (minutesFromStart * PIXELS_PER_MINUTE) - (window.innerWidth / 3);
       guideRef.current.scrollTo({ left: Math.max(0, scrollPosition), behavior: 'smooth' });
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isGuideOpen]);
 
   // Actualizar la línea de tiempo cada minuto
@@ -90,7 +91,7 @@ export const Guide: React.FC = () => {
             onScroll={handleChannelsScroll}
           >
             {channels.map((channel) => {
-              const Icon = (LucideIcons as any)[channel.iconName] || Tv;
+              const Icon = (LucideIcons as unknown as Record<string, React.ElementType>)[channel.iconName] || Tv;
               const isCurrent = channel.id === currentChannelId;
               
               return (
@@ -150,7 +151,7 @@ export const Guide: React.FC = () => {
 
           {/* Programas */}
           <div className="relative w-max pb-32">
-            {channels.map((channel, idx) => {
+            {channels.map((channel) => {
               // Filtrar programas del canal que caen en el rango de visión
               const channelPrograms = programs.filter(p => 
                 p.channelId === channel.id &&
