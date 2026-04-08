@@ -42,7 +42,7 @@ export const useStore = create<AppState>((set, get) => ({
   isGuideOpen: false,
   osdVisible: true, // Mostrar inicialmente
   volume: 1, // 100%
-  isMuted: false,
+  isMuted: true, // Empezar muteado para permitir autoplay en móviles
 
   loadData: async () => {
     try {

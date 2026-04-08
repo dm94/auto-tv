@@ -67,6 +67,7 @@ export const Player: React.FC = () => {
           youtube: {
             playerVars: {
               autoplay: 1,
+              mute: isMuted ? 1 : 0,
               controls: 0,
               disablekb: 1,
               modestbranding: 1,
