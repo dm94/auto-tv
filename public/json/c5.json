@@ -30,23 +30,23 @@
     "durationSeconds": 5635
   },
   {
-    "videoId": "uRzoVP63RiI",
-    "title": "Curso de Desarrollo con IA 2026 - Día 1 - Aprende a usar la IA como un programador profesional",
-    "durationSeconds": 5654
-  },
-  {
     "videoId": "ELSm-G201Ls",
     "title": "Curso de HTML y CSS desde CERO (Completo)",
     "durationSeconds": 0
   },
   {
-    "videoId": "3nYLTiY5skU",
-    "title": "Curso COMPLETO de HTML GRATIS desde cero: SEO, semántica y más",
-    "durationSeconds": 6851
+    "videoId": "uRzoVP63RiI",
+    "title": "Curso de Desarrollo con IA 2026 - Día 1 - Aprende a usar la IA como un programador profesional",
+    "durationSeconds": 5654
   },
   {
     "videoId": "1i6S3eMmzJQ",
     "title": "Curso de Desarrollo WEB desde CERO (Completo) - Gratis",
     "durationSeconds": 204
+  },
+  {
+    "videoId": "3nYLTiY5skU",
+    "title": "Curso COMPLETO de HTML GRATIS desde cero: SEO, semántica y más",
+    "durationSeconds": 6851
   }
 ]
