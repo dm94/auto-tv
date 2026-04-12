@@ -7,10 +7,12 @@ const __dirname = path.dirname(__filename);
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
 const MAX_RESULTS = 10;
+const MAX_AGE_DAYS = 7;
+const SEARCH_ORDER = 'viewCount';
 
 // Categories based on files c1.json through c8.json
 const CATEGORIES = [
-  { file: 'c1.json', query: 'noticias en vivo español' },
+  { file: 'c1.json', query: 'noticias en español' },
   { file: 'c2.json', query: 'tecnología review gadgets español' },
   { file: 'c3.json', query: 'deportes resumen futbol' },
   { file: 'c4.json', query: 'lofi hip hop radio chill' },
@@ -25,8 +27,10 @@ async function fetchVideosForCategory(query) {
     throw new Error('YOUTUBE_API_KEY is not defined in environment variables.');
   }
 
+  const publishedAfter = getPublishedAfterIso(MAX_AGE_DAYS);
+
   // 1. Search for videos (Search API)
-  const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=${encodeURIComponent(query)}&maxResults=${MAX_RESULTS}&key=${API_KEY}`;
+  const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=${encodeURIComponent(query)}&maxResults=${MAX_RESULTS}&order=${SEARCH_ORDER}&publishedAfter=${encodeURIComponent(publishedAfter)}&key=${API_KEY}`;
   const searchRes = await fetch(searchUrl);
 
   if (!searchRes.ok) {
@@ -55,6 +59,13 @@ async function fetchVideosForCategory(query) {
       durationSeconds: parseIsoDuration(item.contentDetails.duration)
     };
   });
+}
+
+function getPublishedAfterIso(days) {
+  const millisecondsPerDay = 24 * 60 * 60 * 1000;
+  const publishedAfterDate = new Date(Date.now() - days * millisecondsPerDay);
+
+  return publishedAfterDate.toISOString();
 }
 
 // Converts ISO 8601 duration (e.g. PT1H2M10S) to seconds
