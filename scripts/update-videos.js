@@ -12,12 +12,12 @@ const SEARCH_ORDER = 'viewCount';
 
 // Categories based on files c1.json through c8.json
 const CATEGORIES = [
-  { file: 'c1.json', query: 'noticias en español' },
-  { file: 'c2.json', query: 'tecnología review gadgets español' },
+  { file: 'c1.json', query: 'noticias españa, economía en español' },
+  { file: 'c2.json', query: 'tecnología gadgets español' },
   { file: 'c3.json', query: 'deportes resumen futbol' },
-  { file: 'c4.json', query: 'lofi hip hop radio chill' },
-  { file: 'c5.json', query: 'programación web tutorial español' },
-  { file: 'c6.json', query: 'gameplay español' },
+  { file: 'c4.json', query: 'lofi radio chill' },
+  { file: 'c5.json', query: 'programación novedades tutorial español' },
+  { file: 'c6.json', query: 'videojuegos novedades gameplay español' },
   { file: 'c7.json', query: 'inteligencia artificial noticias español' },
   { file: 'c8.json', query: 'vlog viaje rutina saludable español' }
 ];
