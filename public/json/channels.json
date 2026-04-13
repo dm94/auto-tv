@@ -1,10 +1,130 @@
 [
-  { "id": "c1", "number": 1, "name": "Noticias 24/7", "category": "Noticias", "iconName": "Newspaper", "color": "#dc2626" },
-  { "id": "c2", "number": 2, "name": "Tech Talk", "category": "Tecnología", "iconName": "Cpu", "color": "#2563eb" },
-  { "id": "c3", "number": 3, "name": "Sports Hub", "category": "Deportes", "iconName": "Trophy", "color": "#16a34a" },
-  { "id": "c4", "number": 4, "name": "Lofi Beats", "category": "Música", "iconName": "Music", "color": "#9333ea" },
-  { "id": "c5", "number": 5, "name": "Code & Dev", "category": "Programación", "iconName": "Code", "color": "#f59e0b" },
-  { "id": "c6", "number": 6, "name": "Gaming Arena", "category": "Gaming", "iconName": "Gamepad2", "color": "#8b5cf6" },
-  { "id": "c7", "number": 7, "name": "AI & ML", "category": "Tecnología", "iconName": "Bot", "color": "#0d9488" },
-  { "id": "c8", "number": 8, "name": "Lifestyle", "category": "Lifestyle", "iconName": "Coffee", "color": "#f43f5e" }
+  {
+    "id": "c1",
+    "number": 1,
+    "name": "Noticias 24/7",
+    "category": "Noticias",
+    "iconName": "Newspaper",
+    "color": "#dc2626"
+  },
+  {
+    "id": "c2",
+    "number": 2,
+    "name": "Tech Talk",
+    "category": "Tecnología",
+    "iconName": "Cpu",
+    "color": "#2563eb"
+  },
+  {
+    "id": "c3",
+    "number": 3,
+    "name": "Sports Hub",
+    "category": "Deportes",
+    "iconName": "Trophy",
+    "color": "#16a34a"
+  },
+  {
+    "id": "c4",
+    "number": 4,
+    "name": "Lofi Beats",
+    "category": "Música",
+    "iconName": "Music",
+    "color": "#9333ea"
+  },
+  {
+    "id": "c5",
+    "number": 5,
+    "name": "Code & Dev",
+    "category": "Programación",
+    "iconName": "Code",
+    "color": "#f59e0b"
+  },
+  {
+    "id": "c6",
+    "number": 6,
+    "name": "Gaming Arena",
+    "category": "Gaming",
+    "iconName": "Gamepad2",
+    "color": "#8b5cf6"
+  },
+  {
+    "id": "c7",
+    "number": 7,
+    "name": "AI & ML",
+    "category": "Tecnología",
+    "iconName": "Bot",
+    "color": "#0d9488"
+  },
+  {
+    "id": "c8",
+    "number": 8,
+    "name": "Lifestyle",
+    "category": "Lifestyle",
+    "iconName": "Coffee",
+    "color": "#f43f5e"
+  },
+  {
+    "id": "c9",
+    "number": 9,
+    "name": "DocuVision",
+    "category": "Documentales",
+    "iconName": "BookOpen",
+    "color": "#0891b2"
+  },
+  {
+    "id": "c10",
+    "number": 10,
+    "name": "Cine y Series",
+    "category": "Entretenimiento",
+    "iconName": "Film",
+    "color": "#ef4444"
+  },
+  {
+    "id": "c11",
+    "number": 11,
+    "name": "Motor Max",
+    "category": "Motor",
+    "iconName": "Car",
+    "color": "#f97316"
+  },
+  {
+    "id": "c12",
+    "number": 12,
+    "name": "Sabor TV",
+    "category": "Comida",
+    "iconName": "UtensilsCrossed",
+    "color": "#ea580c"
+  },
+  {
+    "id": "c13",
+    "number": 13,
+    "name": "Risas en Vivo",
+    "category": "Comedia",
+    "iconName": "Laugh",
+    "color": "#eab308"
+  },
+  {
+    "id": "c14",
+    "number": 14,
+    "name": "DIY Hacks",
+    "category": "Bricolaje",
+    "iconName": "Wrench",
+    "color": "#22c55e"
+  },
+  {
+    "id": "c15",
+    "number": 15,
+    "name": "Cine Clásico",
+    "category": "Cine",
+    "iconName": "Clapperboard",
+    "color": "#7c3aed"
+  },
+  {
+    "id": "c16",
+    "number": 16,
+    "name": "Música Total",
+    "category": "Música",
+    "iconName": "Music4",
+    "color": "#0ea5e9"
+  }
 ]
