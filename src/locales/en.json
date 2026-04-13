@@ -6,7 +6,9 @@
       "nextChannel": "Next Channel (Down Arrow)",
       "tvGuide": "TV Guide (G)",
       "mute": "Mute (M)",
-      "volume": "Volume (Left/Right Arrows or +/-)"
+      "volume": "Volume (Left/Right Arrows or +/-)",
+      "enterFullscreen": "Enter Fullscreen (F)",
+      "exitFullscreen": "Exit Fullscreen (F)"
     },
     "guide": {
       "title": "TV Guide",

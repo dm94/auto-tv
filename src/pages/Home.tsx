@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Player } from '../components/Player';
 import { OSD } from '../components/OSD';
 import { Guide } from '../components/Guide';
 import { useStore } from '../store/useStore';
-import { ListVideo, Volume2, ChevronUp, ChevronDown } from 'lucide-react';
+import { ListVideo, Volume2, ChevronUp, ChevronDown, Maximize2, Minimize2 } from 'lucide-react';
 import { usePageTracking } from "../lib/page-tracking";
 
 
@@ -12,12 +12,40 @@ export const Home: React.FC = () => {
   const { t } = useTranslation();
   const { channelUp, channelDown, toggleGuide, isGuideOpen, volumeUp, volumeDown, toggleMute, loadData, isLoading, showOSD, isMuted, osdVisible } = useStore();
   const [touchStart, setTouchStart] = useState<number | null>(null);
+  const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  const handleFullscreenChange = useCallback(() => {
+    setIsFullscreen(document.fullscreenElement !== null);
+  }, []);
+
+  const toggleFullscreen = useCallback(async () => {
+    const targetElement = containerRef.current;
+
+    if (!targetElement) {
+      return;
+    }
+
+    if (document.fullscreenElement) {
+      await document.exitFullscreen();
+      return;
+    }
+
+    await targetElement.requestFullscreen();
+  }, []);
 
   useEffect(() => {
     loadData();
   }, [loadData]);
 
   usePageTracking();
+
+  useEffect(() => {
+    window.addEventListener('fullscreenchange', handleFullscreenChange);
+    return () => {
+      window.removeEventListener('fullscreenchange', handleFullscreenChange);
+    };
+  }, [handleFullscreenChange]);
 
   // Manejo de teclado para hacer "zapping"
   useEffect(() => {
@@ -40,7 +68,16 @@ export const Home: React.FC = () => {
       } else if (e.key === 'm' || e.key === 'M') {
         e.preventDefault();
         toggleMute();
-      } else if (e.key === 'g' || e.key === 'G' || e.key === 'Escape') {
+      } else if (e.key === 'f' || e.key === 'F') {
+        e.preventDefault();
+        void toggleFullscreen();
+      } else if (e.key === 'Escape') {
+        if (document.fullscreenElement) {
+          return;
+        }
+        e.preventDefault();
+        toggleGuide();
+      } else if (e.key === 'g' || e.key === 'G') {
         e.preventDefault();
         toggleGuide();
       } else {
@@ -50,7 +87,7 @@ export const Home: React.FC = () => {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [channelUp, channelDown, toggleGuide, isGuideOpen, volumeUp, volumeDown, toggleMute, isLoading, showOSD]);
+  }, [channelUp, channelDown, toggleGuide, isGuideOpen, volumeUp, volumeDown, toggleMute, isLoading, showOSD, toggleFullscreen]);
 
   // Manejo de scroll para hacer "zapping" (opcional pero interesante)
   useEffect(() => {
@@ -123,6 +160,7 @@ export const Home: React.FC = () => {
 
   return (
     <div 
+      ref={containerRef}
       className="relative w-full h-screen bg-black overflow-hidden select-none"
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
@@ -164,7 +202,20 @@ export const Home: React.FC = () => {
             </button>
           )}
 
-          <button 
+          <button
+            className="absolute bottom-20 right-6 sm:bottom-24 sm:right-8 bg-black/60 hover:bg-black/80 backdrop-blur-md p-3 sm:p-4 rounded-full border border-white/10 text-white z-30 transition-all shadow-2xl hover:scale-110 active:scale-95 group pointer-events-auto"
+            onClick={(e) => { e.stopPropagation(); void toggleFullscreen(); }}
+            title={isFullscreen ? t('home.exitFullscreen') : t('home.enterFullscreen')}
+            aria-label={isFullscreen ? t('home.exitFullscreen') : t('home.enterFullscreen')}
+          >
+            {isFullscreen ? (
+              <Minimize2 className="w-6 h-6 sm:w-7 sm:h-7 group-hover:text-red-500 transition-colors" />
+            ) : (
+              <Maximize2 className="w-6 h-6 sm:w-7 sm:h-7 group-hover:text-red-500 transition-colors" />
+            )}
+          </button>
+
+          <button
             className="absolute bottom-6 right-6 sm:bottom-8 sm:right-8 bg-black/60 hover:bg-black/80 backdrop-blur-md p-3 sm:p-4 rounded-full border border-white/10 text-white z-30 transition-all shadow-2xl hover:scale-110 active:scale-95 group pointer-events-auto"
             onClick={(e) => { e.stopPropagation(); toggleGuide(); }}
             title={t('home.tvGuide')}

@@ -6,7 +6,9 @@
       "nextChannel": "Canal Siguiente (Flecha Abajo)",
       "tvGuide": "Guía de TV (G)",
       "mute": "Silenciar (M)",
-      "volume": "Volumen (Flechas Izquierda/Derecha o +/-)"
+      "volume": "Volumen (Flechas Izquierda/Derecha o +/-)",
+      "enterFullscreen": "Pantalla completa (F)",
+      "exitFullscreen": "Salir de pantalla completa (F)"
     },
     "guide": {
       "title": "Guía de TV",
