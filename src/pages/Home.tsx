@@ -9,8 +9,26 @@ import { usePageTracking } from "../lib/page-tracking";
 
 
 export const Home: React.FC = () => {
+  const CHANNEL_QUERY_PARAM = 'channel';
   const { t } = useTranslation();
-  const { channelUp, channelDown, toggleGuide, isGuideOpen, volumeUp, volumeDown, toggleMute, loadData, isLoading, showOSD, isMuted, osdVisible } = useStore();
+  const requestedChannelIdRef = useRef<string | null>(
+    new URLSearchParams(window.location.search).get(CHANNEL_QUERY_PARAM)
+  );
+  const {
+    channelUp,
+    channelDown,
+    toggleGuide,
+    isGuideOpen,
+    volumeUp,
+    volumeDown,
+    toggleMute,
+    loadData,
+    isLoading,
+    showOSD,
+    isMuted,
+    osdVisible,
+    currentChannelId
+  } = useStore();
   const [touchStart, setTouchStart] = useState<number | null>(null);
   const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -35,10 +53,26 @@ export const Home: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    loadData();
+    loadData(requestedChannelIdRef.current);
   }, [loadData]);
 
   usePageTracking();
+
+  useEffect(() => {
+    if (isLoading || !currentChannelId) {
+      return;
+    }
+
+    const nextUrl = new URL(window.location.href);
+    const currentQueryChannel = nextUrl.searchParams.get(CHANNEL_QUERY_PARAM);
+
+    if (currentQueryChannel === currentChannelId) {
+      return;
+    }
+
+    nextUrl.searchParams.set(CHANNEL_QUERY_PARAM, currentChannelId);
+    window.history.replaceState(null, '', `${nextUrl.pathname}${nextUrl.search}${nextUrl.hash}`);
+  }, [currentChannelId, isLoading]);
 
   useEffect(() => {
     window.addEventListener('fullscreenchange', handleFullscreenChange);

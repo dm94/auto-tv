@@ -17,7 +17,7 @@ interface AppState {
   isMuted: boolean;
   
   // Acciones
-  loadData: () => Promise<void>;
+  loadData: (preferredChannelId?: string | null) => Promise<void>;
   setCurrentChannel: (id: string) => void;
   channelUp: () => void;
   channelDown: () => void;
@@ -45,7 +45,7 @@ export const useStore = create<AppState>((set, get) => ({
   volume: 1, // 100%
   isMuted: true, // Empezar muteado para permitir autoplay en móviles
 
-  loadData: async () => {
+  loadData: async (preferredChannelId?: string | null) => {
     try {
       const response = await fetch('/json/channels.json');
       const channels: Channel[] = await response.json();
@@ -69,10 +69,14 @@ export const useStore = create<AppState>((set, get) => ({
       const programsArrays = await Promise.all(channelPromises);
       allPrograms = programsArrays.flat();
       
+      const initialChannelId =
+        channels.find((channel) => channel.id === preferredChannelId)?.id ??
+        (channels.length > 0 ? channels[0].id : '');
+
       set({ 
         channels, 
         programs: allPrograms, 
-        currentChannelId: channels.length > 0 ? channels[0].id : '',
+        currentChannelId: initialChannelId,
         isLoading: false 
       });
     } catch (error) {
