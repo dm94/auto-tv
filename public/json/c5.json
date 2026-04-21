@@ -5,6 +5,11 @@
     "durationSeconds": 966
   },
   {
+    "videoId": "p2WA672HrdI",
+    "title": "La forma CORRECTA de programar con IA en 2026: Spec Driven Development",
+    "durationSeconds": 1110
+  },
+  {
     "videoId": "2gO8WyctqMk",
     "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
     "durationSeconds": 4087
@@ -15,29 +20,14 @@
     "durationSeconds": 59
   },
   {
-    "videoId": "BdWfEZ2aTAw",
-    "title": "🟡 Te Explico Cómo REALMENTE Debes Usar la IA para Programar",
-    "durationSeconds": 793
-  },
-  {
     "videoId": "ydR9eDXIdQM",
     "title": "La IA se rebela de nuevo: ¡Cursor se negó a escribir código!",
     "durationSeconds": 92
   },
   {
-    "videoId": "-Zr_XUwlCno",
-    "title": "Revisión de proyectos de programación, noticias de tecnología y más #NullPointerExceptionLive",
-    "durationSeconds": 4233
-  },
-  {
-    "videoId": "YjzZjE8Y6I8",
-    "title": "TRUCO CLAUDE para crear dashboards sin programar ⚙️#ia #ai #inteligenciaartificial #chatgpt #bigdata",
-    "durationSeconds": 108
-  },
-  {
-    "videoId": "d8cCSohFcug",
-    "title": "CLAUDE EXPLICADO FÁCIL #ia #ai #inteligenciaartificial #chatgpt #bigdata #data #bilbao #llm",
-    "durationSeconds": 148
+    "videoId": "OJvGed_Nwe4",
+    "title": "500 PROYECTOS para PRACTICAR programación",
+    "durationSeconds": 19
   },
   {
     "videoId": "d2uLyxZS27c",
@@ -48,5 +38,15 @@
     "videoId": "yb2GB1ic9SY",
     "title": "¿Python o RStudio? 🧐",
     "durationSeconds": 59
+  },
+  {
+    "videoId": "d8cCSohFcug",
+    "title": "CLAUDE EXPLICADO FÁCIL #ia #ai #inteligenciaartificial #chatgpt #bigdata #data #bilbao #llm",
+    "durationSeconds": 148
+  },
+  {
+    "videoId": "BdWfEZ2aTAw",
+    "title": "🟡 Te Explico Cómo REALMENTE Debes Usar la IA para Programar",
+    "durationSeconds": 793
   }
 ]
