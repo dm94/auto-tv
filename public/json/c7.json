@@ -5,6 +5,11 @@
     "durationSeconds": 2268
   },
   {
+    "videoId": "EvauKuWaNmk",
+    "title": "Mis Agentes OpenClaw están empezando a putearse entre ellos 😡",
+    "durationSeconds": 1445
+  },
+  {
     "videoId": "TowZAHSwsKI",
     "title": "🚨 NOTICIAS IA 🚨: ¿OpenAI ya tiene AGI? 🚀 🔥",
     "durationSeconds": 1950
@@ -15,11 +20,6 @@
     "durationSeconds": 1999
   },
   {
-    "videoId": "EqcgmG-8j0I",
-    "title": "🚨 NOTICIAS IA 🚨: Clawdbot, la IA que lee tus emails, escribe por ti y toma decisiones sola 🤖🦞",
-    "durationSeconds": 2126
-  },
-  {
     "videoId": "oSWnT4Nk3AI",
     "title": "🚨 NOTICIAS IA 🚨: Google lanza Gemini 3.1 y es el nuevo Rey de la IA 🤖🔥",
     "durationSeconds": 2492
@@ -28,6 +28,11 @@
     "videoId": "L8mzVdLGuKg",
     "title": "🚨 NOTICIAS IA 🚨: Google demuestra que la IA ya puede descubrir nueva ciencia 🧠🤖",
     "durationSeconds": 2185
+  },
+  {
+    "videoId": "EqcgmG-8j0I",
+    "title": "🚨 NOTICIAS IA 🚨: Clawdbot, la IA que lee tus emails, escribe por ti y toma decisiones sola 🤖🦞",
+    "durationSeconds": 2126
   },
   {
     "videoId": "eq3MN0nFTOI",
@@ -43,10 +48,5 @@
     "videoId": "ExjZZfHSD2U",
     "title": "🚨 NOTICIAS IA 🚨: Queda expuesto el código de Anthropic 😱❌",
     "durationSeconds": 2187
-  },
-  {
-    "videoId": "w0Kutkd_scI",
-    "title": "🚨 NOTICIAS IA 🚨: Anthropic lanza Opus 4.6 y OpenAI responde con GPT-5.3 Codex 💣💥",
-    "durationSeconds": 2292
   }
 ]

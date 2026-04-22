@@ -1,13 +1,13 @@
 [
   {
-    "videoId": "_cUNP0C4KSc",
-    "title": "La Nueva Interfaz para Programar con IA",
-    "durationSeconds": 966
-  },
-  {
     "videoId": "p2WA672HrdI",
     "title": "La forma CORRECTA de programar con IA en 2026: Spec Driven Development",
     "durationSeconds": 1110
+  },
+  {
+    "videoId": "_cUNP0C4KSc",
+    "title": "La Nueva Interfaz para Programar con IA",
+    "durationSeconds": 966
   },
   {
     "videoId": "2gO8WyctqMk",
@@ -20,14 +20,19 @@
     "durationSeconds": 59
   },
   {
-    "videoId": "ydR9eDXIdQM",
-    "title": "La IA se rebela de nuevo: ¡Cursor se negó a escribir código!",
-    "durationSeconds": 92
-  },
-  {
     "videoId": "OJvGed_Nwe4",
     "title": "500 PROYECTOS para PRACTICAR programación",
     "durationSeconds": 19
+  },
+  {
+    "videoId": "-Zr_XUwlCno",
+    "title": "Revisión de proyectos de programación, noticias de tecnología y más #NullPointerExceptionLive",
+    "durationSeconds": 4233
+  },
+  {
+    "videoId": "ydR9eDXIdQM",
+    "title": "La IA se rebela de nuevo: ¡Cursor se negó a escribir código!",
+    "durationSeconds": 92
   },
   {
     "videoId": "d2uLyxZS27c",
@@ -35,14 +40,9 @@
     "durationSeconds": 28
   },
   {
-    "videoId": "yb2GB1ic9SY",
-    "title": "¿Python o RStudio? 🧐",
-    "durationSeconds": 59
-  },
-  {
-    "videoId": "d8cCSohFcug",
-    "title": "CLAUDE EXPLICADO FÁCIL #ia #ai #inteligenciaartificial #chatgpt #bigdata #data #bilbao #llm",
-    "durationSeconds": 148
+    "videoId": "Wb_Vp96tmnk",
+    "title": "Claude Code desde cero: Todo lo que necesitas saber en 2026",
+    "durationSeconds": 3047
   },
   {
     "videoId": "BdWfEZ2aTAw",
