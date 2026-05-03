@@ -25,11 +25,6 @@
     "durationSeconds": 721
   },
   {
-    "videoId": "7ZnMwYjAhQY",
-    "title": "🟢 Noticias económicas de la semana",
-    "durationSeconds": 722
-  },
-  {
     "videoId": "xS7WJqz-3cY",
     "title": "🟢 Noticias económicas de la semana",
     "durationSeconds": 722
@@ -48,5 +43,10 @@
     "videoId": "dUMMcB7kD0I",
     "title": "🟢 Las principales noticias económicas de la semana",
     "durationSeconds": 721
+  },
+  {
+    "videoId": "j6ul19BZyFE",
+    "title": "La economía española crece al doble de velocidad que Europa. ¿Está tirando del carro europeo?",
+    "durationSeconds": 50
   }
 ]
