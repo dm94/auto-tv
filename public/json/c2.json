@@ -15,11 +15,6 @@
     "durationSeconds": 460
   },
   {
-    "videoId": "CqaN031BePM",
-    "title": "70 GADGETS MÁS GENIALES DE AMAZON QUE VAS A QUERER COMPRAR",
-    "durationSeconds": 1507
-  },
-  {
     "videoId": "Xdh2yVa6hvc",
     "title": "Los GADGETS que no sabías que necesitabas 🤩",
     "durationSeconds": 373
@@ -30,14 +25,14 @@
     "durationSeconds": 1275
   },
   {
+    "videoId": "CqaN031BePM",
+    "title": "70 GADGETS MÁS GENIALES DE AMAZON QUE VAS A QUERER COMPRAR",
+    "durationSeconds": 1507
+  },
+  {
     "videoId": "xCWRw_455rs",
     "title": "50 gadgets tecnológicos baratos de Amazon que realmente funcionan",
     "durationSeconds": 1758
-  },
-  {
-    "videoId": "PcMROLJZkkQ",
-    "title": "¡Probé Los Gadgets Tecnológicos Más Vendidos De Temu!",
-    "durationSeconds": 1609
   },
   {
     "videoId": "XtYACOe1tFg",
@@ -48,5 +43,10 @@
     "videoId": "97i7Vu3o93A",
     "title": "30 Increíbles Gadgets para Casa Inteligente en Amazon en 2025",
     "durationSeconds": 1695
+  },
+  {
+    "videoId": "PcMROLJZkkQ",
+    "title": "¡Probé Los Gadgets Tecnológicos Más Vendidos De Temu!",
+    "durationSeconds": 1609
   }
 ]
