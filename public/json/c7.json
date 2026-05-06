@@ -1,8 +1,13 @@
 [
   {
     "videoId": "VVLYJf2t88c",
-    "title": "🚨 NOTICIAS IA 🚨: Trump quiere Mythos solo para él (y nadie más) 🔒🧠",
+    "title": "🚨 NOTICIAS IA 🚨: Mythos está causando problemas 🔒🧠",
     "durationSeconds": 2616
+  },
+  {
+    "videoId": "n8bdMyQzV0U",
+    "title": "Se acabó el chollo de la IA",
+    "durationSeconds": 527
   },
   {
     "videoId": "5UxnZCKNtXI",
@@ -20,9 +25,9 @@
     "durationSeconds": 2492
   },
   {
-    "videoId": "eq3MN0nFTOI",
-    "title": "🚨 NOTICIAS IA 🚨: OpenAI responde a Mythos… y se viene algo muy grande 🔥🚀",
-    "durationSeconds": 2182
+    "videoId": "rYHvJZ9bsCM",
+    "title": "🚨 NOTICIAS IA 🚨: Lo nuevo de Elon Musk: 1 TERAVATIO de IA para enviarlo al espacio (TERAFAB)",
+    "durationSeconds": 1999
   },
   {
     "videoId": "EqcgmG-8j0I",
@@ -30,23 +35,18 @@
     "durationSeconds": 2126
   },
   {
-    "videoId": "L8mzVdLGuKg",
-    "title": "🚨 NOTICIAS IA 🚨: Google demuestra que la IA ya puede descubrir nueva ciencia 🧠🤖",
-    "durationSeconds": 2185
-  },
-  {
-    "videoId": "rYHvJZ9bsCM",
-    "title": "🚨 NOTICIAS IA 🚨: Lo nuevo de Elon Musk: 1 TERAVATIO de IA para enviarlo al espacio (TERAFAB)",
-    "durationSeconds": 1999
-  },
-  {
-    "videoId": "b2ZgHgQJ1Ug",
-    "title": "🚨 NOTICIAS IA 🚨: Anthropic lanza Opus 4.7, Claude Design y ya domina la IA 🤖🔥",
-    "durationSeconds": 2268
-  },
-  {
     "videoId": "jPMB0LwqUww",
     "title": "🚨 NOTICIAS IA 🚨: Gemini llega a Gmail y lo convierte en un asistente que piensa y decide por ti 📩🧠",
     "durationSeconds": 2382
+  },
+  {
+    "videoId": "qww2_mpx5mQ",
+    "title": "Investigador de IA renuncia a Anthropic y advierte riesgo global por la inteligencia artificial",
+    "durationSeconds": 136
+  },
+  {
+    "videoId": "ExjZZfHSD2U",
+    "title": "🚨 NOTICIAS IA 🚨: Queda expuesto el código de Anthropic 😱❌",
+    "durationSeconds": 2187
   }
 ]
