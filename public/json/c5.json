@@ -35,11 +35,6 @@
     "durationSeconds": 148
   },
   {
-    "videoId": "-Zr_XUwlCno",
-    "title": "Revisión de proyectos de programación, noticias de tecnología y más #NullPointerExceptionLive",
-    "durationSeconds": 4233
-  },
-  {
     "videoId": "9hCEdghCf2Y",
     "title": "Mantente al día con noticias y novedades de programación con daily dev - #programacionenespañol",
     "durationSeconds": 33
@@ -48,5 +43,10 @@
     "videoId": "gjoSB9gzw-c",
     "title": "TRUCO de IA: haz que ChatGPT te conozca y trabaje para ti #ia #ai #chatgpt #bigdata #data #bilbao",
     "durationSeconds": 152
+  },
+  {
+    "videoId": "d2uLyxZS27c",
+    "title": "¿Cuál es la Mejor IA para Programar?",
+    "durationSeconds": 28
   }
 ]
