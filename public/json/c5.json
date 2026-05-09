@@ -15,11 +15,6 @@
     "durationSeconds": 59
   },
   {
-    "videoId": "BdWfEZ2aTAw",
-    "title": "🟡 Te Explico Cómo REALMENTE Debes Usar la IA para Programar",
-    "durationSeconds": 793
-  },
-  {
     "videoId": "2gO8WyctqMk",
     "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
     "durationSeconds": 4087
@@ -35,18 +30,23 @@
     "durationSeconds": 148
   },
   {
+    "videoId": "lEhOg8oVpjU",
+    "title": "Chao Claude Code! Codex 2.0 ahora hace Más, Mejor y GRATIS 💣",
+    "durationSeconds": 1867
+  },
+  {
     "videoId": "9hCEdghCf2Y",
     "title": "Mantente al día con noticias y novedades de programación con daily dev - #programacionenespañol",
     "durationSeconds": 33
   },
   {
-    "videoId": "gjoSB9gzw-c",
-    "title": "TRUCO de IA: haz que ChatGPT te conozca y trabaje para ti #ia #ai #chatgpt #bigdata #data #bilbao",
-    "durationSeconds": 152
-  },
-  {
     "videoId": "d2uLyxZS27c",
     "title": "¿Cuál es la Mejor IA para Programar?",
     "durationSeconds": 28
+  },
+  {
+    "videoId": "gjoSB9gzw-c",
+    "title": "TRUCO de IA: haz que ChatGPT te conozca y trabaje para ti #ia #ai #chatgpt #bigdata #data #bilbao",
+    "durationSeconds": 152
   }
 ]
