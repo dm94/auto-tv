@@ -1,18 +1,8 @@
 [
   {
-    "videoId": "5Izihr4BCbo",
-    "title": "Por qué 2026 será clave para la Inteligencia Artificial y la transformación de la economía global",
-    "durationSeconds": 775
-  },
-  {
-    "videoId": "UR6GJaPxaG4",
-    "title": "Mythos: la IA de Anthropic que corrige errores… y también los crea • FRANCE 24 Español",
-    "durationSeconds": 391
-  },
-  {
-    "videoId": "6a-CAO5mud4",
-    "title": "Así será la nueva IA portátil, sin pantalla y sin smartphone",
-    "durationSeconds": 318
+    "videoId": "4xS5ctymXBs",
+    "title": "La Casa Blanca regula la IA",
+    "durationSeconds": 2495
   },
   {
     "videoId": "F-9xnuGPWGI",
@@ -20,9 +10,24 @@
     "durationSeconds": 939
   },
   {
-    "videoId": "n8bdMyQzV0U",
-    "title": "Se acabó el chollo de la IA",
-    "durationSeconds": 527
+    "videoId": "6a-CAO5mud4",
+    "title": "Así será la nueva IA portátil, sin pantalla y sin smartphone",
+    "durationSeconds": 318
+  },
+  {
+    "videoId": "5Izihr4BCbo",
+    "title": "Por qué 2026 será clave para la Inteligencia Artificial y la transformación de la economía global",
+    "durationSeconds": 775
+  },
+  {
+    "videoId": "qww2_mpx5mQ",
+    "title": "Investigador de IA renuncia a Anthropic y advierte riesgo global por la inteligencia artificial",
+    "durationSeconds": 136
+  },
+  {
+    "videoId": "NEd1hU_Cn6s",
+    "title": "Videos generados con IA inundan internet: Cada vez es más difícil identificarlos",
+    "durationSeconds": 104
   },
   {
     "videoId": "tz8FE5fCrXw",
@@ -30,9 +35,9 @@
     "durationSeconds": 1430
   },
   {
-    "videoId": "DLQVTRGQp5U",
-    "title": "Estos son los trabajos propensos a desaparecer por la inteligencia artificial | Noticias Telemundo",
-    "durationSeconds": 52
+    "videoId": "UR6GJaPxaG4",
+    "title": "Mythos: la IA de Anthropic que corrige errores… y también los crea • FRANCE 24 Español",
+    "durationSeconds": 391
   },
   {
     "videoId": "JIECrFujBEY",
@@ -40,13 +45,8 @@
     "durationSeconds": 128
   },
   {
-    "videoId": "eXB20zZqm04",
-    "title": "La IA de Google DESPIERTA y Revela el CÓDIGO SECRETO",
-    "durationSeconds": 725
-  },
-  {
-    "videoId": "cmep2mdip3k",
-    "title": "Tutorial de inteligencia artificial para cualquier persona",
-    "durationSeconds": 1160
+    "videoId": "n8bdMyQzV0U",
+    "title": "Se acabó el chollo de la IA",
+    "durationSeconds": 527
   }
 ]
