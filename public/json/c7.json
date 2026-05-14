@@ -1,5 +1,10 @@
 [
   {
+    "videoId": "RUDBhauy7d4",
+    "title": "Conecto la nueva voz de ChatGPT a mis Agentes: ahora hablan de verdad",
+    "durationSeconds": 1126
+  },
+  {
     "videoId": "4xS5ctymXBs",
     "title": "Noticias IA | La Casa Blanca regula la IA",
     "durationSeconds": 2495
@@ -15,29 +20,9 @@
     "durationSeconds": 136
   },
   {
-    "videoId": "6a-CAO5mud4",
-    "title": "Así será la nueva IA portátil, sin pantalla y sin smartphone",
-    "durationSeconds": 318
-  },
-  {
     "videoId": "UR6GJaPxaG4",
     "title": "Mythos: la IA de Anthropic que corrige errores… y también los crea • FRANCE 24 Español",
     "durationSeconds": 391
-  },
-  {
-    "videoId": "NEd1hU_Cn6s",
-    "title": "Videos generados con IA inundan internet: Cada vez es más difícil identificarlos",
-    "durationSeconds": 104
-  },
-  {
-    "videoId": "RUDBhauy7d4",
-    "title": "Conecto la nueva voz de ChatGPT a mis Agentes: ahora hablan de verdad",
-    "durationSeconds": 1126
-  },
-  {
-    "videoId": "3ALqJB0gGIk",
-    "title": "Inteligencia artificial para desenmascarar a los agentes de inmigración de EE. UU.",
-    "durationSeconds": 83
   },
   {
     "videoId": "JIECrFujBEY",
@@ -45,8 +30,23 @@
     "durationSeconds": 128
   },
   {
-    "videoId": "bb_LabCbSzI",
-    "title": "Burbuja de la Inteligencia Artificial - ¿la mayor estafa económica?",
-    "durationSeconds": 586
+    "videoId": "6a-CAO5mud4",
+    "title": "Así será la nueva IA portátil, sin pantalla y sin smartphone",
+    "durationSeconds": 318
+  },
+  {
+    "videoId": "NEd1hU_Cn6s",
+    "title": "Videos generados con IA inundan internet: Cada vez es más difícil identificarlos",
+    "durationSeconds": 104
+  },
+  {
+    "videoId": "hw7kVyxaPD0",
+    "title": "Trabajadores de datos: el costo humano de la inteligencia",
+    "durationSeconds": 746
+  },
+  {
+    "videoId": "3ALqJB0gGIk",
+    "title": "Inteligencia artificial para desenmascarar a los agentes de inmigración de EE. UU.",
+    "durationSeconds": 83
   }
 ]
