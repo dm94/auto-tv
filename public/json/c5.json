@@ -5,21 +5,6 @@
     "durationSeconds": 1110
   },
   {
-    "videoId": "0fexIOD9YVg",
-    "title": "¿Qué tecnologías de programación aprender en 2026?",
-    "durationSeconds": 979
-  },
-  {
-    "videoId": "OJvGed_Nwe4",
-    "title": "500 PROYECTOS para PRACTICAR programación",
-    "durationSeconds": 19
-  },
-  {
-    "videoId": "-Zr_XUwlCno",
-    "title": "Revisión de proyectos de programación, noticias de tecnología y más #NullPointerExceptionLive",
-    "durationSeconds": 4233
-  },
-  {
     "videoId": "2gO8WyctqMk",
     "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
     "durationSeconds": 4087
@@ -30,14 +15,9 @@
     "durationSeconds": 966
   },
   {
-    "videoId": "d8cCSohFcug",
-    "title": "CLAUDE EXPLICADO FÁCIL #ia #ai #inteligenciaartificial #chatgpt #bigdata #data #bilbao #llm",
-    "durationSeconds": 148
-  },
-  {
-    "videoId": "d2uLyxZS27c",
-    "title": "¿Cuál es la Mejor IA para Programar?",
-    "durationSeconds": 28
+    "videoId": "0fexIOD9YVg",
+    "title": "¿Qué tecnologías de programación aprender en 2026?",
+    "durationSeconds": 979
   },
   {
     "videoId": "R9z_EucMBEE",
@@ -45,8 +25,28 @@
     "durationSeconds": 59
   },
   {
+    "videoId": "OJvGed_Nwe4",
+    "title": "500 PROYECTOS para PRACTICAR programación",
+    "durationSeconds": 19
+  },
+  {
     "videoId": "BdWfEZ2aTAw",
     "title": "🟡 Te Explico Cómo REALMENTE Debes Usar la IA para Programar",
     "durationSeconds": 793
+  },
+  {
+    "videoId": "-JsFHZ4W1Y8",
+    "title": "Como programar listas publicitarias y logo en vMix | Autotvmix",
+    "durationSeconds": 260
+  },
+  {
+    "videoId": "-Zr_XUwlCno",
+    "title": "Revisión de proyectos de programación, noticias de tecnología y más #NullPointerExceptionLive",
+    "durationSeconds": 4233
+  },
+  {
+    "videoId": "d8cCSohFcug",
+    "title": "CLAUDE EXPLICADO FÁCIL #ia #ai #inteligenciaartificial #chatgpt #bigdata #data #bilbao #llm",
+    "durationSeconds": 148
   }
 ]
