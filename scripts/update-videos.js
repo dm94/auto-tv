@@ -8,6 +8,42 @@ const __dirname = path.dirname(__filename);
 const API_KEY = process.env.YOUTUBE_API_KEY;
 const MAX_RESULTS = 10;
 
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+async function fetchWithRetry(url, options = {}, maxRetries = 3) {
+  let lastError;
+
+  for (let i = 0; i <= maxRetries; i++) {
+    try {
+      const res = await fetch(url, options);
+
+      if (res.status === 429) {
+        lastError = new Error(`Rate limited (429): ${res.statusText}`);
+        if (i === maxRetries) break;
+
+        const delay = Math.pow(2, i) * 1000;
+        console.warn(`⚠️ Rate limited (429). Retrying in ${delay}ms... (Attempt ${i + 1}/${maxRetries})`);
+        await sleep(delay);
+        continue;
+      }
+
+      if (!res.ok) {
+        throw new Error(`HTTP error! status: ${res.status} ${res.statusText}`);
+      }
+
+      return await res.json();
+    } catch (error) {
+      lastError = error;
+      if (i === maxRetries) break;
+      const delay = Math.pow(2, i) * 1000;
+      console.warn(`⚠️ Fetch error: ${error.message}. Retrying in ${delay}ms... (Attempt ${i + 1}/${maxRetries})`);
+      await sleep(delay);
+    }
+  }
+
+  throw lastError;
+}
+
 // Categories based on files c1.json through c16.json
 const CATEGORIES = [
   { file: 'c1.json', query: 'noticias españa, economía en español' },
@@ -35,26 +71,15 @@ async function fetchVideosForCategory(query) {
 
   // 1. Search for videos (Search API)
   const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=${encodeURIComponent(query)}&maxResults=${MAX_RESULTS}&key=${API_KEY}`;
-  const searchRes = await fetch(searchUrl);
+  const searchData = await fetchWithRetry(searchUrl);
 
-  if (!searchRes.ok) {
-    throw new Error(`Error fetching search for "${query}": ${searchRes.statusText}`);
-  }
-
-  const searchData = await searchRes.json();
   const videoIds = searchData.items.map((item) => item.id.videoId);
 
   if (videoIds.length === 0) return [];
 
   // 2. Get video durations (Videos API)
   const videosUrl = `https://www.googleapis.com/youtube/v3/videos?part=contentDetails,snippet&id=${videoIds.join(',')}&key=${API_KEY}`;
-  const videosRes = await fetch(videosUrl);
-
-  if (!videosRes.ok) {
-    throw new Error(`Error fetching details for "${query}": ${videosRes.statusText}`);
-  }
-
-  const videosData = await videosRes.json();
+  const videosData = await fetchWithRetry(videosUrl);
 
   return videosData.items.map((item) => {
     return {
@@ -100,6 +125,8 @@ async function main() {
     console.log(`Searching videos for: ${category.query}...`);
     try {
       const videos = await fetchVideosForCategory(category.query);
+      // Wait 1 second between categories to avoid burst rate limits
+      await sleep(1000);
       if (videos.length > 0) {
         const filePath = path.join(outputDir, category.file);
         fs.writeFileSync(filePath, JSON.stringify(videos, null, 2) + '\n', 'utf8');
