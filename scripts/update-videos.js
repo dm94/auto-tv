@@ -121,6 +121,8 @@ async function main() {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
+  const failedCategories = [];
+
   for (const category of CATEGORIES) {
     console.log(`Searching videos for: ${category.query}...`);
     try {
@@ -136,11 +138,18 @@ async function main() {
       }
     } catch (error) {
       console.error(`❌ Error updating ${category.file}:`, error.message);
-      process.exit(1);
+      failedCategories.push({ category: category.file, error: error.message });
     }
   }
 
-  console.log('🎉 Update completed.');
+  if (failedCategories.length > 0) {
+    console.warn('\n⚠️ Some categories failed to update:');
+    for (const fail of failedCategories) {
+      console.warn(`- ${fail.category}: ${fail.error}`);
+    }
+  }
+
+  console.log('\n🎉 Update process finished.');
 }
 
 main();
