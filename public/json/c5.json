@@ -15,11 +15,6 @@
     "durationSeconds": 19
   },
   {
-    "videoId": "R9z_EucMBEE",
-    "title": "¿Vale la pena aprender programación en 2024?",
-    "durationSeconds": 59
-  },
-  {
     "videoId": "BdWfEZ2aTAw",
     "title": "🟡 Te Explico Cómo REALMENTE Debes Usar la IA para Programar",
     "durationSeconds": 793
@@ -30,14 +25,9 @@
     "durationSeconds": 966
   },
   {
-    "videoId": "Hub1M5Uw6tY",
-    "title": "\"No aprendas a programar, mejor estudia esto...\" Dice el CEO de NVIDIA Jensen Huang",
-    "durationSeconds": 639
-  },
-  {
-    "videoId": "2gO8WyctqMk",
-    "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
-    "durationSeconds": 4087
+    "videoId": "R9z_EucMBEE",
+    "title": "¿Vale la pena aprender programación en 2024?",
+    "durationSeconds": 59
   },
   {
     "videoId": "-Zr_XUwlCno",
@@ -48,5 +38,15 @@
     "videoId": "d2uLyxZS27c",
     "title": "¿Cuál es la Mejor IA para Programar?",
     "durationSeconds": 28
+  },
+  {
+    "videoId": "2gO8WyctqMk",
+    "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
+    "durationSeconds": 4087
+  },
+  {
+    "videoId": "n_LhTlzYotI",
+    "title": "Codex NO ES SOLO PARA PROGRAMAR. Así puedes crear agentes",
+    "durationSeconds": 1031
   }
 ]
