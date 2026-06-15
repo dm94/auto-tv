@@ -5,6 +5,11 @@
     "durationSeconds": 1110
   },
   {
+    "videoId": "jczKNcFtFoo",
+    "title": "Las mejores novedades de programación del 2021 | #laFunción 7x15",
+    "durationSeconds": 3584
+  },
+  {
     "videoId": "R9z_EucMBEE",
     "title": "¿Vale la pena aprender programación en 2024?",
     "durationSeconds": 59
@@ -20,9 +25,9 @@
     "durationSeconds": 19
   },
   {
-    "videoId": "d2uLyxZS27c",
-    "title": "¿Cuál es la Mejor IA para Programar?",
-    "durationSeconds": 28
+    "videoId": "-Zr_XUwlCno",
+    "title": "Revisión de proyectos de programación, noticias de tecnología y más #NullPointerExceptionLive",
+    "durationSeconds": 4233
   },
   {
     "videoId": "0fexIOD9YVg",
@@ -30,23 +35,18 @@
     "durationSeconds": 979
   },
   {
+    "videoId": "d2uLyxZS27c",
+    "title": "¿Cuál es la Mejor IA para Programar?",
+    "durationSeconds": 28
+  },
+  {
     "videoId": "2gO8WyctqMk",
     "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
     "durationSeconds": 4087
   },
   {
-    "videoId": "-Zr_XUwlCno",
-    "title": "Revisión de proyectos de programación, noticias de tecnología y más #NullPointerExceptionLive",
-    "durationSeconds": 4233
-  },
-  {
-    "videoId": "mN9_1QEv5eI",
-    "title": "Noticias programación: Loop Engineering, Fable 5, Apple WWDC 2026… #CaféCodely",
-    "durationSeconds": 4817
-  },
-  {
-    "videoId": "92uv2v8jCyw",
-    "title": "Nadie esperaba esto de Microsoft",
-    "durationSeconds": 939
+    "videoId": "K-knvsn4FZc",
+    "title": "OpenAI lanza Codex, un agente de IA para ayudarte a programar… ¡directamente desde la terminal!\n\nLe",
+    "durationSeconds": 20
   }
 ]
