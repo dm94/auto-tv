@@ -1,10 +1,5 @@
 [
   {
-    "videoId": "6LCjjVj3oAY",
-    "title": "TADEO 4: El Explorador y la Lámpara Maravillosa Tráiler Español Latino (2026)",
-    "durationSeconds": 123
-  },
-  {
     "videoId": "GaMmw2t9g24",
     "title": "EL CORAZÓN DE LA BESTIA Tráiler Español Latino (2026) Brad Pitt",
     "durationSeconds": 166
@@ -15,19 +10,14 @@
     "durationSeconds": 167
   },
   {
-    "videoId": "c0G-77eD5CE",
-    "title": "EN EL CORAZÓN DE LA BESTIA Tráiler Español (2026) Brad Pitt",
-    "durationSeconds": 161
+    "videoId": "6LCjjVj3oAY",
+    "title": "TADEO 4: El Explorador y la Lámpara Maravillosa Tráiler Español Latino (2026)",
+    "durationSeconds": 123
   },
   {
-    "videoId": "Yez2XGsQxIo",
-    "title": "SHREK 5 Tráiler Latino (2027)",
+    "videoId": "0rlPXNOXqnA",
+    "title": "SHREK 5 Tráiler Español Latino (2027)",
     "durationSeconds": 97
-  },
-  {
-    "videoId": "6ESEtbv0J8M",
-    "title": "VÉRTIGO 2: PUNTO MUERTO Tráiler Español Latino (2026)",
-    "durationSeconds": 95
   },
   {
     "videoId": "BarrDiaPOrk",
@@ -40,13 +30,23 @@
     "durationSeconds": 82
   },
   {
-    "videoId": "pqLSLoDkZWE",
-    "title": "Spider-Man Un Nuevo Día | Tráiler Oficial | Doblado",
-    "durationSeconds": 156
-  },
-  {
     "videoId": "mnkbWWab-7M",
     "title": "La última casa | Greta Lee y Wagner Moura | Tráiler oficial | Netflix",
     "durationSeconds": 155
+  },
+  {
+    "videoId": "ofDCai3bWIs",
+    "title": "HECHIZO: BIENVENIDOS A HEXE Tráiler Español Latino (2026) Disney",
+    "durationSeconds": 160
+  },
+  {
+    "videoId": "2Z5bhjoisCM",
+    "title": "SHREK 5 Tráiler Español Latino (2027)",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "Yez2XGsQxIo",
+    "title": "SHREK 5 Tráiler Latino (2027)",
+    "durationSeconds": 97
   }
 ]
