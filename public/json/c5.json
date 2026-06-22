@@ -5,9 +5,19 @@
     "durationSeconds": 1110
   },
   {
+    "videoId": "jczKNcFtFoo",
+    "title": "Las mejores novedades de programación del 2021 | #laFunción 7x15",
+    "durationSeconds": 3584
+  },
+  {
     "videoId": "OJvGed_Nwe4",
     "title": "500 PROYECTOS para PRACTICAR programación",
     "durationSeconds": 19
+  },
+  {
+    "videoId": "n_LhTlzYotI",
+    "title": "Codex NO ES SOLO PARA PROGRAMAR. Así puedes crear agentes",
+    "durationSeconds": 1031
   },
   {
     "videoId": "_cUNP0C4KSc",
@@ -20,14 +30,14 @@
     "durationSeconds": 59
   },
   {
-    "videoId": "ydR9eDXIdQM",
-    "title": "La IA se rebela de nuevo: ¡Cursor se negó a escribir código!",
-    "durationSeconds": 92
-  },
-  {
     "videoId": "d2uLyxZS27c",
     "title": "¿Cuál es la Mejor IA para Programar?",
     "durationSeconds": 28
+  },
+  {
+    "videoId": "ydR9eDXIdQM",
+    "title": "La IA se rebela de nuevo: ¡Cursor se negó a escribir código!",
+    "durationSeconds": 92
   },
   {
     "videoId": "Hub1M5Uw6tY",
@@ -38,15 +48,5 @@
     "videoId": "2gO8WyctqMk",
     "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
     "durationSeconds": 4087
-  },
-  {
-    "videoId": "n_LhTlzYotI",
-    "title": "Codex NO ES SOLO PARA PROGRAMAR. Así puedes crear agentes",
-    "durationSeconds": 1031
-  },
-  {
-    "videoId": "-Zr_XUwlCno",
-    "title": "Revisión de proyectos de programación, noticias de tecnología y más #NullPointerExceptionLive",
-    "durationSeconds": 4233
   }
 ]
