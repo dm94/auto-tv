@@ -10,19 +10,14 @@
     "durationSeconds": 3584
   },
   {
-    "videoId": "OJvGed_Nwe4",
-    "title": "500 PROYECTOS para PRACTICAR programación",
-    "durationSeconds": 19
-  },
-  {
     "videoId": "n_LhTlzYotI",
     "title": "Codex NO ES SOLO PARA PROGRAMAR. Así puedes crear agentes",
     "durationSeconds": 1031
   },
   {
-    "videoId": "_cUNP0C4KSc",
-    "title": "La Nueva Interfaz para Programar con IA",
-    "durationSeconds": 966
+    "videoId": "OJvGed_Nwe4",
+    "title": "500 PROYECTOS para PRACTICAR programación",
+    "durationSeconds": 19
   },
   {
     "videoId": "R9z_EucMBEE",
@@ -30,9 +25,9 @@
     "durationSeconds": 59
   },
   {
-    "videoId": "d2uLyxZS27c",
-    "title": "¿Cuál es la Mejor IA para Programar?",
-    "durationSeconds": 28
+    "videoId": "_cUNP0C4KSc",
+    "title": "La Nueva Interfaz para Programar con IA",
+    "durationSeconds": 966
   },
   {
     "videoId": "ydR9eDXIdQM",
@@ -40,13 +35,18 @@
     "durationSeconds": 92
   },
   {
-    "videoId": "Hub1M5Uw6tY",
-    "title": "\"No aprendas a programar, mejor estudia esto...\" Dice el CEO de NVIDIA Jensen Huang",
-    "durationSeconds": 639
+    "videoId": "BdWfEZ2aTAw",
+    "title": "🟡 Te Explico Cómo REALMENTE Debes Usar la IA para Programar",
+    "durationSeconds": 793
   },
   {
     "videoId": "2gO8WyctqMk",
     "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
     "durationSeconds": 4087
+  },
+  {
+    "videoId": "Hub1M5Uw6tY",
+    "title": "\"No aprendas a programar, mejor estudia esto...\" Dice el CEO de NVIDIA Jensen Huang",
+    "durationSeconds": 639
   }
 ]
