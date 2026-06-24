@@ -5,14 +5,14 @@
     "durationSeconds": 1712
   },
   {
-    "videoId": "_eqQpGucDkQ",
-    "title": "DEBATE DE EMERGENCIA: Mythos ha cambiado las reglas del juego",
-    "durationSeconds": 6547
-  },
-  {
     "videoId": "flWI0iiuwpc",
     "title": "DIRECTO | El TeledIArio del FUTURO, frente al DESAFÍO de la INTELIGENCIA ARTIFICIAL | RTVE Noticias",
     "durationSeconds": 1389
+  },
+  {
+    "videoId": "_eqQpGucDkQ",
+    "title": "DEBATE DE EMERGENCIA: Mythos ha cambiado las reglas del juego",
+    "durationSeconds": 6547
   },
   {
     "videoId": "H0AbFyN5Aj4",
@@ -20,19 +20,14 @@
     "durationSeconds": 188
   },
   {
-    "videoId": "zo76Dmxaneo",
-    "title": "NOTICIAS IA: El Papa pide desarmar la Inteligencia Artificial",
-    "durationSeconds": 1784
+    "videoId": "TowZAHSwsKI",
+    "title": "🚨 NOTICIAS IA 🚨: ¿OpenAI ya tiene AGI? 🚀 🔥",
+    "durationSeconds": 1950
   },
   {
-    "videoId": "EqcgmG-8j0I",
-    "title": "🚨 NOTICIAS IA 🚨: Clawdbot, la IA que lee tus emails, escribe por ti y toma decisiones sola 🤖🦞",
-    "durationSeconds": 2126
-  },
-  {
-    "videoId": "L8mzVdLGuKg",
-    "title": "🚨 NOTICIAS IA 🚨: Google demuestra que la IA ya puede descubrir nueva ciencia 🧠🤖",
-    "durationSeconds": 2185
+    "videoId": "-6EBFDX5QZ4",
+    "title": "Bolsas mundiales se tiñen de rojo por dudas sobre la inteligencia artificial y las tasas de interés",
+    "durationSeconds": 378
   },
   {
     "videoId": "ci9L_4qQdyc",
@@ -45,8 +40,13 @@
     "durationSeconds": 1407
   },
   {
-    "videoId": "w0Kutkd_scI",
-    "title": "🚨 NOTICIAS IA 🚨: Anthropic lanza Opus 4.6 y OpenAI responde con GPT-5.3 Codex 💣💥",
-    "durationSeconds": 2292
+    "videoId": "EqcgmG-8j0I",
+    "title": "🚨 NOTICIAS IA 🚨: Clawdbot, la IA que lee tus emails, escribe por ti y toma decisiones sola 🤖🦞",
+    "durationSeconds": 2126
+  },
+  {
+    "videoId": "L8mzVdLGuKg",
+    "title": "🚨 NOTICIAS IA 🚨: Google demuestra que la IA ya puede descubrir nueva ciencia 🧠🤖",
+    "durationSeconds": 2185
   }
 ]
