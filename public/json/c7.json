@@ -5,11 +5,6 @@
     "durationSeconds": 1564
   },
   {
-    "videoId": "xssKp0jIrY8",
-    "title": "¿Burbuja bursátil (o no) en la Inteligencia Artificial? • FRANCE 24 Español",
-    "durationSeconds": 416
-  },
-  {
     "videoId": "vAKKKYw4_Rk",
     "title": "El lado oscuro de la IA: explotación del ser humano y la naturaleza | DW Documental",
     "durationSeconds": 3251
@@ -35,18 +30,23 @@
     "durationSeconds": 1999
   },
   {
-    "videoId": "zo76Dmxaneo",
-    "title": "NOTICIAS IA: El Papa pide desarmar la Inteligencia Artificial",
-    "durationSeconds": 1784
-  },
-  {
     "videoId": "L8mzVdLGuKg",
     "title": "🚨 NOTICIAS IA 🚨: Google demuestra que la IA ya puede descubrir nueva ciencia 🧠🤖",
     "durationSeconds": 2185
   },
   {
+    "videoId": "zo76Dmxaneo",
+    "title": "NOTICIAS IA: El Papa pide desarmar la Inteligencia Artificial",
+    "durationSeconds": 1784
+  },
+  {
     "videoId": "w0Kutkd_scI",
     "title": "🚨 NOTICIAS IA 🚨: Anthropic lanza Opus 4.6 y OpenAI responde con GPT-5.3 Codex 💣💥",
     "durationSeconds": 2292
+  },
+  {
+    "videoId": "jPMB0LwqUww",
+    "title": "🚨 NOTICIAS IA 🚨: Gemini llega a Gmail y lo convierte en un asistente que piensa y decide por ti 📩🧠",
+    "durationSeconds": 2382
   }
 ]
