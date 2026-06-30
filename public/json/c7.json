@@ -1,13 +1,18 @@
 [
   {
-    "videoId": "EBFtFTJPUw0",
-    "title": "El científico que creó la IA prohibida",
-    "durationSeconds": 1564
+    "videoId": "p9UstbK7FOA",
+    "title": "NOTICIAS IA: Nuevo modelo de ChatGPT, Sol",
+    "durationSeconds": 1945
   },
   {
-    "videoId": "vAKKKYw4_Rk",
-    "title": "El lado oscuro de la IA: explotación del ser humano y la naturaleza | DW Documental",
-    "durationSeconds": 3251
+    "videoId": "fOZ-oF9Mo-c",
+    "title": "GPT 5.6 Sol acaba de revolucionar el mundo de la inteligencia artificial",
+    "durationSeconds": 1008
+  },
+  {
+    "videoId": "kKuhHiSNb5o",
+    "title": "NOTICIAS IA: Anthropic pide parar la IA",
+    "durationSeconds": 2539
   },
   {
     "videoId": "TowZAHSwsKI",
@@ -15,14 +20,19 @@
     "durationSeconds": 1950
   },
   {
-    "videoId": "LAEl077HYXo",
-    "title": "NOTICIAS IA: Google se lo juega todo en su semana más importante",
-    "durationSeconds": 2272
+    "videoId": "zo76Dmxaneo",
+    "title": "NOTICIAS IA: El Papa pide desarmar la Inteligencia Artificial",
+    "durationSeconds": 1784
   },
   {
     "videoId": "EqcgmG-8j0I",
     "title": "🚨 NOTICIAS IA 🚨: Clawdbot, la IA que lee tus emails, escribe por ti y toma decisiones sola 🤖🦞",
     "durationSeconds": 2126
+  },
+  {
+    "videoId": "LAEl077HYXo",
+    "title": "NOTICIAS IA: Google se lo juega todo en su semana más importante",
+    "durationSeconds": 2272
   },
   {
     "videoId": "rYHvJZ9bsCM",
@@ -35,18 +45,8 @@
     "durationSeconds": 2185
   },
   {
-    "videoId": "zo76Dmxaneo",
-    "title": "NOTICIAS IA: El Papa pide desarmar la Inteligencia Artificial",
-    "durationSeconds": 1784
-  },
-  {
     "videoId": "w0Kutkd_scI",
     "title": "🚨 NOTICIAS IA 🚨: Anthropic lanza Opus 4.6 y OpenAI responde con GPT-5.3 Codex 💣💥",
     "durationSeconds": 2292
-  },
-  {
-    "videoId": "jPMB0LwqUww",
-    "title": "🚨 NOTICIAS IA 🚨: Gemini llega a Gmail y lo convierte en un asistente que piensa y decide por ti 📩🧠",
-    "durationSeconds": 2382
   }
 ]
