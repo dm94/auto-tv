@@ -5,24 +5,14 @@
     "durationSeconds": 1110
   },
   {
-    "videoId": "R9z_EucMBEE",
-    "title": "¿Vale la pena aprender programación en 2024?",
-    "durationSeconds": 59
-  },
-  {
     "videoId": "jczKNcFtFoo",
     "title": "Las mejores novedades de programación del 2021 | #laFunción 7x15",
     "durationSeconds": 3584
   },
   {
-    "videoId": "OJvGed_Nwe4",
-    "title": "500 PROYECTOS para PRACTICAR programación",
-    "durationSeconds": 19
-  },
-  {
-    "videoId": "BdWfEZ2aTAw",
-    "title": "🟡 Te Explico Cómo REALMENTE Debes Usar la IA para Programar",
-    "durationSeconds": 793
+    "videoId": "R9z_EucMBEE",
+    "title": "¿Vale la pena aprender programación en 2024?",
+    "durationSeconds": 59
   },
   {
     "videoId": "_cUNP0C4KSc",
@@ -35,11 +25,6 @@
     "durationSeconds": 1031
   },
   {
-    "videoId": "d2uLyxZS27c",
-    "title": "¿Cuál es la Mejor IA para Programar?",
-    "durationSeconds": 28
-  },
-  {
     "videoId": "2gO8WyctqMk",
     "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
     "durationSeconds": 4087
@@ -48,5 +33,20 @@
     "videoId": "-Zr_XUwlCno",
     "title": "Revisión de proyectos de programación, noticias de tecnología y más #NullPointerExceptionLive",
     "durationSeconds": 4233
+  },
+  {
+    "videoId": "ydR9eDXIdQM",
+    "title": "La IA se rebela de nuevo: ¡Cursor se negó a escribir código!",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "K-knvsn4FZc",
+    "title": "OpenAI lanza Codex, un agente de IA para ayudarte a programar… ¡directamente desde la terminal!\n\nLe",
+    "durationSeconds": 20
+  },
+  {
+    "videoId": "d8cCSohFcug",
+    "title": "CLAUDE EXPLICADO FÁCIL #ia #ai #inteligenciaartificial #chatgpt #bigdata #data #bilbao #llm",
+    "durationSeconds": 148
   }
 ]
