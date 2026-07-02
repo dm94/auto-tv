@@ -15,6 +15,11 @@
     "durationSeconds": 59
   },
   {
+    "videoId": "d2uLyxZS27c",
+    "title": "¿Cuál es la Mejor IA para Programar?",
+    "durationSeconds": 28
+  },
+  {
     "videoId": "_cUNP0C4KSc",
     "title": "La Nueva Interfaz para Programar con IA",
     "durationSeconds": 966
@@ -25,14 +30,14 @@
     "durationSeconds": 1031
   },
   {
-    "videoId": "2gO8WyctqMk",
-    "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
-    "durationSeconds": 4087
-  },
-  {
     "videoId": "-Zr_XUwlCno",
     "title": "Revisión de proyectos de programación, noticias de tecnología y más #NullPointerExceptionLive",
     "durationSeconds": 4233
+  },
+  {
+    "videoId": "2gO8WyctqMk",
+    "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
+    "durationSeconds": 4087
   },
   {
     "videoId": "ydR9eDXIdQM",
@@ -40,13 +45,8 @@
     "durationSeconds": 92
   },
   {
-    "videoId": "K-knvsn4FZc",
-    "title": "OpenAI lanza Codex, un agente de IA para ayudarte a programar… ¡directamente desde la terminal!\n\nLe",
-    "durationSeconds": 20
-  },
-  {
-    "videoId": "d8cCSohFcug",
-    "title": "CLAUDE EXPLICADO FÁCIL #ia #ai #inteligenciaartificial #chatgpt #bigdata #data #bilbao #llm",
-    "durationSeconds": 148
+    "videoId": "YCUM6SxWcyE",
+    "title": "¿Aprender a programar en 2026 será obsoleto?",
+    "durationSeconds": 133
   }
 ]
