@@ -5,24 +5,19 @@
     "durationSeconds": 1110
   },
   {
-    "videoId": "_cUNP0C4KSc",
-    "title": "La Nueva Interfaz para Programar con IA",
-    "durationSeconds": 966
-  },
-  {
-    "videoId": "n_LhTlzYotI",
-    "title": "Codex NO ES SOLO PARA PROGRAMAR. Así puedes crear agentes",
-    "durationSeconds": 1031
-  },
-  {
-    "videoId": "-Zr_XUwlCno",
-    "title": "Revisión de proyectos de programación, noticias de tecnología y más #NullPointerExceptionLive",
-    "durationSeconds": 4233
-  },
-  {
     "videoId": "jczKNcFtFoo",
     "title": "Las mejores novedades de programación del 2021 | #laFunción 7x15",
     "durationSeconds": 3584
+  },
+  {
+    "videoId": "OJvGed_Nwe4",
+    "title": "500 PROYECTOS para PRACTICAR programación",
+    "durationSeconds": 19
+  },
+  {
+    "videoId": "0fexIOD9YVg",
+    "title": "¿Qué tecnologías de programación aprender en 2026?",
+    "durationSeconds": 979
   },
   {
     "videoId": "R9z_EucMBEE",
@@ -30,14 +25,9 @@
     "durationSeconds": 59
   },
   {
-    "videoId": "2gO8WyctqMk",
-    "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
-    "durationSeconds": 4087
-  },
-  {
-    "videoId": "ndSQRgTOUwI",
-    "title": "Programación de novedades fijas",
-    "durationSeconds": 149
+    "videoId": "_cUNP0C4KSc",
+    "title": "La Nueva Interfaz para Programar con IA",
+    "durationSeconds": 966
   },
   {
     "videoId": "d2uLyxZS27c",
@@ -45,8 +35,18 @@
     "durationSeconds": 28
   },
   {
-    "videoId": "YCUM6SxWcyE",
-    "title": "¿Aprender a programar en 2026 será obsoleto?",
-    "durationSeconds": 133
+    "videoId": "ydR9eDXIdQM",
+    "title": "La IA se rebela de nuevo: ¡Cursor se negó a escribir código!",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "2gO8WyctqMk",
+    "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
+    "durationSeconds": 4087
+  },
+  {
+    "videoId": "n_LhTlzYotI",
+    "title": "Codex NO ES SOLO PARA PROGRAMAR. Así puedes crear agentes",
+    "durationSeconds": 1031
   }
 ]
