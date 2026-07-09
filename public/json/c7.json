@@ -1,8 +1,13 @@
 [
   {
     "videoId": "ClN5oGTtSmc",
-    "title": "NOTICIAS IA: Vuelve FABLE 5, la IA que asustó al Gobierno",
+    "title": "NOTICIAS IA: Anthropic relanza FABLE 5 tras asustar al Gobierno",
     "durationSeconds": 2068
+  },
+  {
+    "videoId": "wTmth7uhnwo",
+    "title": "TILLY NORWOOD, la ACTRIZ hecha con INTELIGENCIA ARTIFICIAL, PROTAGONIZARÁ su PRIMERA PELÍCULA | RTVE",
+    "durationSeconds": 104
   },
   {
     "videoId": "p9UstbK7FOA",
@@ -25,14 +30,14 @@
     "durationSeconds": 2185
   },
   {
-    "videoId": "rYHvJZ9bsCM",
-    "title": "🚨 NOTICIAS IA 🚨: Lo nuevo de Elon Musk: 1 TERAVATIO de IA para enviarlo al espacio (TERAFAB)",
-    "durationSeconds": 1999
-  },
-  {
     "videoId": "LAEl077HYXo",
     "title": "NOTICIAS IA: Google se lo juega todo en su semana más importante",
     "durationSeconds": 2272
+  },
+  {
+    "videoId": "rYHvJZ9bsCM",
+    "title": "🚨 NOTICIAS IA 🚨: Lo nuevo de Elon Musk: 1 TERAVATIO de IA para enviarlo al espacio (TERAFAB)",
+    "durationSeconds": 1999
   },
   {
     "videoId": "w0Kutkd_scI",
@@ -43,10 +48,5 @@
     "videoId": "zo76Dmxaneo",
     "title": "NOTICIAS IA: El Papa pide desarmar la Inteligencia Artificial",
     "durationSeconds": 1784
-  },
-  {
-    "videoId": "exNw9Hmti04",
-    "title": "🟢 La IA sigue destruyendo empleo tecnológico: Microsoft y Meta reducen masivamente personal",
-    "durationSeconds": 720
   }
 ]

@@ -35,11 +35,6 @@
     "durationSeconds": 28
   },
   {
-    "videoId": "-Zr_XUwlCno",
-    "title": "Revisión de proyectos de programación, noticias de tecnología y más #NullPointerExceptionLive",
-    "durationSeconds": 4233
-  },
-  {
     "videoId": "2gO8WyctqMk",
     "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
     "durationSeconds": 4087
@@ -48,5 +43,10 @@
     "videoId": "_cUNP0C4KSc",
     "title": "La Nueva Interfaz para Programar con IA",
     "durationSeconds": 966
+  },
+  {
+    "videoId": "n_LhTlzYotI",
+    "title": "Codex NO ES SOLO PARA PROGRAMAR. Así puedes crear agentes",
+    "durationSeconds": 1031
   }
 ]
