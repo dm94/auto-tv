@@ -5,11 +5,6 @@
     "durationSeconds": 1918
   },
   {
-    "videoId": "5j3j74Ep034",
-    "title": "ChatGPT Live: absolutamente brutal",
-    "durationSeconds": 761
-  },
-  {
     "videoId": "ClN5oGTtSmc",
     "title": "NOTICIAS IA: Anthropic relanza FABLE 5 tras asustar al Gobierno",
     "durationSeconds": 2068
@@ -45,8 +40,13 @@
     "durationSeconds": 1999
   },
   {
-    "videoId": "exNw9Hmti04",
-    "title": "🟢 La IA sigue destruyendo empleo tecnológico: Microsoft y Meta reducen masivamente personal",
-    "durationSeconds": 720
+    "videoId": "zo76Dmxaneo",
+    "title": "NOTICIAS IA: El Papa pide desarmar la Inteligencia Artificial",
+    "durationSeconds": 1784
+  },
+  {
+    "videoId": "w0Kutkd_scI",
+    "title": "🚨 NOTICIAS IA 🚨: Anthropic lanza Opus 4.6 y OpenAI responde con GPT-5.3 Codex 💣💥",
+    "durationSeconds": 2292
   }
 ]
