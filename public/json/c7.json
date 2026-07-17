@@ -1,8 +1,28 @@
 [
   {
+    "videoId": "oA9cuw6n_WU",
+    "title": "Por qué la IA está empujando a muchas personas a emprender e invertir",
+    "durationSeconds": 776
+  },
+  {
+    "videoId": "5Izihr4BCbo",
+    "title": "Por qué 2026 será clave para la Inteligencia Artificial y la transformación de la economía global",
+    "durationSeconds": 775
+  },
+  {
     "videoId": "55bdl1ryg0A",
     "title": "NOTICIAS IA: Anthropic descubre el J-Space, ¿el subconsciente de la IA?",
     "durationSeconds": 2019
+  },
+  {
+    "videoId": "qww2_mpx5mQ",
+    "title": "Investigador de IA renuncia a Anthropic y advierte riesgo global por la inteligencia artificial",
+    "durationSeconds": 136
+  },
+  {
+    "videoId": "m0bCoTDsR3E",
+    "title": "¿Puede la IA suponer la destrucción del capitalismo tal como lo conocemos?",
+    "durationSeconds": 357
   },
   {
     "videoId": "p28QiOvz5Cs",
@@ -10,43 +30,23 @@
     "durationSeconds": 1150
   },
   {
-    "videoId": "oA9cuw6n_WU",
-    "title": "Por qué la IA está empujando a muchas personas a emprender e invertir",
-    "durationSeconds": 776
+    "videoId": "NEd1hU_Cn6s",
+    "title": "Videos generados con IA inundan internet: Cada vez es más difícil identificarlos",
+    "durationSeconds": 104
   },
   {
-    "videoId": "p9UstbK7FOA",
-    "title": "NOTICIAS IA: Nuevo modelo de ChatGPT, Sol",
-    "durationSeconds": 1945
+    "videoId": "CYvBatB7vq8",
+    "title": "#56 - Experto en IA: Cómo Sobrevivir a la Inteligencia Artificial | Jon Hernández en Roca Project",
+    "durationSeconds": 5927
   },
   {
-    "videoId": "TowZAHSwsKI",
-    "title": "🚨 NOTICIAS IA 🚨: ¿OpenAI ya tiene AGI? 🚀 🔥",
-    "durationSeconds": 1950
+    "videoId": "3ALqJB0gGIk",
+    "title": "Inteligencia artificial para desenmascarar a los agentes de inmigración de EE. UU.",
+    "durationSeconds": 83
   },
   {
-    "videoId": "kKuhHiSNb5o",
-    "title": "NOTICIAS IA: Anthropic pide parar la IA",
-    "durationSeconds": 2539
-  },
-  {
-    "videoId": "oSWnT4Nk3AI",
-    "title": "🚨 NOTICIAS IA 🚨: Google lanza Gemini 3.1 y es el nuevo Rey de la IA 🤖🔥",
-    "durationSeconds": 2492
-  },
-  {
-    "videoId": "L8mzVdLGuKg",
-    "title": "🚨 NOTICIAS IA 🚨: Google demuestra que la IA ya puede descubrir nueva ciencia 🧠🤖",
-    "durationSeconds": 2185
-  },
-  {
-    "videoId": "ci9L_4qQdyc",
-    "title": "NOTICIAS IA: Anthropic está pagando un precio muy alto por publicar Mythos",
-    "durationSeconds": 2189
-  },
-  {
-    "videoId": "EqcgmG-8j0I",
-    "title": "🚨 NOTICIAS IA 🚨: Clawdbot, la IA que lee tus emails, escribe por ti y toma decisiones sola 🤖🦞",
-    "durationSeconds": 2126
+    "videoId": "tz8FE5fCrXw",
+    "title": "TODO ESTO PASARÁ con la Inteligencia Artificial en los siguientes 10 años",
+    "durationSeconds": 1430
   }
 ]
