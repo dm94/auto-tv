@@ -5,14 +5,39 @@
     "durationSeconds": 2520
   },
   {
+    "videoId": "XISZKmjmub0",
+    "title": "La IA se escapa de nuestro control: agentes de OpenAI hackean Hugging Face",
+    "durationSeconds": 1078
+  },
+  {
+    "videoId": "9sZ_8UB1v-U",
+    "title": "ÚLTIMA HORA | Modelos de la IA de OpenAI se descontrola y ejecutan un ciberataque a Hugging Face",
+    "durationSeconds": 64
+  },
+  {
     "videoId": "B2cVJKdmTo4",
     "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
     "durationSeconds": 106
   },
   {
-    "videoId": "6D2vnx4td98",
-    "title": "Cierran Kimi K3... ¡y China lanza otro campeón de IA!",
-    "durationSeconds": 1042
+    "videoId": "2NUHa8i7XrA",
+    "title": "China desafía a EE. UU. con su mayor ofensiva por la IA • FRANCE 24 Español",
+    "durationSeconds": 797
+  },
+  {
+    "videoId": "G2k4m67exQI",
+    "title": "China desafía a ChatGPT con una nueva IA: ¿qué es Kimi K3? • FRANCE 24 Español",
+    "durationSeconds": 368
+  },
+  {
+    "videoId": "L8mzVdLGuKg",
+    "title": "🚨 NOTICIAS IA 🚨: Google demuestra que la IA ya puede descubrir nueva ciencia 🧠🤖",
+    "durationSeconds": 2185
+  },
+  {
+    "videoId": "eq3MN0nFTOI",
+    "title": "🚨 NOTICIAS IA 🚨: OpenAI responde a Mythos… y se viene algo muy grande 🔥🚀",
+    "durationSeconds": 2182
   },
   {
     "videoId": "6QE6-0SIl5U",
@@ -23,30 +48,5 @@
     "videoId": "w0Kutkd_scI",
     "title": "🚨 NOTICIAS IA 🚨: Anthropic lanza Opus 4.6 y OpenAI responde con GPT-5.3 Codex 💣💥",
     "durationSeconds": 2292
-  },
-  {
-    "videoId": "ZRqY2tqUelI",
-    "title": "🇨🇳 NUEVA IA CHINA AMENAZA A EEUU | Presentan Kimi K3, la superinteligencia de código abierto",
-    "durationSeconds": 126
-  },
-  {
-    "videoId": "exNw9Hmti04",
-    "title": "🟢 La IA sigue destruyendo empleo tecnológico: Microsoft y Meta reducen masivamente personal",
-    "durationSeconds": 720
-  },
-  {
-    "videoId": "L8mzVdLGuKg",
-    "title": "🚨 NOTICIAS IA 🚨: Google demuestra que la IA ya puede descubrir nueva ciencia 🧠🤖",
-    "durationSeconds": 2185
-  },
-  {
-    "videoId": "PPMb_rrej5c",
-    "title": "¿Quién mandará en la inteligencia artificial? | DW Documental",
-    "durationSeconds": 5313
-  },
-  {
-    "videoId": "CDE43m3GaJ8",
-    "title": "La batalla por la IA: quién controlará el poder del siglo XXI • FRANCE 24 Español",
-    "durationSeconds": 2300
   }
 ]
