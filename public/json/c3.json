@@ -1,5 +1,10 @@
 [
   {
+    "videoId": "TpS_VzFm3DQ",
+    "title": "México vs Ecuador | Resumen y Goles | Copa Mundial de la FIFA 2026 | Telemundo Deportes",
+    "durationSeconds": 610
+  },
+  {
     "videoId": "XDZco2h-zcw",
     "title": "Francia vs. Inglaterra | Resumen y Goles | Copa Mundial de la FIFA 2026 | Telemundo Deportes",
     "durationSeconds": 608
@@ -15,11 +20,6 @@
     "durationSeconds": 1784
   },
   {
-    "videoId": "TpS_VzFm3DQ",
-    "title": "México vs Ecuador | Resumen y Goles | Copa Mundial de la FIFA 2026 | Telemundo Deportes",
-    "durationSeconds": 610
-  },
-  {
     "videoId": "o2rcGbBna80",
     "title": "Francia vs. España | Resumen Extendido | Copa Mundial de la FIFA | Telemundo Deportes",
     "durationSeconds": 1769
@@ -30,11 +30,6 @@
     "durationSeconds": 608
   },
   {
-    "videoId": "_uBMHTslVVo",
-    "title": "Francia vs. Inglaterra | Resumen Extendido | Copa Mundial de la FIFA 2026 | Telemundo Deportes",
-    "durationSeconds": 1775
-  },
-  {
     "videoId": "nNXl7zZ1ISc",
     "title": "España vs Bélgica | Resumen y Goles | Copa Mundial de la FIFA 2026 | Telemundo Deportes",
     "durationSeconds": 608
@@ -43,6 +38,11 @@
     "videoId": "QO8-LAmwS1E",
     "title": "Argentina vs Egipto | Resumen y Goles | Copa Mundial de la FIFA 2026 | Telemundo",
     "durationSeconds": 608
+  },
+  {
+    "videoId": "_uBMHTslVVo",
+    "title": "Francia vs. Inglaterra | Resumen Extendido | Copa Mundial de la FIFA 2026 | Telemundo Deportes",
+    "durationSeconds": 1775
   },
   {
     "videoId": "1N-1gMOH1Ok",
