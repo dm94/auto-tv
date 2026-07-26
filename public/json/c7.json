@@ -5,19 +5,14 @@
     "durationSeconds": 2520
   },
   {
-    "videoId": "G2k4m67exQI",
-    "title": "China desafía a ChatGPT con una nueva IA: ¿qué es Kimi K3? • FRANCE 24 Español",
-    "durationSeconds": 368
-  },
-  {
-    "videoId": "XISZKmjmub0",
-    "title": "La IA se escapa de nuestro control: agentes de OpenAI hackean Hugging Face",
-    "durationSeconds": 1078
-  },
-  {
     "videoId": "B2cVJKdmTo4",
     "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
     "durationSeconds": 106
+  },
+  {
+    "videoId": "G2k4m67exQI",
+    "title": "China desafía a ChatGPT con una nueva IA: ¿qué es Kimi K3? • FRANCE 24 Español",
+    "durationSeconds": 368
   },
   {
     "videoId": "2NUHa8i7XrA",
@@ -25,9 +20,9 @@
     "durationSeconds": 797
   },
   {
-    "videoId": "O572NscH71c",
-    "title": "Inteligência artificial da OpenAI age por conta própria e hackeia startup #g1",
-    "durationSeconds": 120
+    "videoId": "16SZTL3HFhE",
+    "title": "La IA se ESCAPÓ del laboratorio y hackeó una empresa 😳",
+    "durationSeconds": 179
   },
   {
     "videoId": "9sZ_8UB1v-U",
@@ -45,8 +40,13 @@
     "durationSeconds": 2182
   },
   {
-    "videoId": "PsFF4xR69HM",
-    "title": "¡Incidente en OpenAI enciende las alarmas! ¿La inteligencia artificial puede actuar por su cuenta?",
-    "durationSeconds": 492
+    "videoId": "6QE6-0SIl5U",
+    "title": "Videollamadas terminaron en robos: así cayó banda que usaba inteligencia artificial para estafar",
+    "durationSeconds": 318
+  },
+  {
+    "videoId": "w0Kutkd_scI",
+    "title": "🚨 NOTICIAS IA 🚨: Anthropic lanza Opus 4.6 y OpenAI responde con GPT-5.3 Codex 💣💥",
+    "durationSeconds": 2292
   }
 ]
