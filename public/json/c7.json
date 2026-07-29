@@ -6,18 +6,8 @@
   },
   {
     "videoId": "v2VL2f1swjw",
-    "title": "¿La inteligencia artificial podría superar a la humana en cinco años? El pronóstico de Elon Musk",
+    "title": "Elon Musk asegura que la inteligencia artificial podría superar a la humana en cinco años",
     "durationSeconds": 295
-  },
-  {
-    "videoId": "PsFF4xR69HM",
-    "title": "¡Incidente en OpenAI enciende las alarmas! ¿La inteligencia artificial puede actuar por su cuenta?",
-    "durationSeconds": 492
-  },
-  {
-    "videoId": "B2cVJKdmTo4",
-    "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
-    "durationSeconds": 106
   },
   {
     "videoId": "L8mzVdLGuKg",
@@ -25,14 +15,14 @@
     "durationSeconds": 2185
   },
   {
-    "videoId": "eq3MN0nFTOI",
-    "title": "🚨 NOTICIAS IA 🚨: OpenAI responde a Mythos… y se viene algo muy grande 🔥🚀",
-    "durationSeconds": 2182
+    "videoId": "w0Kutkd_scI",
+    "title": "🚨 NOTICIAS IA 🚨: Anthropic lanza Opus 4.6 y OpenAI responde con GPT-5.3 Codex 💣💥",
+    "durationSeconds": 2292
   },
   {
-    "videoId": "G2k4m67exQI",
-    "title": "China desafía a ChatGPT con una nueva IA: ¿qué es Kimi K3? • FRANCE 24 Español",
-    "durationSeconds": 368
+    "videoId": "ClN5oGTtSmc",
+    "title": "NOTICIAS IA: Anthropic relanza FABLE 5 tras asustar al Gobierno",
+    "durationSeconds": 2068
   },
   {
     "videoId": "p9UstbK7FOA",
@@ -40,13 +30,23 @@
     "durationSeconds": 1945
   },
   {
-    "videoId": "w0Kutkd_scI",
-    "title": "🚨 NOTICIAS IA 🚨: Anthropic lanza Opus 4.6 y OpenAI responde con GPT-5.3 Codex 💣💥",
-    "durationSeconds": 2292
+    "videoId": "ci9L_4qQdyc",
+    "title": "NOTICIAS IA: Anthropic está pagando un precio muy alto por publicar Mythos",
+    "durationSeconds": 2189
+  },
+  {
+    "videoId": "B2cVJKdmTo4",
+    "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
+    "durationSeconds": 106
   },
   {
     "videoId": "m0bCoTDsR3E",
     "title": "¿Puede la IA suponer la destrucción del capitalismo tal como lo conocemos?",
     "durationSeconds": 357
+  },
+  {
+    "videoId": "eq3MN0nFTOI",
+    "title": "🚨 NOTICIAS IA 🚨: OpenAI responde a Mythos… y se viene algo muy grande 🔥🚀",
+    "durationSeconds": 2182
   }
 ]
