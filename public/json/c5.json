@@ -5,14 +5,14 @@
     "durationSeconds": 1110
   },
   {
-    "videoId": "_cUNP0C4KSc",
-    "title": "La Nueva Interfaz para Programar con IA",
-    "durationSeconds": 966
-  },
-  {
     "videoId": "d2uLyxZS27c",
     "title": "¿Cuál es la Mejor IA para Programar?",
     "durationSeconds": 28
+  },
+  {
+    "videoId": "_cUNP0C4KSc",
+    "title": "La Nueva Interfaz para Programar con IA",
+    "durationSeconds": 966
   },
   {
     "videoId": "0fexIOD9YVg",
@@ -35,18 +35,18 @@
     "durationSeconds": 3584
   },
   {
-    "videoId": "k2M5d6m9hpk",
-    "title": "😎 Novedades de Programación en español - #programacionenespañol",
-    "durationSeconds": 43
-  },
-  {
-    "videoId": "uTrUquYK7S0",
-    "title": "NUEVO Claude Opus 4.6: El Modelo Que CAMBIA La Forma De Programar Con IA",
-    "durationSeconds": 897
-  },
-  {
     "videoId": "af1KAQCD7mk",
     "title": "Codex + GPT-5.6: Todo lo que necesitas para empezar a programar",
     "durationSeconds": 5462
+  },
+  {
+    "videoId": "d8cCSohFcug",
+    "title": "CLAUDE EXPLICADO FÁCIL #ia #ai #inteligenciaartificial #chatgpt #bigdata #data #bilbao #llm",
+    "durationSeconds": 148
+  },
+  {
+    "videoId": "R9z_EucMBEE",
+    "title": "¿Vale la pena aprender programación en 2024?",
+    "durationSeconds": 59
   }
 ]
