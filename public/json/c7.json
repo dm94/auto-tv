@@ -1,18 +1,8 @@
 [
   {
-    "videoId": "v2VL2f1swjw",
-    "title": "Elon Musk asegura que la inteligencia artificial podría superar a la humana en cinco años",
-    "durationSeconds": 295
-  },
-  {
-    "videoId": "SGqJgAPJm9o",
-    "title": "Inteligencia artificial de Anthropic hackeó de manera autónoma los sistemas de tres empresas",
-    "durationSeconds": 138
-  },
-  {
-    "videoId": "-q8fMOh3sjc",
-    "title": "NOTICIAS IA: Ya puedes controlar tu ordenador hablando con la voz en ChaGPT Work",
-    "durationSeconds": 2168
+    "videoId": "H9DFMEyWl68",
+    "title": "NOTICIAS IA: El Nuevo OpenAI ASTRA hace posible lo imposible",
+    "durationSeconds": 2272
   },
   {
     "videoId": "L9XpAnkJdbM",
@@ -20,14 +10,14 @@
     "durationSeconds": 802
   },
   {
-    "videoId": "yVGCYaqVYtU",
-    "title": "Más de 1.200 trabajadores de OpenAI, Anthropic, Google, Meta y otras empresas de IA acaban de firmar",
-    "durationSeconds": 37
+    "videoId": "SGqJgAPJm9o",
+    "title": "Inteligencia artificial de Anthropic hackeó de manera autónoma los sistemas de tres empresas",
+    "durationSeconds": 138
   },
   {
-    "videoId": "p9UstbK7FOA",
-    "title": "NOTICIAS IA: Nuevo modelo de ChatGPT, Sol",
-    "durationSeconds": 1945
+    "videoId": "v2VL2f1swjw",
+    "title": "Elon Musk asegura que la inteligencia artificial podría superar a la humana en cinco años",
+    "durationSeconds": 295
   },
   {
     "videoId": "ClN5oGTtSmc",
@@ -40,13 +30,23 @@
     "durationSeconds": 2185
   },
   {
+    "videoId": "w0Kutkd_scI",
+    "title": "🚨 NOTICIAS IA 🚨: Anthropic lanza Opus 4.6 y OpenAI responde con GPT-5.3 Codex 💣💥",
+    "durationSeconds": 2292
+  },
+  {
+    "videoId": "p9UstbK7FOA",
+    "title": "NOTICIAS IA: Nuevo modelo de ChatGPT, Sol",
+    "durationSeconds": 1945
+  },
+  {
     "videoId": "m0bCoTDsR3E",
     "title": "¿Puede la IA suponer la destrucción del capitalismo tal como lo conocemos?",
     "durationSeconds": 357
   },
   {
-    "videoId": "ci9L_4qQdyc",
-    "title": "NOTICIAS IA: Anthropic está pagando un precio muy alto por publicar Mythos",
-    "durationSeconds": 2189
+    "videoId": "-q8fMOh3sjc",
+    "title": "NOTICIAS IA: Ya puedes controlar tu ordenador hablando con la voz en ChaGPT Work",
+    "durationSeconds": 2168
   }
 ]
