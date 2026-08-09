@@ -5,11 +5,6 @@
     "durationSeconds": 1110
   },
   {
-    "videoId": "d2uLyxZS27c",
-    "title": "¿Cuál es la Mejor IA para Programar?",
-    "durationSeconds": 28
-  },
-  {
     "videoId": "lqi_-Zbmgsc",
     "title": "Aprender a programar en 2026 es distinto",
     "durationSeconds": 807
@@ -20,14 +15,19 @@
     "durationSeconds": 966
   },
   {
-    "videoId": "2gO8WyctqMk",
-    "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
-    "durationSeconds": 4087
+    "videoId": "d2uLyxZS27c",
+    "title": "¿Cuál es la Mejor IA para Programar?",
+    "durationSeconds": 28
   },
   {
     "videoId": "0fexIOD9YVg",
     "title": "¿Qué tecnologías de programación aprender en 2026?",
     "durationSeconds": 979
+  },
+  {
+    "videoId": "2gO8WyctqMk",
+    "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
+    "durationSeconds": 4087
   },
   {
     "videoId": "NNICQKFS3TU",
@@ -40,13 +40,13 @@
     "durationSeconds": 3584
   },
   {
-    "videoId": "d8cCSohFcug",
-    "title": "CLAUDE EXPLICADO FÁCIL #ia #ai #inteligenciaartificial #chatgpt #bigdata #data #bilbao #llm",
-    "durationSeconds": 148
+    "videoId": "n_LhTlzYotI",
+    "title": "Codex NO ES SOLO PARA PROGRAMAR. Así puedes crear agentes",
+    "durationSeconds": 1031
   },
   {
-    "videoId": "R9z_EucMBEE",
-    "title": "¿Vale la pena aprender programación en 2024?",
-    "durationSeconds": 59
+    "videoId": "pIuOrQUW7Rs",
+    "title": "Probando la nueva IA de Google (Jules) para programar en 2025",
+    "durationSeconds": 1194
   }
 ]
