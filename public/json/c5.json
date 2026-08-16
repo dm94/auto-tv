@@ -20,19 +20,14 @@
     "durationSeconds": 966
   },
   {
-    "videoId": "0fexIOD9YVg",
-    "title": "¿Qué tecnologías de programación aprender en 2026?",
-    "durationSeconds": 979
-  },
-  {
     "videoId": "NNICQKFS3TU",
     "title": "7 MCP que mejoran tu IA para programar",
     "durationSeconds": 540
   },
   {
-    "videoId": "2gO8WyctqMk",
-    "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
-    "durationSeconds": 4087
+    "videoId": "0fexIOD9YVg",
+    "title": "¿Qué tecnologías de programación aprender en 2026?",
+    "durationSeconds": 979
   },
   {
     "videoId": "jczKNcFtFoo",
@@ -40,13 +35,18 @@
     "durationSeconds": 3584
   },
   {
-    "videoId": "XWsOQTqVl0w",
-    "title": "Cursor 2026: El Futuro de la Programación Ya Está Aquí",
-    "durationSeconds": 2091
+    "videoId": "2gO8WyctqMk",
+    "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
+    "durationSeconds": 4087
   },
   {
     "videoId": "d8cCSohFcug",
     "title": "CLAUDE EXPLICADO FÁCIL #ia #ai #inteligenciaartificial #chatgpt #bigdata #data #bilbao #llm",
     "durationSeconds": 148
+  },
+  {
+    "videoId": "XWsOQTqVl0w",
+    "title": "Cursor 2026: El Futuro de la Programación Ya Está Aquí",
+    "durationSeconds": 2091
   }
 ]
