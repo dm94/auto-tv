@@ -1,15 +1,5 @@
 [
   {
-    "videoId": "EzSeU83v20w",
-    "title": "La IA está resolviendo problemas que la ciencia llevaba décadas sin resolver",
-    "durationSeconds": 5320
-  },
-  {
-    "videoId": "ZYlw_ZDEqW8",
-    "title": "¿Tener un vínculo con una Inteligencia Artificial?: 'Son complacientes, no dan la contra'",
-    "durationSeconds": 214
-  },
-  {
     "videoId": "WtBUpb-CLQM",
     "title": "Daniel Matamala advierte sobre estafas virtuales tras presentar su avatar creado con IA",
     "durationSeconds": 84
@@ -25,19 +15,19 @@
     "durationSeconds": 1945
   },
   {
-    "videoId": "pyHy1bXgjbI",
-    "title": "¿Puede la inteligencia artificial sustituir lo que nos hace humanos? | Paola Rojas",
-    "durationSeconds": 62
-  },
-  {
-    "videoId": "v2VL2f1swjw",
-    "title": "Elon Musk asegura que la inteligencia artificial podría superar a la humana en cinco años",
-    "durationSeconds": 295
-  },
-  {
     "videoId": "B2cVJKdmTo4",
     "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
     "durationSeconds": 106
+  },
+  {
+    "videoId": "rrN_CKGfE14",
+    "title": "NOTICIAS IA: Agentes de OpenAI se organizaban sin control humano",
+    "durationSeconds": 1642
+  },
+  {
+    "videoId": "MqQinbmHjEA",
+    "title": "Google Maps Ya Te Pide la Comida SOLO 🤯 #shorts #inteligenciaartificial",
+    "durationSeconds": 29
   },
   {
     "videoId": "EBFtFTJPUw0",
@@ -48,5 +38,15 @@
     "videoId": "ci9L_4qQdyc",
     "title": "NOTICIAS IA: Anthropic está pagando un precio muy alto por publicar Mythos",
     "durationSeconds": 2189
+  },
+  {
+    "videoId": "PPMb_rrej5c",
+    "title": "¿Quién mandará en la inteligencia artificial? | DW Documental",
+    "durationSeconds": 5313
+  },
+  {
+    "videoId": "PnXsNm7vwic",
+    "title": "Apple ya prueba su propia IA… y su estrategia es INESPERADA",
+    "durationSeconds": 1254
   }
 ]
