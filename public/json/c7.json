@@ -1,13 +1,13 @@
 [
   {
+    "videoId": "FlQpliM2w3I",
+    "title": "NOTICIAS IA: Anthropic marcará todo lo que hagas con IA",
+    "durationSeconds": 2079
+  },
+  {
     "videoId": "H9DFMEyWl68",
     "title": "NOTICIAS IA: El Nuevo OpenAI ASTRA hace posible lo imposible",
     "durationSeconds": 2272
-  },
-  {
-    "videoId": "px_xcywEFYE",
-    "title": "El auge de la música generada por IA",
-    "durationSeconds": 135
   },
   {
     "videoId": "p9UstbK7FOA",
@@ -15,14 +15,9 @@
     "durationSeconds": 1945
   },
   {
-    "videoId": "PnXsNm7vwic",
-    "title": "Apple ya prueba su propia IA… y su estrategia es INESPERADA",
-    "durationSeconds": 1254
-  },
-  {
-    "videoId": "WtBUpb-CLQM",
-    "title": "Daniel Matamala advierte sobre estafas virtuales tras presentar su avatar creado con IA",
-    "durationSeconds": 84
+    "videoId": "rrN_CKGfE14",
+    "title": "NOTICIAS IA: Agentes de OpenAI se organizaban sin control humano",
+    "durationSeconds": 1642
   },
   {
     "videoId": "B2cVJKdmTo4",
@@ -30,9 +25,9 @@
     "durationSeconds": 106
   },
   {
-    "videoId": "rrN_CKGfE14",
-    "title": "NOTICIAS IA: Agentes de OpenAI se organizaban sin control humano",
-    "durationSeconds": 1642
+    "videoId": "px_xcywEFYE",
+    "title": "El auge de la música generada por IA",
+    "durationSeconds": 135
   },
   {
     "videoId": "EBFtFTJPUw0",
@@ -48,5 +43,10 @@
     "videoId": "cZbKd_9KKk0",
     "title": "Sin Energía Nuclear no podremos escalar la Inteligencia Artificial - Operador Nuclear",
     "durationSeconds": 6665
+  },
+  {
+    "videoId": "WtBUpb-CLQM",
+    "title": "Daniel Matamala advierte sobre estafas virtuales tras presentar su avatar creado con IA",
+    "durationSeconds": 84
   }
 ]
