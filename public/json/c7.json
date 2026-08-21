@@ -5,6 +5,11 @@
     "durationSeconds": 2079
   },
   {
+    "videoId": "ezl_Yf7QfQ8",
+    "title": "Exponencial: ¿Inteligencia Artificial en el congreso?",
+    "durationSeconds": 58
+  },
+  {
     "videoId": "H9DFMEyWl68",
     "title": "NOTICIAS IA: El Nuevo OpenAI ASTRA hace posible lo imposible",
     "durationSeconds": 2272
@@ -15,9 +20,9 @@
     "durationSeconds": 1945
   },
   {
-    "videoId": "rrN_CKGfE14",
-    "title": "NOTICIAS IA: Agentes de OpenAI se organizaban sin control humano",
-    "durationSeconds": 1642
+    "videoId": "v2VL2f1swjw",
+    "title": "Elon Musk asegura que la inteligencia artificial podría superar a la humana en cinco años",
+    "durationSeconds": 295
   },
   {
     "videoId": "B2cVJKdmTo4",
@@ -25,14 +30,9 @@
     "durationSeconds": 106
   },
   {
-    "videoId": "px_xcywEFYE",
-    "title": "El auge de la música generada por IA",
-    "durationSeconds": 135
-  },
-  {
-    "videoId": "EBFtFTJPUw0",
-    "title": "El científico que creó la IA prohibida",
-    "durationSeconds": 1564
+    "videoId": "rrN_CKGfE14",
+    "title": "NOTICIAS IA: Agentes de OpenAI se organizaban sin control humano",
+    "durationSeconds": 1642
   },
   {
     "videoId": "ci9L_4qQdyc",
@@ -40,13 +40,13 @@
     "durationSeconds": 2189
   },
   {
-    "videoId": "cZbKd_9KKk0",
-    "title": "Sin Energía Nuclear no podremos escalar la Inteligencia Artificial - Operador Nuclear",
-    "durationSeconds": 6665
-  },
-  {
     "videoId": "WtBUpb-CLQM",
     "title": "Daniel Matamala advierte sobre estafas virtuales tras presentar su avatar creado con IA",
     "durationSeconds": 84
+  },
+  {
+    "videoId": "cZbKd_9KKk0",
+    "title": "Sin Energía Nuclear no podremos escalar la Inteligencia Artificial - Operador Nuclear",
+    "durationSeconds": 6665
   }
 ]
