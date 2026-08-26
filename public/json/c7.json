@@ -1,18 +1,18 @@
 [
   {
+    "videoId": "h1hLTMRRH6g",
+    "title": "NOTICIAS IA: Han liberado una IA sin censura que funciona en tu ordenador",
+    "durationSeconds": 1711
+  },
+  {
+    "videoId": "BIGPeIRosYE",
+    "title": "La generación Z comienza a considerar la inteligencia artificial como un amigo",
+    "durationSeconds": 24
+  },
+  {
     "videoId": "KHT5GWe5H8k",
     "title": "Nyla Stones, la artista virtual creada con Inteligencia Artificial que arrasa en Spotify",
     "durationSeconds": 131
-  },
-  {
-    "videoId": "FlQpliM2w3I",
-    "title": "NOTICIAS IA: Anthropic marcará todo lo que hagas con IA",
-    "durationSeconds": 2079
-  },
-  {
-    "videoId": "OhIlT1zfo-c",
-    "title": "OpenAI detiene el desarrollo de sus modelos por miedo a más ciberataques de la IA | RTVE",
-    "durationSeconds": 119
   },
   {
     "videoId": "H9DFMEyWl68",
@@ -30,9 +30,14 @@
     "durationSeconds": 295
   },
   {
-    "videoId": "pgFjL7Iw9AM",
-    "title": "¡Deepseek acaba de Reventar la IA! Lanzó su Harness GRATIS y SIN LÍMITES",
-    "durationSeconds": 1908
+    "videoId": "FlQpliM2w3I",
+    "title": "NOTICIAS IA: Anthropic marcará todo lo que hagas con IA",
+    "durationSeconds": 2079
+  },
+  {
+    "videoId": "rrN_CKGfE14",
+    "title": "NOTICIAS IA: Agentes de OpenAI se organizaban sin control humano",
+    "durationSeconds": 1642
   },
   {
     "videoId": "B2cVJKdmTo4",
@@ -40,13 +45,8 @@
     "durationSeconds": 106
   },
   {
-    "videoId": "p9UstbK7FOA",
-    "title": "NOTICIAS IA: Nuevo modelo de ChatGPT, Sol",
-    "durationSeconds": 1945
-  },
-  {
-    "videoId": "vgC4W6H_INg",
-    "title": "La Revolución de los Agentes de Inteligencia Artificial ya ha empezado - Pep Martorell",
-    "durationSeconds": 7257
+    "videoId": "Oz8uozS8LIQ",
+    "title": "¿Supondrá la IA la muerte de Internet? | DW Documental",
+    "durationSeconds": 3086
   }
 ]
