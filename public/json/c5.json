@@ -15,6 +15,11 @@
     "durationSeconds": 28
   },
   {
+    "videoId": "ZgSAD7QTjI4",
+    "title": "Mi MEJOR Tutorial de PROGRAMACIÓN 📲",
+    "durationSeconds": 422
+  },
+  {
     "videoId": "lqi_-Zbmgsc",
     "title": "Aprender a programar en 2026 es distinto",
     "durationSeconds": 807
@@ -30,23 +35,18 @@
     "durationSeconds": 50
   },
   {
-    "videoId": "NNICQKFS3TU",
-    "title": "7 MCP que mejoran tu IA para programar",
-    "durationSeconds": 540
-  },
-  {
     "videoId": "jczKNcFtFoo",
     "title": "Las mejores novedades de programación del 2021 | #laFunción 7x15",
     "durationSeconds": 3584
   },
   {
+    "videoId": "NNICQKFS3TU",
+    "title": "7 MCP que mejoran tu IA para programar",
+    "durationSeconds": 540
+  },
+  {
     "videoId": "2gO8WyctqMk",
     "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
     "durationSeconds": 4087
-  },
-  {
-    "videoId": "n_LhTlzYotI",
-    "title": "Codex NO ES SOLO PARA PROGRAMAR. Así puedes crear agentes",
-    "durationSeconds": 1031
   }
 ]
