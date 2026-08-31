@@ -1,13 +1,13 @@
 [
   {
-    "videoId": "h1hLTMRRH6g",
-    "title": "NOTICIAS IA: Han liberado una IA sin censura que funciona en tu ordenador",
-    "durationSeconds": 1711
-  },
-  {
     "videoId": "kKuhHiSNb5o",
     "title": "NOTICIAS IA: Anthropic pide parar la IA",
     "durationSeconds": 2539
+  },
+  {
+    "videoId": "OWXpL9Ez_ic",
+    "title": "Inteligencia artificial de Google racista? Discrimina por el país de procedencia de un hombre",
+    "durationSeconds": 63
   },
   {
     "videoId": "ci9L_4qQdyc",
@@ -15,14 +15,19 @@
     "durationSeconds": 2189
   },
   {
+    "videoId": "H9DFMEyWl68",
+    "title": "NOTICIAS IA: El Nuevo OpenAI ASTRA hace posible lo imposible",
+    "durationSeconds": 2272
+  },
+  {
     "videoId": "v2VL2f1swjw",
     "title": "Elon Musk asegura que la inteligencia artificial podría superar a la humana en cinco años",
     "durationSeconds": 295
   },
   {
-    "videoId": "GRQCatl3lik",
-    "title": "La imagen de líderes políticos es usada para engañar en redes sociales • FRANCE 24 Español",
-    "durationSeconds": 176
+    "videoId": "h1hLTMRRH6g",
+    "title": "NOTICIAS IA: Han liberado una IA sin censura que funciona en tu ordenador",
+    "durationSeconds": 1711
   },
   {
     "videoId": "FlQpliM2w3I",
@@ -30,23 +35,18 @@
     "durationSeconds": 2079
   },
   {
-    "videoId": "H9DFMEyWl68",
-    "title": "NOTICIAS IA: El Nuevo OpenAI ASTRA hace posible lo imposible",
-    "durationSeconds": 2272
+    "videoId": "Ktzurb3WUCk",
+    "title": "🤖🔥 ¡UN M2 BRADLEY TRANSPORTANDO 5 DRONES TERRESTRES CON INTELIGENCIA ARTIFICIAL! #armapedia",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "-q8fMOh3sjc",
+    "title": "NOTICIAS IA: Ya puedes controlar tu ordenador hablando con la voz en ChaGPT Work",
+    "durationSeconds": 2168
   },
   {
     "videoId": "n8bdMyQzV0U",
     "title": "Se acabó el chollo de la IA",
     "durationSeconds": 527
-  },
-  {
-    "videoId": "AYRmBJEwjL8",
-    "title": "La inteligencia artificial está aprendiendo a encontrar vulnerabilidades cada vez más rápido",
-    "durationSeconds": 138
-  },
-  {
-    "videoId": "3xHDKb7-9pE",
-    "title": "OpenAI reinventa ChatGPT: Así funciona su nueva SuperApp",
-    "durationSeconds": 1918
   }
 ]
