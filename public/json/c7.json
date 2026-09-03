@@ -5,6 +5,11 @@
     "durationSeconds": 28
   },
   {
+    "videoId": "gA1USGUF49M",
+    "title": "Musk dice que la IA podría hacer crecer la economía global",
+    "durationSeconds": 28
+  },
+  {
     "videoId": "kKuhHiSNb5o",
     "title": "NOTICIAS IA: Anthropic pide parar la IA",
     "durationSeconds": 2539
@@ -30,9 +35,9 @@
     "durationSeconds": 2079
   },
   {
-    "videoId": "OWXpL9Ez_ic",
-    "title": "Inteligencia artificial de Google racista? Discrimina por el país de procedencia de un hombre",
-    "durationSeconds": 63
+    "videoId": "NHar0LXIoSc",
+    "title": "700 agentes de IA de Open AI se coordinaron para atacar la plataforma Hugging Face | RTVE",
+    "durationSeconds": 95
   },
   {
     "videoId": "-q8fMOh3sjc",
@@ -43,10 +48,5 @@
     "videoId": "B2cVJKdmTo4",
     "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
     "durationSeconds": 106
-  },
-  {
-    "videoId": "n8bdMyQzV0U",
-    "title": "Se acabó el chollo de la IA",
-    "durationSeconds": 527
   }
 ]
