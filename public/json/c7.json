@@ -1,8 +1,13 @@
 [
   {
-    "videoId": "L8s5Q8_aVZc",
-    "title": "“La regulación no puede frenar a la Inteligencia Artificial”: Guillermo García Alcocer",
-    "durationSeconds": 31
+    "videoId": "muCAWyhvxkw",
+    "title": "Sam Altman: la industria tech ha hecho un trabajo pésimo comunicando los beneficios de la IA",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "LHGshF6yI5g",
+    "title": "Sam Altman analiza las barreras de ciberseguridad de GPT-6 Astra",
+    "durationSeconds": 93
   },
   {
     "videoId": "kKuhHiSNb5o",
@@ -10,34 +15,14 @@
     "durationSeconds": 2539
   },
   {
+    "videoId": "BtIQtSc0hKI",
+    "title": "🟢 Nvidia apuesta 13.000 millones de dólares a la IA abierta",
+    "durationSeconds": 722
+  },
+  {
     "videoId": "H9DFMEyWl68",
     "title": "NOTICIAS IA: El Nuevo OpenAI ASTRA hace posible lo imposible",
     "durationSeconds": 2272
-  },
-  {
-    "videoId": "hYitDru6yDg",
-    "title": "¡FOTO FAKE! | Revelan imagen falsa con inteligencia artificial de Rocha Moya esposado",
-    "durationSeconds": 28
-  },
-  {
-    "videoId": "h1hLTMRRH6g",
-    "title": "NOTICIAS IA: Han liberado una IA sin censura que funciona en tu ordenador",
-    "durationSeconds": 1711
-  },
-  {
-    "videoId": "XfKRP8tgN1A",
-    "title": "Golpe usa inteligência artificial para criar falso padre e pedir doações | #PrimeiroImpacto",
-    "durationSeconds": 91
-  },
-  {
-    "videoId": "v2VL2f1swjw",
-    "title": "Elon Musk asegura que la inteligencia artificial podría superar a la humana en cinco años",
-    "durationSeconds": 295
-  },
-  {
-    "videoId": "FlQpliM2w3I",
-    "title": "NOTICIAS IA: Anthropic marcará todo lo que hagas con IA",
-    "durationSeconds": 2079
   },
   {
     "videoId": "sxBxpUp18mg",
@@ -45,8 +30,23 @@
     "durationSeconds": 2155
   },
   {
-    "videoId": "-q8fMOh3sjc",
-    "title": "NOTICIAS IA: Ya puedes controlar tu ordenador hablando con la voz en ChaGPT Work",
-    "durationSeconds": 2168
+    "videoId": "h1hLTMRRH6g",
+    "title": "NOTICIAS IA: Han liberado una IA sin censura que funciona en tu ordenador",
+    "durationSeconds": 1711
+  },
+  {
+    "videoId": "FlQpliM2w3I",
+    "title": "NOTICIAS IA: Anthropic marcará todo lo que hagas con IA",
+    "durationSeconds": 2079
+  },
+  {
+    "videoId": "v2VL2f1swjw",
+    "title": "Elon Musk asegura que la inteligencia artificial podría superar a la humana en cinco años",
+    "durationSeconds": 295
+  },
+  {
+    "videoId": "XfKRP8tgN1A",
+    "title": "Golpe usa inteligência artificial para criar falso padre e pedir doações | #PrimeiroImpacto",
+    "durationSeconds": 91
   }
 ]

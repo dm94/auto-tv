@@ -5,14 +5,14 @@
     "durationSeconds": 1110
   },
   {
-    "videoId": "ZgSAD7QTjI4",
-    "title": "Mi MEJOR Tutorial de PROGRAMACIÓN 📲",
-    "durationSeconds": 422
-  },
-  {
     "videoId": "lqi_-Zbmgsc",
     "title": "Aprender a programar en 2026 es distinto",
     "durationSeconds": 807
+  },
+  {
+    "videoId": "ZgSAD7QTjI4",
+    "title": "Mi MEJOR Tutorial de PROGRAMACIÓN 📲",
+    "durationSeconds": 422
   },
   {
     "videoId": "0fexIOD9YVg",
@@ -30,23 +30,23 @@
     "durationSeconds": 50
   },
   {
-    "videoId": "_cUNP0C4KSc",
-    "title": "La Nueva Interfaz para Programar con IA",
-    "durationSeconds": 966
-  },
-  {
     "videoId": "jczKNcFtFoo",
     "title": "Las mejores novedades de programación del 2021 | #laFunción 7x15",
     "durationSeconds": 3584
   },
   {
-    "videoId": "2gO8WyctqMk",
-    "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
-    "durationSeconds": 4087
+    "videoId": "_cUNP0C4KSc",
+    "title": "La Nueva Interfaz para Programar con IA",
+    "durationSeconds": 966
   },
   {
     "videoId": "NNICQKFS3TU",
     "title": "7 MCP que mejoran tu IA para programar",
     "durationSeconds": 540
+  },
+  {
+    "videoId": "2gO8WyctqMk",
+    "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
+    "durationSeconds": 4087
   }
 ]
