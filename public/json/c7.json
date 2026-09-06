@@ -1,13 +1,13 @@
 [
   {
+    "videoId": "BtIQtSc0hKI",
+    "title": "🟢 Nvidia apuesta 13.000 millones de dólares a la IA abierta",
+    "durationSeconds": 722
+  },
+  {
     "videoId": "muCAWyhvxkw",
     "title": "Sam Altman: la industria tech ha hecho un trabajo pésimo comunicando los beneficios de la IA",
     "durationSeconds": 81
-  },
-  {
-    "videoId": "LHGshF6yI5g",
-    "title": "Sam Altman analiza las barreras de ciberseguridad de GPT-6 Astra",
-    "durationSeconds": 93
   },
   {
     "videoId": "kKuhHiSNb5o",
@@ -15,29 +15,9 @@
     "durationSeconds": 2539
   },
   {
-    "videoId": "BtIQtSc0hKI",
-    "title": "🟢 Nvidia apuesta 13.000 millones de dólares a la IA abierta",
-    "durationSeconds": 722
-  },
-  {
     "videoId": "H9DFMEyWl68",
     "title": "NOTICIAS IA: El Nuevo OpenAI ASTRA hace posible lo imposible",
     "durationSeconds": 2272
-  },
-  {
-    "videoId": "sxBxpUp18mg",
-    "title": "NOTICIAS IA: ASTRA tomó el control dentro de OpenAI",
-    "durationSeconds": 2155
-  },
-  {
-    "videoId": "h1hLTMRRH6g",
-    "title": "NOTICIAS IA: Han liberado una IA sin censura que funciona en tu ordenador",
-    "durationSeconds": 1711
-  },
-  {
-    "videoId": "FlQpliM2w3I",
-    "title": "NOTICIAS IA: Anthropic marcará todo lo que hagas con IA",
-    "durationSeconds": 2079
   },
   {
     "videoId": "v2VL2f1swjw",
@@ -45,8 +25,28 @@
     "durationSeconds": 295
   },
   {
-    "videoId": "XfKRP8tgN1A",
-    "title": "Golpe usa inteligência artificial para criar falso padre e pedir doações | #PrimeiroImpacto",
-    "durationSeconds": 91
+    "videoId": "ClN5oGTtSmc",
+    "title": "NOTICIAS IA: Anthropic relanza FABLE 5 tras asustar al Gobierno",
+    "durationSeconds": 2068
+  },
+  {
+    "videoId": "FlQpliM2w3I",
+    "title": "NOTICIAS IA: Anthropic marcará todo lo que hagas con IA",
+    "durationSeconds": 2079
+  },
+  {
+    "videoId": "h1hLTMRRH6g",
+    "title": "NOTICIAS IA: Han liberado una IA sin censura que funciona en tu ordenador",
+    "durationSeconds": 1711
+  },
+  {
+    "videoId": "B2cVJKdmTo4",
+    "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "WsXTEKxFulQ",
+    "title": "Bill Gates lanza serias advertencias sobre los riesgos de la inteligencia artificial",
+    "durationSeconds": 142
   }
 ]
