@@ -15,6 +15,11 @@
     "durationSeconds": 979
   },
   {
+    "videoId": "eABNL3igtVo",
+    "title": "Así se programa en 2026: IA, agentes y apps reales",
+    "durationSeconds": 9073
+  },
+  {
     "videoId": "d2uLyxZS27c",
     "title": "¿Cuál es la Mejor IA para Programar?",
     "durationSeconds": 28
@@ -23,11 +28,6 @@
     "videoId": "HzDCDUbOEW0",
     "title": "Que #IA programa mejor? #programacion #informatica",
     "durationSeconds": 50
-  },
-  {
-    "videoId": "jczKNcFtFoo",
-    "title": "Las mejores novedades de programación del 2021 | #laFunción 7x15",
-    "durationSeconds": 3584
   },
   {
     "videoId": "NNICQKFS3TU",
@@ -40,13 +40,13 @@
     "durationSeconds": 4087
   },
   {
+    "videoId": "jczKNcFtFoo",
+    "title": "Las mejores novedades de programación del 2021 | #laFunción 7x15",
+    "durationSeconds": 3584
+  },
+  {
     "videoId": "n_LhTlzYotI",
     "title": "Codex NO ES SOLO PARA PROGRAMAR. Así puedes crear agentes",
     "durationSeconds": 1031
-  },
-  {
-    "videoId": "gcxGxdbasg0",
-    "title": "¿El fin de las tablas dinámicas? Esta función de Excel lo cambia todo.",
-    "durationSeconds": 60
   }
 ]
