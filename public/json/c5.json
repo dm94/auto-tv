@@ -30,6 +30,11 @@
     "durationSeconds": 50
   },
   {
+    "videoId": "V0WtjxUHUFU",
+    "title": "¿Debes aprender Flutter en 2026?",
+    "durationSeconds": 465
+  },
+  {
     "videoId": "NNICQKFS3TU",
     "title": "7 MCP que mejoran tu IA para programar",
     "durationSeconds": 540
@@ -43,10 +48,5 @@
     "videoId": "jczKNcFtFoo",
     "title": "Las mejores novedades de programación del 2021 | #laFunción 7x15",
     "durationSeconds": 3584
-  },
-  {
-    "videoId": "n_LhTlzYotI",
-    "title": "Codex NO ES SOLO PARA PROGRAMAR. Así puedes crear agentes",
-    "durationSeconds": 1031
   }
 ]
