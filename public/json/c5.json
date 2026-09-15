@@ -30,6 +30,11 @@
     "durationSeconds": 50
   },
   {
+    "videoId": "jczKNcFtFoo",
+    "title": "Las mejores novedades de programación del 2021 | #laFunción 7x15",
+    "durationSeconds": 3584
+  },
+  {
     "videoId": "V0WtjxUHUFU",
     "title": "¿Debes aprender Flutter en 2026?",
     "durationSeconds": 465
@@ -43,10 +48,5 @@
     "videoId": "2gO8WyctqMk",
     "title": "OpenCode: Probablemente la mejor herramienta Open Source para programar",
     "durationSeconds": 4087
-  },
-  {
-    "videoId": "jczKNcFtFoo",
-    "title": "Las mejores novedades de programación del 2021 | #laFunción 7x15",
-    "durationSeconds": 3584
   }
 ]
