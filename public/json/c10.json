@@ -1,18 +1,13 @@
 [
   {
-    "videoId": "CnGQAzXCgKM",
-    "title": "WERWULF Tráiler 2 Español Latino (2026)",
-    "durationSeconds": 160
-  },
-  {
     "videoId": "Y4tLb9unc9Q",
     "title": "RASTRO MORTAL Tráiler Español Latino (2026) Brandon Sklenar",
     "durationSeconds": 178
   },
   {
-    "videoId": "qk-HvVOkWgk",
-    "title": "SUBMARINITOS 2: VIAJE AL FIN DEL MUNDO Tráiler Español Latino (2026)",
-    "durationSeconds": 118
+    "videoId": "CnGQAzXCgKM",
+    "title": "WERWULF Tráiler 2 Español Latino (2026)",
+    "durationSeconds": 160
   },
   {
     "videoId": "EDpbnLI87AE",
@@ -25,14 +20,14 @@
     "durationSeconds": 48
   },
   {
-    "videoId": "49FKYGgYa3M",
-    "title": "VISIONQUEST Tráiler 2 (2026) MARVEL",
-    "durationSeconds": 176
-  },
-  {
     "videoId": "MUsQkLyV5Vg",
     "title": "RAY GUNN Tráiler Español Latino (2026)",
     "durationSeconds": 165
+  },
+  {
+    "videoId": "49FKYGgYa3M",
+    "title": "VISIONQUEST Tráiler 2 (2026) MARVEL",
+    "durationSeconds": 176
   },
   {
     "videoId": "hAmkGzWw8xw",
@@ -40,13 +35,18 @@
     "durationSeconds": 145
   },
   {
-    "videoId": "DgZQwmjdcp8",
-    "title": "Lo dejamos acá | Tráiler oficial | Netflix",
-    "durationSeconds": 135
+    "videoId": "El0rtJ71nQk",
+    "title": "La Lista Terminal - Tráiler oficial | Prime Video",
+    "durationSeconds": 161
   },
   {
-    "videoId": "-THhF8SM2pg",
-    "title": "BUFFALO KIDS Tráiler Español Latino (2026)",
-    "durationSeconds": 119
+    "videoId": "qk-HvVOkWgk",
+    "title": "SUBMARINITOS 2: VIAJE AL FIN DEL MUNDO Tráiler Español Latino (2026)",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "z5iM5nAIIjk",
+    "title": "SED DE SANGRE Tráiler Oficial Español Latino (2027) Johnny Depp, Penélope Cruz",
+    "durationSeconds": 115
   }
 ]
