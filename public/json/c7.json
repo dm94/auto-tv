@@ -1,23 +1,13 @@
 [
   {
-    "videoId": "22UxGkvdWVY",
-    "title": "¿Qué es la Inteligencia Artificial y cómo funciona?",
-    "durationSeconds": 106
-  },
-  {
-    "videoId": "ltOMJFzW4D8",
-    "title": "Qué son los agentes de IA y qué puede puede pasar cuando se “rebelan”| BBC Mundo",
-    "durationSeconds": 352
+    "videoId": "Q70IEP489zE",
+    "title": "¿Realmente la IA acabará con la humanidad? ¿Cómo, exactamente?",
+    "durationSeconds": 260
   },
   {
     "videoId": "zUtM3rd0m44",
     "title": "“La inteligencia artificial podría matar a todos los humanos\" | BBC Mundo",
     "durationSeconds": 109
-  },
-  {
-    "videoId": "2kTxMnipt28",
-    "title": "NOTICIAS IA: Se descubren miles de incidentes secretos provocados por IAs",
-    "durationSeconds": 1914
   },
   {
     "videoId": "BdxgTtVilG0",
@@ -28,6 +18,11 @@
     "videoId": "15Xesw2v_b0",
     "title": "Gigantes de la IA quieren bajar la velocidad de su desarrollo",
     "durationSeconds": 204
+  },
+  {
+    "videoId": "ltOMJFzW4D8",
+    "title": "Qué son los agentes de IA y qué puede puede pasar cuando se “rebelan”| BBC Mundo",
+    "durationSeconds": 352
   },
   {
     "videoId": "tfrDaCTqR3Q",
@@ -48,5 +43,10 @@
     "videoId": "tgmgr06Cg1I",
     "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
     "durationSeconds": 396
+  },
+  {
+    "videoId": "2kTxMnipt28",
+    "title": "NOTICIAS IA: Se descubren miles de incidentes secretos provocados por IAs",
+    "durationSeconds": 1914
   }
 ]
