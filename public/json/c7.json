@@ -1,23 +1,8 @@
 [
   {
-    "videoId": "aFsvWVfjZLA",
-    "title": "¿Hay negocio detrás del alarmismo sobre la inteligencia artificial? • FRANCE 24 Español",
-    "durationSeconds": 356
-  },
-  {
-    "videoId": "MLqscL9cz9w",
-    "title": "¿Puede la inteligencia artificial amenazar la creación literaria? • FRANCE 24 Español",
-    "durationSeconds": 433
-  },
-  {
-    "videoId": "2bZ2wuSB0hM",
-    "title": "\"Expertos de Anthropic advierten que la IA podría acabar con los humanos\": 'Axios' • FRANCE 24",
-    "durationSeconds": 437
-  },
-  {
-    "videoId": "2kTxMnipt28",
-    "title": "NOTICIAS IA: Se descubren miles de incidentes secretos provocados por IAs",
-    "durationSeconds": 1914
+    "videoId": "zUtM3rd0m44",
+    "title": "“La inteligencia artificial podría matar a todos los humanos\" | BBC Mundo",
+    "durationSeconds": 109
   },
   {
     "videoId": "BdxgTtVilG0",
@@ -30,6 +15,16 @@
     "durationSeconds": 204
   },
   {
+    "videoId": "tfrDaCTqR3Q",
+    "title": "GPT-6 Astra: ¿está la IA al nivel de la inteligencia humana? • FRANCE 24 Español",
+    "durationSeconds": 364
+  },
+  {
+    "videoId": "79f3tOpzBb8",
+    "title": "El CEO de Anthropic pide frenar la IA | RTVE Noticias",
+    "durationSeconds": 89
+  },
+  {
     "videoId": "tgmgr06Cg1I",
     "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
     "durationSeconds": 396
@@ -40,13 +35,18 @@
     "durationSeconds": 1485
   },
   {
+    "videoId": "aFsvWVfjZLA",
+    "title": "¿Hay negocio detrás del alarmismo sobre la inteligencia artificial? • FRANCE 24 Español",
+    "durationSeconds": 356
+  },
+  {
     "videoId": "yyro3vsTHvE",
     "title": "¿Es la inteligencia artificial una auténtica amenaza para la humanidad?",
     "durationSeconds": 289
   },
   {
-    "videoId": "zUtM3rd0m44",
-    "title": "“La inteligencia artificial podría matar a todos los humanos\" | BBC Mundo",
-    "durationSeconds": 109
+    "videoId": "MLqscL9cz9w",
+    "title": "¿Puede la inteligencia artificial amenazar la creación literaria? • FRANCE 24 Español",
+    "durationSeconds": 433
   }
 ]

@@ -1,13 +1,13 @@
 [
   {
-    "videoId": "p2WA672HrdI",
-    "title": "La forma CORRECTA de programar con IA en 2026: Spec Driven Development",
-    "durationSeconds": 1110
-  },
-  {
     "videoId": "0fexIOD9YVg",
     "title": "¿Qué tecnologías de programación aprender en 2026?",
     "durationSeconds": 979
+  },
+  {
+    "videoId": "p2WA672HrdI",
+    "title": "La forma CORRECTA de programar con IA en 2026: Spec Driven Development",
+    "durationSeconds": 1110
   },
   {
     "videoId": "lqi_-Zbmgsc",
@@ -15,9 +15,9 @@
     "durationSeconds": 807
   },
   {
-    "videoId": "sOH6M6yigcw",
-    "title": "Gemini 4 Argon: el nuevo modelo de Google que compite con GPT y Claude #gemini #chatgpt #claude",
-    "durationSeconds": 51
+    "videoId": "J1BHxYWkzPw",
+    "title": "Los 5 + 1 Lenguajes de Programación que DEBES Dominar en 2026 (Guía Completa)",
+    "durationSeconds": 392
   },
   {
     "videoId": "YCUM6SxWcyE",
@@ -30,23 +30,23 @@
     "durationSeconds": 3584
   },
   {
-    "videoId": "4vusNIQ9Gy0",
-    "title": "El secreto para programar mejor con IA: context-mode",
-    "durationSeconds": 40
-  },
-  {
     "videoId": "mIVbUb7shE8",
     "title": "¿Qué debes saber ANTES de APRENDER PROGRAMACIÓN?",
     "durationSeconds": 821
   },
   {
-    "videoId": "fdH8yiDFJqA",
-    "title": "Cómo ACTUALIZAR TODOS LOS PROGRAMAS de La Computadora #tecnología #YOTEAYUDO #eliannyanez #pc #windo",
-    "durationSeconds": 46
+    "videoId": "4vusNIQ9Gy0",
+    "title": "El secreto para programar mejor con IA: context-mode",
+    "durationSeconds": 40
   },
   {
     "videoId": "NNICQKFS3TU",
     "title": "7 MCP que mejoran tu IA para programar",
     "durationSeconds": 540
+  },
+  {
+    "videoId": "n_LhTlzYotI",
+    "title": "Codex NO ES SOLO PARA PROGRAMAR. Así puedes crear agentes",
+    "durationSeconds": 1031
   }
 ]
