@@ -5,6 +5,11 @@
     "durationSeconds": 249
   },
   {
+    "videoId": "hVuffSXh8ek",
+    "title": "NOTICIAS IA: Google presenta Gemini 4 y sus números son una locura",
+    "durationSeconds": 1770
+  },
+  {
     "videoId": "aFsvWVfjZLA",
     "title": "¿Hay negocio detrás del alarmismo sobre la inteligencia artificial? • FRANCE 24 Español",
     "durationSeconds": 356
@@ -18,11 +23,6 @@
     "videoId": "BdxgTtVilG0",
     "title": "¿Estamos perdiendo el control de la IA? • FRANCE 24 Español",
     "durationSeconds": 2205
-  },
-  {
-    "videoId": "15Xesw2v_b0",
-    "title": "Gigantes de la IA quieren bajar la velocidad de su desarrollo",
-    "durationSeconds": 204
   },
   {
     "videoId": "tfrDaCTqR3Q",
@@ -45,8 +45,8 @@
     "durationSeconds": 396
   },
   {
-    "videoId": "yyro3vsTHvE",
-    "title": "¿Es la inteligencia artificial una auténtica amenaza para la humanidad?",
-    "durationSeconds": 289
+    "videoId": "15Xesw2v_b0",
+    "title": "Gigantes de la IA quieren bajar la velocidad de su desarrollo",
+    "durationSeconds": 204
   }
 ]
