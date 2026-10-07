@@ -1,20 +1,5 @@
 [
   {
-    "videoId": "kSGyQfKl11c",
-    "title": "Nueva renuncia en OpenAI: ¿La industria de la IA está ignorando las advertencias? • FRANCE 24",
-    "durationSeconds": 249
-  },
-  {
-    "videoId": "hVuffSXh8ek",
-    "title": "NOTICIAS IA: Google presenta Gemini 4 y sus números son una locura",
-    "durationSeconds": 1770
-  },
-  {
-    "videoId": "aFsvWVfjZLA",
-    "title": "¿Hay negocio detrás del alarmismo sobre la inteligencia artificial? • FRANCE 24 Español",
-    "durationSeconds": 356
-  },
-  {
     "videoId": "zUtM3rd0m44",
     "title": "“La inteligencia artificial podría matar a todos los humanos\" | BBC Mundo",
     "durationSeconds": 109
@@ -25,14 +10,14 @@
     "durationSeconds": 2205
   },
   {
+    "videoId": "15Xesw2v_b0",
+    "title": "Gigantes de la IA quieren bajar la velocidad de su desarrollo",
+    "durationSeconds": 204
+  },
+  {
     "videoId": "tfrDaCTqR3Q",
     "title": "GPT-6 Astra: ¿está la IA al nivel de la inteligencia humana? • FRANCE 24 Español",
     "durationSeconds": 364
-  },
-  {
-    "videoId": "79f3tOpzBb8",
-    "title": "El CEO de Anthropic pide frenar la IA | RTVE Noticias",
-    "durationSeconds": 89
   },
   {
     "videoId": "EzVhTYrQcEM",
@@ -45,8 +30,23 @@
     "durationSeconds": 396
   },
   {
-    "videoId": "15Xesw2v_b0",
-    "title": "Gigantes de la IA quieren bajar la velocidad de su desarrollo",
-    "durationSeconds": 204
+    "videoId": "79f3tOpzBb8",
+    "title": "El CEO de Anthropic pide frenar la IA | RTVE Noticias",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "aFsvWVfjZLA",
+    "title": "¿Hay negocio detrás del alarmismo sobre la inteligencia artificial? • FRANCE 24 Español",
+    "durationSeconds": 356
+  },
+  {
+    "videoId": "ZRnMgl8pZBg",
+    "title": "🟢 Wikipedia denuncia ataques de agentes de OpenAI",
+    "durationSeconds": 723
+  },
+  {
+    "videoId": "hVuffSXh8ek",
+    "title": "NOTICIAS IA: Google presenta Gemini 4 y sus números son una locura",
+    "durationSeconds": 1770
   }
 ]
