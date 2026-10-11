@@ -1,13 +1,23 @@
 [
   {
+    "videoId": "tgmgr06Cg1I",
+    "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
+    "durationSeconds": 396
+  },
+  {
     "videoId": "15Xesw2v_b0",
     "title": "Gigantes de la IA quieren bajar la velocidad de su desarrollo",
     "durationSeconds": 204
   },
   {
-    "videoId": "tfrDaCTqR3Q",
-    "title": "GPT-6 Astra: ¿está la IA al nivel de la inteligencia humana? • FRANCE 24 Español",
-    "durationSeconds": 364
+    "videoId": "aFsvWVfjZLA",
+    "title": "¿Hay negocio detrás del alarmismo sobre la inteligencia artificial? • FRANCE 24 Español",
+    "durationSeconds": 356
+  },
+  {
+    "videoId": "3y9iE6_Z7Ys",
+    "title": "¿Qué son los agentes de IA? Así son los nuevos y adorables personajes de OpenAI y Meta",
+    "durationSeconds": 234
   },
   {
     "videoId": "EzVhTYrQcEM",
@@ -15,38 +25,28 @@
     "durationSeconds": 1485
   },
   {
-    "videoId": "79f3tOpzBb8",
-    "title": "El CEO de Anthropic pide frenar la IA | RTVE Noticias",
-    "durationSeconds": 89
-  },
-  {
-    "videoId": "tgmgr06Cg1I",
-    "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
-    "durationSeconds": 396
-  },
-  {
     "videoId": "yyro3vsTHvE",
     "title": "¿Es la inteligencia artificial una auténtica amenaza para la humanidad?",
     "durationSeconds": 289
   },
   {
-    "videoId": "H9DFMEyWl68",
-    "title": "NOTICIAS IA: El Nuevo OpenAI ASTRA hace posible lo imposible",
-    "durationSeconds": 2272
+    "videoId": "Lmgq8lB2-0I",
+    "title": "¿Qué pasa con la inteligencia artificial? ONU alerta por sus riesgos",
+    "durationSeconds": 149
+  },
+  {
+    "videoId": "ST1EJuQUb1o",
+    "title": "Los peligros de la IA | ¿Qué hay realmente en juego? | RTVE Noticias",
+    "durationSeconds": 445
+  },
+  {
+    "videoId": "79f3tOpzBb8",
+    "title": "El CEO de Anthropic pide frenar la IA | RTVE Noticias",
+    "durationSeconds": 89
   },
   {
     "videoId": "B2cVJKdmTo4",
     "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
     "durationSeconds": 106
-  },
-  {
-    "videoId": "ltOMJFzW4D8",
-    "title": "Qué son los agentes de IA y qué puede puede pasar cuando se “rebelan”| BBC Mundo",
-    "durationSeconds": 352
-  },
-  {
-    "videoId": "HMyGimJwkDg",
-    "title": "Planeta Futuro | ¿Podría la Inteligencia Artificial provocar la extinción humana?",
-    "durationSeconds": 383
   }
 ]
