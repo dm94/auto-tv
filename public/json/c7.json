@@ -1,13 +1,13 @@
 [
   {
-    "videoId": "aN0D-Obj_C0",
-    "title": "NOTICIAS IA: La nueva IA de META es una BESTIA",
-    "durationSeconds": 2648
-  },
-  {
     "videoId": "WYtZctPO7DI",
     "title": "¿Podría ganar un Oscar una película hecha con IA?",
     "durationSeconds": 227
+  },
+  {
+    "videoId": "jatae3KbUp0",
+    "title": "¡YA TENGO GEMINI 4 ARGON! Probamos la nueva IA de Google",
+    "durationSeconds": 1258
   },
   {
     "videoId": "tgmgr06Cg1I",
@@ -30,6 +30,11 @@
     "durationSeconds": 356
   },
   {
+    "videoId": "aN0D-Obj_C0",
+    "title": "NOTICIAS IA: La nueva IA de META es una BESTIA",
+    "durationSeconds": 2648
+  },
+  {
     "videoId": "H9DFMEyWl68",
     "title": "NOTICIAS IA: El Nuevo OpenAI ASTRA hace posible lo imposible",
     "durationSeconds": 2272
@@ -43,10 +48,5 @@
     "videoId": "v2VL2f1swjw",
     "title": "Elon Musk asegura que la inteligencia artificial podría superar a la humana en cinco años",
     "durationSeconds": 295
-  },
-  {
-    "videoId": "B2cVJKdmTo4",
-    "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
-    "durationSeconds": 106
   }
 ]
