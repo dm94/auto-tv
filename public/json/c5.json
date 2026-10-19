@@ -35,11 +35,6 @@
     "durationSeconds": 807
   },
   {
-    "videoId": "NNICQKFS3TU",
-    "title": "7 MCP que mejoran tu IA para programar",
-    "durationSeconds": 540
-  },
-  {
     "videoId": "4vusNIQ9Gy0",
     "title": "El secreto para programar mejor con IA: context-mode",
     "durationSeconds": 40
@@ -48,5 +43,10 @@
     "videoId": "d8cCSohFcug",
     "title": "CLAUDE EXPLICADO FÁCIL #ia #ai #inteligenciaartificial #chatgpt #bigdata #data #bilbao #llm",
     "durationSeconds": 148
+  },
+  {
+    "videoId": "NNICQKFS3TU",
+    "title": "7 MCP que mejoran tu IA para programar",
+    "durationSeconds": 540
   }
 ]

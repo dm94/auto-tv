@@ -5,11 +5,6 @@
     "durationSeconds": 1485
   },
   {
-    "videoId": "tgmgr06Cg1I",
-    "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
-    "durationSeconds": 396
-  },
-  {
     "videoId": "aFsvWVfjZLA",
     "title": "¿Hay negocio detrás del alarmismo sobre la inteligencia artificial? • FRANCE 24 Español",
     "durationSeconds": 356
@@ -20,14 +15,9 @@
     "durationSeconds": 204
   },
   {
-    "videoId": "aN0D-Obj_C0",
-    "title": "NOTICIAS IA: La nueva IA de META es una BESTIA",
-    "durationSeconds": 2648
-  },
-  {
-    "videoId": "yyro3vsTHvE",
-    "title": "¿Es la inteligencia artificial una auténtica amenaza para la humanidad?",
-    "durationSeconds": 289
+    "videoId": "tgmgr06Cg1I",
+    "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
+    "durationSeconds": 396
   },
   {
     "videoId": "ST1EJuQUb1o",
@@ -35,9 +25,9 @@
     "durationSeconds": 445
   },
   {
-    "videoId": "B2cVJKdmTo4",
-    "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
-    "durationSeconds": 106
+    "videoId": "yyro3vsTHvE",
+    "title": "¿Es la inteligencia artificial una auténtica amenaza para la humanidad?",
+    "durationSeconds": 289
   },
   {
     "videoId": "BjgF0KWaVmE",
@@ -45,8 +35,18 @@
     "durationSeconds": 382
   },
   {
-    "videoId": "Tg0RDFEhqkA",
-    "title": "NOTICIAS IA: ¿La IA nos Matará a TODOS?",
-    "durationSeconds": 1719
+    "videoId": "B2cVJKdmTo4",
+    "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "79f3tOpzBb8",
+    "title": "El CEO de Anthropic pide frenar la IA | RTVE Noticias",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "Lmgq8lB2-0I",
+    "title": "¿Qué pasa con la inteligencia artificial? ONU alerta por sus riesgos",
+    "durationSeconds": 149
   }
 ]
