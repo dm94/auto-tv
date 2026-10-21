@@ -10,11 +10,6 @@
     "durationSeconds": 1485
   },
   {
-    "videoId": "BdxgTtVilG0",
-    "title": "¿Estamos perdiendo el control de la IA? • FRANCE 24 Español",
-    "durationSeconds": 2205
-  },
-  {
     "videoId": "15Xesw2v_b0",
     "title": "Gigantes de la IA quieren bajar la velocidad de su desarrollo",
     "durationSeconds": 204
@@ -25,19 +20,14 @@
     "durationSeconds": 356
   },
   {
-    "videoId": "zUtM3rd0m44",
-    "title": "“La inteligencia artificial podría matar a todos los humanos\" | BBC Mundo",
-    "durationSeconds": 109
-  },
-  {
-    "videoId": "79f3tOpzBb8",
-    "title": "El CEO de Anthropic pide frenar la IA | RTVE Noticias",
-    "durationSeconds": 89
-  },
-  {
     "videoId": "tgmgr06Cg1I",
     "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
     "durationSeconds": 396
+  },
+  {
+    "videoId": "uEmGmNClSm8",
+    "title": "Agentes de inteligencia artificial transforman consumo: Deloitte Spanish Latin America",
+    "durationSeconds": 620
   },
   {
     "videoId": "yyro3vsTHvE",
@@ -45,8 +35,18 @@
     "durationSeconds": 289
   },
   {
-    "videoId": "tfrDaCTqR3Q",
-    "title": "GPT-6 Astra: ¿está la IA al nivel de la inteligencia humana? • FRANCE 24 Español",
-    "durationSeconds": 364
+    "videoId": "B2cVJKdmTo4",
+    "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "v2VL2f1swjw",
+    "title": "Elon Musk asegura que la inteligencia artificial podría superar a la humana en cinco años",
+    "durationSeconds": 295
+  },
+  {
+    "videoId": "hVuffSXh8ek",
+    "title": "NOTICIAS IA: Google presenta Gemini 4 y sus números son una locura",
+    "durationSeconds": 1770
   }
 ]
