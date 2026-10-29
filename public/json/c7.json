@@ -10,19 +10,9 @@
     "durationSeconds": 1485
   },
   {
-    "videoId": "QsGt3qrAeaw",
-    "title": "Por qué la escasez de transformadores puede frenar el auge de la inteligencia artificial",
-    "durationSeconds": 778
-  },
-  {
     "videoId": "tgmgr06Cg1I",
     "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
     "durationSeconds": 396
-  },
-  {
-    "videoId": "Y3Al1auwWm4",
-    "title": "La IA ya supera las defensas de ciberseguridad y preocupa a los expertos | Jon Hernández",
-    "durationSeconds": 1210
   },
   {
     "videoId": "aFsvWVfjZLA",
@@ -35,11 +25,6 @@
     "durationSeconds": 289
   },
   {
-    "videoId": "Q70IEP489zE",
-    "title": "¿Realmente la IA acabará con la humanidad? ¿Cómo, exactamente?",
-    "durationSeconds": 260
-  },
-  {
     "videoId": "BjgF0KWaVmE",
     "title": "“Posible riesgo para la humanidad”: líderes de la inteligencia artificial imploran mayor regulación",
     "durationSeconds": 382
@@ -48,5 +33,20 @@
     "videoId": "B2cVJKdmTo4",
     "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
     "durationSeconds": 106
+  },
+  {
+    "videoId": "ST1EJuQUb1o",
+    "title": "Los peligros de la IA | ¿Qué hay realmente en juego? | RTVE Noticias",
+    "durationSeconds": 445
+  },
+  {
+    "videoId": "Q70IEP489zE",
+    "title": "¿Realmente la IA acabará con la humanidad? ¿Cómo, exactamente?",
+    "durationSeconds": 260
+  },
+  {
+    "videoId": "v2VL2f1swjw",
+    "title": "Elon Musk asegura que la inteligencia artificial podría superar a la humana en cinco años",
+    "durationSeconds": 295
   }
 ]
