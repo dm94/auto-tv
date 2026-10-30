@@ -1,5 +1,10 @@
 [
   {
+    "videoId": "OGJkmLwyD6s",
+    "title": "Inteligencia artificial y psicoterapia | DW Documental",
+    "durationSeconds": 2612
+  },
+  {
     "videoId": "15Xesw2v_b0",
     "title": "Gigantes de la IA quieren bajar la velocidad de su desarrollo",
     "durationSeconds": 204
@@ -15,6 +20,11 @@
     "durationSeconds": 396
   },
   {
+    "videoId": "XZEdl21cazI",
+    "title": "¿Escanear y destruir libros para entrenar a la inteligencia artificial? • FRANCE 24 Español",
+    "durationSeconds": 256
+  },
+  {
     "videoId": "aFsvWVfjZLA",
     "title": "¿Hay negocio detrás del alarmismo sobre la inteligencia artificial? • FRANCE 24 Español",
     "durationSeconds": 356
@@ -25,28 +35,18 @@
     "durationSeconds": 289
   },
   {
+    "videoId": "ltOMJFzW4D8",
+    "title": "Qué son los agentes de IA y qué puede puede pasar cuando se “rebelan”| BBC Mundo",
+    "durationSeconds": 352
+  },
+  {
     "videoId": "BjgF0KWaVmE",
     "title": "“Posible riesgo para la humanidad”: líderes de la inteligencia artificial imploran mayor regulación",
     "durationSeconds": 382
   },
   {
-    "videoId": "B2cVJKdmTo4",
-    "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
-    "durationSeconds": 106
-  },
-  {
-    "videoId": "ST1EJuQUb1o",
-    "title": "Los peligros de la IA | ¿Qué hay realmente en juego? | RTVE Noticias",
-    "durationSeconds": 445
-  },
-  {
     "videoId": "Q70IEP489zE",
     "title": "¿Realmente la IA acabará con la humanidad? ¿Cómo, exactamente?",
     "durationSeconds": 260
-  },
-  {
-    "videoId": "v2VL2f1swjw",
-    "title": "Elon Musk asegura que la inteligencia artificial podría superar a la humana en cinco años",
-    "durationSeconds": 295
   }
 ]
