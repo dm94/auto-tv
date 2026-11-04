@@ -1,10 +1,5 @@
 [
   {
-    "videoId": "OGJkmLwyD6s",
-    "title": "Inteligencia artificial y psicoterapia | DW Documental",
-    "durationSeconds": 2612
-  },
-  {
     "videoId": "EzVhTYrQcEM",
     "title": "🟣Cuán real es la amenaza de la IA para la humanidad y por qué nadie quiere frenar la carrera",
     "durationSeconds": 1485
@@ -30,9 +25,14 @@
     "durationSeconds": 382
   },
   {
-    "videoId": "aN0D-Obj_C0",
-    "title": "NOTICIAS IA: La nueva IA de META es una BESTIA",
-    "durationSeconds": 2648
+    "videoId": "_K3kpcbQVdQ",
+    "title": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks",
+    "durationSeconds": 2202
+  },
+  {
+    "videoId": "ltOMJFzW4D8",
+    "title": "Qué son los agentes de IA y qué puede puede pasar cuando se “rebelan”| BBC Mundo",
+    "durationSeconds": 352
   },
   {
     "videoId": "Tg0RDFEhqkA",
@@ -40,13 +40,13 @@
     "durationSeconds": 1719
   },
   {
-    "videoId": "ST1EJuQUb1o",
-    "title": "Los peligros de la IA | ¿Qué hay realmente en juego? | RTVE Noticias",
-    "durationSeconds": 445
+    "videoId": "B2cVJKdmTo4",
+    "title": "Un modelo de Open AI se rebela y causa un ciberataque “sin precedentes” | RTVE Noticias",
+    "durationSeconds": 106
   },
   {
-    "videoId": "ltOMJFzW4D8",
-    "title": "Qué son los agentes de IA y qué puede puede pasar cuando se “rebelan”| BBC Mundo",
-    "durationSeconds": 352
+    "videoId": "1vR5O50Z1iA",
+    "title": "🤖 ¿Fin de la humanidad? Creadores de la inteligencia artificial alertan riesgos | DNews",
+    "durationSeconds": 465
   }
 ]
