@@ -35,11 +35,6 @@
     "durationSeconds": 1770
   },
   {
-    "videoId": "zUh9gC3p5m8",
-    "title": "Los líderes de la IA quieren frenarla, ¿por qué?",
-    "durationSeconds": 109
-  },
-  {
     "videoId": "Q70IEP489zE",
     "title": "¿Realmente la IA acabará con la humanidad? ¿Cómo, exactamente?",
     "durationSeconds": 260
@@ -48,5 +43,10 @@
     "videoId": "dOWHF4KBWwk",
     "title": "NOTICIAS IA: El problema de GPT-6 Astra del que todo el mundo está hablando",
     "durationSeconds": 1822
+  },
+  {
+    "videoId": "fqiXTsXt0c4",
+    "title": "Agentes de IA fuera de control: ¿alarmismo o amenaza?  | A fondo DW",
+    "durationSeconds": 2556
   }
 ]
