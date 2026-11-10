@@ -1,5 +1,10 @@
 [
   {
+    "videoId": "wPTIZCJMUzc",
+    "title": "BLADE RUNNER 2099 Tráiler Final Oficial Español Latino (2026) Cyberpunk, Sci-Fi Series [4K]",
+    "durationSeconds": 162
+  },
+  {
     "videoId": "Ejj3RZdihLE",
     "title": "MISIÓN BOLSA MÁGICA Tráiler 2 Español Latino (2026) Arnold Schwarzenegger",
     "durationSeconds": 174
@@ -10,14 +15,9 @@
     "durationSeconds": 129
   },
   {
-    "videoId": "AbA8UjUMfN8",
-    "title": "KAROSHI: CÓDIGO DE HONOR Tráiler Oficial Español Latino (2027)",
-    "durationSeconds": 125
-  },
-  {
-    "videoId": "EGo6sI6kK7M",
-    "title": "EL CORAZÓN DE LA BESTIA 2026 | Película Completa en Español Latino | Brad Pitt | Datos & Explicación",
-    "durationSeconds": 5772
+    "videoId": "CRhSIUFFRgU",
+    "title": "UNO MÁS DE LA FAMILIA - Tráiler Oficial EN ESPAÑOL | Sony Pictures España",
+    "durationSeconds": 160
   },
   {
     "videoId": "5cbwuO5ZM_w",
@@ -25,19 +25,9 @@
     "durationSeconds": 179
   },
   {
-    "videoId": "kXXU2dCLa8k",
-    "title": "NUEVAS PELÍCULAS PRÓXIMAS (2026 - 2027)",
-    "durationSeconds": 1422
-  },
-  {
-    "videoId": "ah761s_dTIk",
-    "title": "LAS NUEVAS DESVENTURAS DE CLIFF BOOTH Tráiler Español (2026) Brad Pitt",
-    "durationSeconds": 110
-  },
-  {
-    "videoId": "fwYYJO7_zRU",
-    "title": "SANGUINE Tráiler Oficial Español Latino (2026) Terror, Suspense [4K]",
-    "durationSeconds": 88
+    "videoId": "AbA8UjUMfN8",
+    "title": "KAROSHI: CÓDIGO DE HONOR Tráiler Oficial Español Latino (2027)",
+    "durationSeconds": 125
   },
   {
     "videoId": "RZWrsCaKu8g",
@@ -45,8 +35,18 @@
     "durationSeconds": 5742
   },
   {
-    "videoId": "IZb5EI7iAUw",
-    "title": "KAROSHI: CÓDIGO DE HONOR Tráiler Español Latino (2027) Isabel May",
-    "durationSeconds": 125
+    "videoId": "ah761s_dTIk",
+    "title": "LAS NUEVAS DESVENTURAS DE CLIFF BOOTH Tráiler Español (2026) Brad Pitt",
+    "durationSeconds": 110
+  },
+  {
+    "videoId": "kXXU2dCLa8k",
+    "title": "NUEVAS PELÍCULAS PRÓXIMAS (2026 - 2027)",
+    "durationSeconds": 1422
+  },
+  {
+    "videoId": "GjShHvPo8Ms",
+    "title": "ANGRY BIRDS 3: LA PELICULA Tráiler 2 Español Latino (2027)",
+    "durationSeconds": 159
   }
 ]

@@ -10,34 +10,14 @@
     "durationSeconds": 382
   },
   {
-    "videoId": "79f3tOpzBb8",
-    "title": "El CEO de Anthropic pide frenar la IA | RTVE Noticias",
-    "durationSeconds": 89
-  },
-  {
-    "videoId": "tgmgr06Cg1I",
-    "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
-    "durationSeconds": 396
-  },
-  {
-    "videoId": "ltOMJFzW4D8",
-    "title": "Qué son los agentes de IA y qué puede puede pasar cuando se “rebelan”| BBC Mundo",
-    "durationSeconds": 352
-  },
-  {
     "videoId": "ST1EJuQUb1o",
     "title": "Los peligros de la IA | ¿Qué hay realmente en juego? | RTVE Noticias",
     "durationSeconds": 445
   },
   {
-    "videoId": "hVuffSXh8ek",
-    "title": "NOTICIAS IA: Google presenta Gemini 4 y sus números son una locura",
-    "durationSeconds": 1770
-  },
-  {
-    "videoId": "zUh9gC3p5m8",
-    "title": "Los líderes de la IA quieren frenarla, ¿por qué?",
-    "durationSeconds": 109
+    "videoId": "79f3tOpzBb8",
+    "title": "El CEO de Anthropic pide frenar la IA | RTVE Noticias",
+    "durationSeconds": 89
   },
   {
     "videoId": "v2VL2f1swjw",
@@ -45,8 +25,28 @@
     "durationSeconds": 295
   },
   {
-    "videoId": "dOWHF4KBWwk",
-    "title": "NOTICIAS IA: El problema de GPT-6 Astra del que todo el mundo está hablando",
-    "durationSeconds": 1822
+    "videoId": "tgmgr06Cg1I",
+    "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
+    "durationSeconds": 396
+  },
+  {
+    "videoId": "Q70IEP489zE",
+    "title": "¿Realmente la IA acabará con la humanidad? ¿Cómo, exactamente?",
+    "durationSeconds": 260
+  },
+  {
+    "videoId": "ltOMJFzW4D8",
+    "title": "Qué son los agentes de IA y qué puede puede pasar cuando se “rebelan”| BBC Mundo",
+    "durationSeconds": 352
+  },
+  {
+    "videoId": "Rd42Tn0jq8c",
+    "title": "#Loret. Ingeniero de Anthropic advierte que la carrera por la IA podría acabar en desastre. #Latinus",
+    "durationSeconds": 143
+  },
+  {
+    "videoId": "fqiXTsXt0c4",
+    "title": "Agentes de IA fuera de control: ¿alarmismo o amenaza?  | A fondo DW",
+    "durationSeconds": 2556
   }
 ]
