@@ -1,8 +1,13 @@
 [
   {
-    "videoId": "A5hPdhQKNa0",
-    "title": "Ableton Live 13: ¿Qué cambió?",
-    "durationSeconds": 428
+    "videoId": "MLNEFCCh6_c",
+    "title": "Tutorial de diffusionCatalog y novedades de proyectos 😄️",
+    "durationSeconds": 8036
+  },
+  {
+    "videoId": "tAQ4EZJB1LE",
+    "title": "Gemini 4 Hidrógeno: Prueba Real de Código, Novedades y Consumo",
+    "durationSeconds": 1285
   },
   {
     "videoId": "ryRpsa0TAis",
@@ -10,19 +15,9 @@
     "durationSeconds": 684
   },
   {
-    "videoId": "MLNEFCCh6_c",
-    "title": "Tutorial de diffusionCatalog y novedades de proyectos 😄️",
-    "durationSeconds": 8036
-  },
-  {
-    "videoId": "AJfd-eVf5eU",
-    "title": "Tutorial de n8n para Principiantes 2026: Crea Agentes de IA Paso a Paso",
-    "durationSeconds": 1665
-  },
-  {
-    "videoId": "oUs1RN6__0Y",
-    "title": "Lovable AI: Tutorial completo en Español para principiantes (2026)",
-    "durationSeconds": 1143
+    "videoId": "A5hPdhQKNa0",
+    "title": "Ableton Live 13: ¿Qué cambió?",
+    "durationSeconds": 428
   },
   {
     "videoId": "FeFxFnE9bc4",
@@ -30,14 +25,19 @@
     "durationSeconds": 628
   },
   {
-    "videoId": "3Tz8_ajHaSo",
-    "title": "Claude Code se actualizó: 3 novedades que tienes que conocer  #claude #ai #tutorial",
-    "durationSeconds": 49
-  },
-  {
     "videoId": "YQAuGW8arts",
     "title": "🎯 ¿Cómo hacer las PROGRAMACIONES Didácticas en SÉNECA? | Tutorial con las Novedades en 2023/2024",
     "durationSeconds": 369
+  },
+  {
+    "videoId": "gA-OW_eT_Nw",
+    "title": "¡OBS 33 CAMBIA TODO! 🔥 Plugins, nuevas guías y atajos que DEBES conocer!",
+    "durationSeconds": 733
+  },
+  {
+    "videoId": "AJfd-eVf5eU",
+    "title": "Tutorial de n8n para Principiantes 2026: Crea Agentes de IA Paso a Paso",
+    "durationSeconds": 1665
   },
   {
     "videoId": "CIokqIxOXKI",
@@ -45,8 +45,8 @@
     "durationSeconds": 16
   },
   {
-    "videoId": "d8cCSohFcug",
-    "title": "CLAUDE EXPLICADO FÁCIL #ia #ai #inteligenciaartificial #chatgpt #bigdata #data #bilbao #llm",
-    "durationSeconds": 148
+    "videoId": "oUs1RN6__0Y",
+    "title": "Lovable AI: Tutorial completo en Español para principiantes (2026)",
+    "durationSeconds": 1143
   }
 ]
