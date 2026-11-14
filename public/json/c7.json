@@ -5,19 +5,9 @@
     "durationSeconds": 5745
   },
   {
-    "videoId": "_K3kpcbQVdQ",
-    "title": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks",
-    "durationSeconds": 2202
-  },
-  {
     "videoId": "EzVhTYrQcEM",
     "title": "🟣Cuán real es la amenaza de la IA para la humanidad y por qué nadie quiere frenar la carrera",
     "durationSeconds": 1485
-  },
-  {
-    "videoId": "2bZ2wuSB0hM",
-    "title": "\"Expertos de Anthropic advierten que la IA podría acabar con los humanos\": 'Axios' • FRANCE 24",
-    "durationSeconds": 437
   },
   {
     "videoId": "BjgF0KWaVmE",
@@ -25,14 +15,19 @@
     "durationSeconds": 382
   },
   {
-    "videoId": "79f3tOpzBb8",
-    "title": "El CEO de Anthropic pide frenar la IA | RTVE Noticias",
-    "durationSeconds": 89
+    "videoId": "NpXKKKP3vUc",
+    "title": "Algo grave está pasando con las pensiones y la inteligencia artificial en medio mundo a la vez",
+    "durationSeconds": 1221
   },
   {
     "videoId": "tgmgr06Cg1I",
     "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
     "durationSeconds": 396
+  },
+  {
+    "videoId": "79f3tOpzBb8",
+    "title": "El CEO de Anthropic pide frenar la IA | RTVE Noticias",
+    "durationSeconds": 89
   },
   {
     "videoId": "ltOMJFzW4D8",
@@ -48,5 +43,10 @@
     "videoId": "Tg0RDFEhqkA",
     "title": "NOTICIAS IA: ¿La IA nos Matará a TODOS?",
     "durationSeconds": 1719
+  },
+  {
+    "videoId": "_K3kpcbQVdQ",
+    "title": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks",
+    "durationSeconds": 2202
   }
 ]

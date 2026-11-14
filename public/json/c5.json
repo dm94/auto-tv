@@ -1,28 +1,13 @@
 [
   {
+    "videoId": "hnlP1A9P1a4",
+    "title": "¡Llegó .NET 11! Estas son sus novedades más importantes #inteligenciaartificial #programacion",
+    "durationSeconds": 144
+  },
+  {
     "videoId": "MLNEFCCh6_c",
     "title": "Tutorial de diffusionCatalog y novedades de proyectos 😄️",
     "durationSeconds": 8036
-  },
-  {
-    "videoId": "tAQ4EZJB1LE",
-    "title": "Gemini 4 Hidrógeno: Prueba Real de Código, Novedades y Consumo",
-    "durationSeconds": 1285
-  },
-  {
-    "videoId": "ryRpsa0TAis",
-    "title": "🔥 ¡C# 15 YA ESTÁ AQUÍ! Estas son sus NOVEDADES",
-    "durationSeconds": 684
-  },
-  {
-    "videoId": "A5hPdhQKNa0",
-    "title": "Ableton Live 13: ¿Qué cambió?",
-    "durationSeconds": 428
-  },
-  {
-    "videoId": "FeFxFnE9bc4",
-    "title": "La nueva interfaz de WhatsApp y +10 novedades!",
-    "durationSeconds": 628
   },
   {
     "videoId": "YQAuGW8arts",
@@ -30,14 +15,24 @@
     "durationSeconds": 369
   },
   {
-    "videoId": "gA-OW_eT_Nw",
-    "title": "¡OBS 33 CAMBIA TODO! 🔥 Plugins, nuevas guías y atajos que DEBES conocer!",
-    "durationSeconds": 733
-  },
-  {
     "videoId": "AJfd-eVf5eU",
     "title": "Tutorial de n8n para Principiantes 2026: Crea Agentes de IA Paso a Paso",
     "durationSeconds": 1665
+  },
+  {
+    "videoId": "A5hPdhQKNa0",
+    "title": "Ableton Live 13: ¿Qué cambió?",
+    "durationSeconds": 428
+  },
+  {
+    "videoId": "ryRpsa0TAis",
+    "title": "🔥 ¡C# 15 YA ESTÁ AQUÍ! Estas son sus NOVEDADES",
+    "durationSeconds": 684
+  },
+  {
+    "videoId": "tAQ4EZJB1LE",
+    "title": "Gemini 4 Hidrógeno: Prueba Real de Código, Novedades y Consumo",
+    "durationSeconds": 1285
   },
   {
     "videoId": "CIokqIxOXKI",
@@ -45,8 +40,13 @@
     "durationSeconds": 16
   },
   {
-    "videoId": "oUs1RN6__0Y",
-    "title": "Lovable AI: Tutorial completo en Español para principiantes (2026)",
-    "durationSeconds": 1143
+    "videoId": "FeFxFnE9bc4",
+    "title": "La nueva interfaz de WhatsApp y +10 novedades!",
+    "durationSeconds": 628
+  },
+  {
+    "videoId": "7rwELcX6EPQ",
+    "title": "Noticias programación: Fable 5.2, Amazon ahorra millones en IA, ¿el futuro de nvidia? #CaféCodely",
+    "durationSeconds": 6308
   }
 ]

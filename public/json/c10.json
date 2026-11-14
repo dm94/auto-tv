@@ -1,7 +1,7 @@
 [
   {
     "videoId": "Md9ToZUK2nk",
-    "title": "HIJOS DE SANGRE Y HUESO Tráiler 2 Oficial Español Latino (2027) Idris Elba, Fantasía Movie [4K]",
+    "title": "HIJOS DE SANGRE Y HUESO Tráiler 2 Oficial Español Latino (2027) Idris Elba",
     "durationSeconds": 189
   },
   {
@@ -10,14 +10,14 @@
     "durationSeconds": 110
   },
   {
-    "videoId": "0LJwGo-B43o",
-    "title": "EL CASO DE THOMAS CROWN Tráiler 2 Español Latino Oficial (2027) Michael B. Jordan",
-    "durationSeconds": 165
-  },
-  {
     "videoId": "qgdv01qqres",
     "title": "HIJOS DE SANGRE Y HUESO Tráiler 2 Español Latino (2027) Idris Elba",
     "durationSeconds": 188
+  },
+  {
+    "videoId": "0LJwGo-B43o",
+    "title": "EL CASO DE THOMAS CROWN Tráiler 2 Español Latino Oficial (2027) Michael B. Jordan",
+    "durationSeconds": 165
   },
   {
     "videoId": "CRhSIUFFRgU",
@@ -25,19 +25,9 @@
     "durationSeconds": 160
   },
   {
-    "videoId": "KhcHL4BdIGE",
-    "title": "MOTOR CITY Tráiler Español Oficial (2026) Alan Ritchson",
-    "durationSeconds": 88
-  },
-  {
     "videoId": "xdvGmX4fPao",
     "title": "GATTO Tráiler Español Latino (2027) Pixar",
     "durationSeconds": 163
-  },
-  {
-    "videoId": "5cbwuO5ZM_w",
-    "title": "Jumanji: Mundo Abierto | Tráiler Oficial español. Exclusivamente en cines el 25 de diciembre.",
-    "durationSeconds": 179
   },
   {
     "videoId": "-T6xjZCd9YI",
@@ -45,8 +35,18 @@
     "durationSeconds": 116
   },
   {
-    "videoId": "cOcD2-x1Tnw",
-    "title": "Pasajero 23 👤 | Película Completa en Español Latino | Lucas Gregorowicz (2018)",
-    "durationSeconds": 5637
+    "videoId": "fjq0YVIvCo4",
+    "title": "ALITA: ÁNGEL DE COMBATE | Nuevo Tráiler | 15 de febrero en cines",
+    "durationSeconds": 158
+  },
+  {
+    "videoId": "8ofNqBufdHo",
+    "title": "RAY GUNN Tráiler 2 Español Latino (2026)",
+    "durationSeconds": 169
+  },
+  {
+    "videoId": "OZc8CWWG57A",
+    "title": "Gatto | Tráiler Oficial | Doblado",
+    "durationSeconds": 143
   }
 ]
