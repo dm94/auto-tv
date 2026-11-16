@@ -5,11 +5,6 @@
     "durationSeconds": 144
   },
   {
-    "videoId": "tAQ4EZJB1LE",
-    "title": "Gemini 4 Hidrógeno: Prueba Real de Código, Novedades y Consumo",
-    "durationSeconds": 1285
-  },
-  {
     "videoId": "AJfd-eVf5eU",
     "title": "Tutorial de n8n para Principiantes 2026: Crea Agentes de IA Paso a Paso",
     "durationSeconds": 1665
@@ -20,14 +15,14 @@
     "durationSeconds": 428
   },
   {
-    "videoId": "gA-OW_eT_Nw",
-    "title": "¡OBS 33 CAMBIA TODO! 🔥 Plugins, nuevas guías y atajos que DEBES conocer!",
-    "durationSeconds": 733
-  },
-  {
     "videoId": "oUs1RN6__0Y",
     "title": "Lovable AI: Tutorial completo en Español para principiantes (2026)",
     "durationSeconds": 1143
+  },
+  {
+    "videoId": "tAQ4EZJB1LE",
+    "title": "Gemini 4 Hidrógeno: Prueba Real de Código, Novedades y Consumo",
+    "durationSeconds": 1285
   },
   {
     "videoId": "YQAuGW8arts",
@@ -35,18 +30,23 @@
     "durationSeconds": 369
   },
   {
+    "videoId": "MLNEFCCh6_c",
+    "title": "Tutorial de diffusionCatalog y novedades de proyectos 😄️",
+    "durationSeconds": 8036
+  },
+  {
     "videoId": "CIokqIxOXKI",
     "title": "Como activar el nuevo Siri AI de iOS 27",
     "durationSeconds": 16
   },
   {
-    "videoId": "AB7DSx6JT1Q",
-    "title": "Este nuevo lenguaje acaba de superar a C++",
-    "durationSeconds": 1426
-  },
-  {
     "videoId": "d8cCSohFcug",
     "title": "CLAUDE EXPLICADO FÁCIL #ia #ai #inteligenciaartificial #chatgpt #bigdata #data #bilbao #llm",
     "durationSeconds": 148
+  },
+  {
+    "videoId": "_-sSVZS2fIM",
+    "title": "Tutorial completo de ChatGPT Work: la IA que trabaja por ti",
+    "durationSeconds": 1379
   }
 ]
