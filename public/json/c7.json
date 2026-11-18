@@ -1,18 +1,13 @@
 [
   {
-    "videoId": "7V1UmcQmxxQ",
-    "title": "NOTICIAS IA: NVIDIA en crisis por el despido de Jensen Huang",
-    "durationSeconds": 1891
+    "videoId": "reR3P0RATic",
+    "title": "¿Cómo está revolucionando el mundo de la música la Inteligencia Artificial? | RTVE Noticias",
+    "durationSeconds": 124
   },
   {
-    "videoId": "2bZ2wuSB0hM",
-    "title": "\"Expertos de Anthropic advierten que la IA podría acabar con los humanos\": 'Axios' • FRANCE 24",
-    "durationSeconds": 437
-  },
-  {
-    "videoId": "tgmgr06Cg1I",
-    "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
-    "durationSeconds": 396
+    "videoId": "4uJHS2_034Y",
+    "title": "La INTELIGENCIA ARTIFICIAL y el riesgo de un COLAPSO INFORMÁTICO MUNDIAL",
+    "durationSeconds": 811
   },
   {
     "videoId": "BjgF0KWaVmE",
@@ -20,19 +15,19 @@
     "durationSeconds": 382
   },
   {
+    "videoId": "7V1UmcQmxxQ",
+    "title": "NOTICIAS IA: NVIDIA en crisis por el despido de Jensen Huang",
+    "durationSeconds": 1891
+  },
+  {
+    "videoId": "tgmgr06Cg1I",
+    "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
+    "durationSeconds": 396
+  },
+  {
     "videoId": "79f3tOpzBb8",
     "title": "El CEO de Anthropic pide frenar la IA | RTVE Noticias",
     "durationSeconds": 89
-  },
-  {
-    "videoId": "_K3kpcbQVdQ",
-    "title": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks",
-    "durationSeconds": 2202
-  },
-  {
-    "videoId": "ST1EJuQUb1o",
-    "title": "Los peligros de la IA | ¿Qué hay realmente en juego? | RTVE Noticias",
-    "durationSeconds": 445
   },
   {
     "videoId": "EzVhTYrQcEM",
@@ -40,13 +35,18 @@
     "durationSeconds": 1485
   },
   {
-    "videoId": "ltOMJFzW4D8",
-    "title": "Qué son los agentes de IA y qué puede puede pasar cuando se “rebelan”| BBC Mundo",
-    "durationSeconds": 352
+    "videoId": "ST1EJuQUb1o",
+    "title": "Los peligros de la IA | ¿Qué hay realmente en juego? | RTVE Noticias",
+    "durationSeconds": 445
   },
   {
     "videoId": "Tg0RDFEhqkA",
     "title": "NOTICIAS IA: ¿La IA nos Matará a TODOS?",
     "durationSeconds": 1719
+  },
+  {
+    "videoId": "_K3kpcbQVdQ",
+    "title": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks",
+    "durationSeconds": 2202
   }
 ]
