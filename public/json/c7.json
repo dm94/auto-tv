@@ -1,8 +1,8 @@
 [
   {
-    "videoId": "qyPew5HHOAo",
-    "title": "Cómo los agentes de IA cambian la guerra de la información",
-    "durationSeconds": 157
+    "videoId": "eYtkBCrMKUc",
+    "title": "¿IA fuera de control? Los expertos en inteligencia artificial hacen sonar la alarma | DW Documental",
+    "durationSeconds": 5332
   },
   {
     "videoId": "2bZ2wuSB0hM",
@@ -10,29 +10,9 @@
     "durationSeconds": 437
   },
   {
-    "videoId": "ST1EJuQUb1o",
-    "title": "Los peligros de la IA | ¿Qué hay realmente en juego? | RTVE Noticias",
-    "durationSeconds": 445
-  },
-  {
     "videoId": "BjgF0KWaVmE",
     "title": "“Posible riesgo para la humanidad”: líderes de la inteligencia artificial imploran mayor regulación",
     "durationSeconds": 382
-  },
-  {
-    "videoId": "_K3kpcbQVdQ",
-    "title": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks",
-    "durationSeconds": 2202
-  },
-  {
-    "videoId": "EzVhTYrQcEM",
-    "title": "🟣Cuán real es la amenaza de la IA para la humanidad y por qué nadie quiere frenar la carrera",
-    "durationSeconds": 1485
-  },
-  {
-    "videoId": "KxYqw-5QSJ8",
-    "title": "NOTICIAS IA: JEV podría ser la pieza que faltaba para automatizarlo todo",
-    "durationSeconds": 1768
   },
   {
     "videoId": "79f3tOpzBb8",
@@ -40,13 +20,33 @@
     "durationSeconds": 89
   },
   {
-    "videoId": "T_GCwwYJg2A",
-    "title": "Mi mayor miedo sobre la IA acaba de desaparecer",
-    "durationSeconds": 785
+    "videoId": "ST1EJuQUb1o",
+    "title": "Los peligros de la IA | ¿Qué hay realmente en juego? | RTVE Noticias",
+    "durationSeconds": 445
   },
   {
-    "videoId": "7V1UmcQmxxQ",
-    "title": "NOTICIAS IA: NVIDIA en crisis por el despido de Jensen Huang",
-    "durationSeconds": 1891
+    "videoId": "EzVhTYrQcEM",
+    "title": "🟣Cuán real es la amenaza de la IA para la humanidad y por qué nadie quiere frenar la carrera",
+    "durationSeconds": 1485
+  },
+  {
+    "videoId": "_K3kpcbQVdQ",
+    "title": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks",
+    "durationSeconds": 2202
+  },
+  {
+    "videoId": "KxYqw-5QSJ8",
+    "title": "NOTICIAS IA: JEV podría ser la pieza que faltaba para automatizarlo todo",
+    "durationSeconds": 1768
+  },
+  {
+    "videoId": "tgmgr06Cg1I",
+    "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
+    "durationSeconds": 396
+  },
+  {
+    "videoId": "-q8fMOh3sjc",
+    "title": "NOTICIAS IA: Ya puedes controlar tu ordenador hablando con la voz en ChaGPT Work",
+    "durationSeconds": 2168
   }
 ]
