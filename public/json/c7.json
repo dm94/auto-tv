@@ -5,9 +5,14 @@
     "durationSeconds": 5332
   },
   {
-    "videoId": "EzVhTYrQcEM",
-    "title": "🟣Cuán real es la amenaza de la IA para la humanidad y por qué nadie quiere frenar la carrera",
-    "durationSeconds": 1485
+    "videoId": "akYNfToP4UA",
+    "title": "Tokens, energía y servidores: así se financia la IA y cuesta más de lo que parece",
+    "durationSeconds": 203
+  },
+  {
+    "videoId": "lJrHEGeiHQw",
+    "title": "La verdad sobre el trabajo que hace posible la IA",
+    "durationSeconds": 1541
   },
   {
     "videoId": "2bZ2wuSB0hM",
@@ -15,14 +20,24 @@
     "durationSeconds": 437
   },
   {
-    "videoId": "BjgF0KWaVmE",
-    "title": "“Posible riesgo para la humanidad”: líderes de la inteligencia artificial imploran mayor regulación",
-    "durationSeconds": 382
+    "videoId": "EzVhTYrQcEM",
+    "title": "🟣Cuán real es la amenaza de la IA para la humanidad y por qué nadie quiere frenar la carrera",
+    "durationSeconds": 1485
   },
   {
-    "videoId": "ST1EJuQUb1o",
-    "title": "Los peligros de la IA | ¿Qué hay realmente en juego? | RTVE Noticias",
-    "durationSeconds": 445
+    "videoId": "tgmgr06Cg1I",
+    "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
+    "durationSeconds": 396
+  },
+  {
+    "videoId": "ltOMJFzW4D8",
+    "title": "Qué son los agentes de IA y qué puede puede pasar cuando se “rebelan”| BBC Mundo",
+    "durationSeconds": 352
+  },
+  {
+    "videoId": "Tg0RDFEhqkA",
+    "title": "NOTICIAS IA: ¿La IA nos Matará a TODOS?",
+    "durationSeconds": 1719
   },
   {
     "videoId": "_K3kpcbQVdQ",
@@ -33,20 +48,5 @@
     "videoId": "cJ58S4x2JQg",
     "title": "Exingeniero de Anthropic y OpenAI advierte que la IA \"podría matarnos a todos\" antes de 2030",
     "durationSeconds": 1001
-  },
-  {
-    "videoId": "KxYqw-5QSJ8",
-    "title": "NOTICIAS IA: JEV podría ser la pieza que faltaba para automatizarlo todo",
-    "durationSeconds": 1768
-  },
-  {
-    "videoId": "tgmgr06Cg1I",
-    "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
-    "durationSeconds": 396
-  },
-  {
-    "videoId": "-q8fMOh3sjc",
-    "title": "NOTICIAS IA: Ya puedes controlar tu ordenador hablando con la voz en ChaGPT Work",
-    "durationSeconds": 2168
   }
 ]
