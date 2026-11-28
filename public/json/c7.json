@@ -5,19 +5,29 @@
     "durationSeconds": 1485
   },
   {
-    "videoId": "ST1EJuQUb1o",
-    "title": "Los peligros de la IA | ¿Qué hay realmente en juego? | RTVE Noticias",
-    "durationSeconds": 445
-  },
-  {
     "videoId": "BjgF0KWaVmE",
     "title": "“Posible riesgo para la humanidad”: líderes de la inteligencia artificial imploran mayor regulación",
     "durationSeconds": 382
   },
   {
+    "videoId": "rMZHIjz9tls",
+    "title": "Investigadores de Anthropic alertan de que la IA podría aniquilar a la humanidad | RTVE Noticias",
+    "durationSeconds": 104
+  },
+  {
+    "videoId": "ST1EJuQUb1o",
+    "title": "Los peligros de la IA | ¿Qué hay realmente en juego? | RTVE Noticias",
+    "durationSeconds": 445
+  },
+  {
     "videoId": "_K3kpcbQVdQ",
     "title": "NOTICIAS IA: Google presenta GENIE 4 y CARBON arrasa en los benchmarks",
     "durationSeconds": 2202
+  },
+  {
+    "videoId": "H9DFMEyWl68",
+    "title": "NOTICIAS IA: El Nuevo OpenAI ASTRA hace posible lo imposible",
+    "durationSeconds": 2272
   },
   {
     "videoId": "KxYqw-5QSJ8",
@@ -30,23 +40,13 @@
     "durationSeconds": 1001
   },
   {
-    "videoId": "4uJHS2_034Y",
-    "title": "La INTELIGENCIA ARTIFICIAL y el riesgo de un COLAPSO INFORMÁTICO MUNDIAL",
-    "durationSeconds": 811
+    "videoId": "7V1UmcQmxxQ",
+    "title": "NOTICIAS IA: NVIDIA en crisis por el despido de Jensen Huang",
+    "durationSeconds": 1891
   },
   {
-    "videoId": "-q8fMOh3sjc",
-    "title": "NOTICIAS IA: Ya puedes controlar tu ordenador hablando con la voz en ChaGPT Work",
-    "durationSeconds": 2168
-  },
-  {
-    "videoId": "ltOMJFzW4D8",
-    "title": "Qué son los agentes de IA y qué puede puede pasar cuando se “rebelan”| BBC Mundo",
-    "durationSeconds": 352
-  },
-  {
-    "videoId": "tgmgr06Cg1I",
-    "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
-    "durationSeconds": 396
+    "videoId": "hVuffSXh8ek",
+    "title": "NOTICIAS IA: Google presenta Gemini 4 y sus números son una locura",
+    "durationSeconds": 1770
   }
 ]
